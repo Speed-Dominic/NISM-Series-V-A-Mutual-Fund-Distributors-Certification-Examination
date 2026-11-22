@@ -10,7 +10,8 @@ export type QuestionType =
   | 'Numerical'
   | 'Case Study'
   | 'Regulatory & Compliance'
-  | 'Exceptions & Conditions';
+  | 'Exceptions & Conditions'
+  | (string & {});
 
 export type TestMode = 'full-mock' | 'chapter-practice';
 

@@ -415,7 +415,7 @@ export function ExamWorkbench({
             )}
 
             {/* Question Text */}
-            <h2 className="mt-6 font-display text-lg font-semibold leading-relaxed text-slate-900 sm:text-xl dark:text-slate-100">
+            <h2 className="mt-6 whitespace-pre-line font-display text-lg font-semibold leading-relaxed text-slate-900 sm:text-xl dark:text-slate-100">
               {currentQuestion.questionText}
             </h2>
 
@@ -446,7 +446,7 @@ export function ExamWorkbench({
                     >
                       {optKey}
                     </span>
-                    <span className="text-sm sm:text-base leading-relaxed">
+                    <span className="whitespace-pre-line text-sm sm:text-base leading-relaxed">
                       {currentQuestion.options[optKey]}
                     </span>
                   </button>

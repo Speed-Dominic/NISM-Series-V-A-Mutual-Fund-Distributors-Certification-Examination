@@ -302,9 +302,10 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
         difficulty: VALID_DIFFICULTIES.includes(raw.difficulty as DifficultyLevel)
           ? (raw.difficulty as DifficultyLevel)
           : 'Moderate',
-        questionType: VALID_TYPES.includes(raw.questionType as QuestionType)
-          ? (raw.questionType as QuestionType)
-          : 'Conceptual',
+        questionType:
+          typeof raw.questionType === 'string' && raw.questionType.trim()
+            ? raw.questionType.trim()
+            : 'Conceptual',
       });
     }
 
@@ -1071,7 +1072,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                           />
                         </div>
                       </div>
-                      <p className="mt-2 font-display text-sm font-semibold text-slate-900 sm:text-base dark:text-slate-100">
+                      <p className="mt-2 whitespace-pre-line font-display text-sm font-semibold text-slate-900 sm:text-base dark:text-slate-100">
                         {q.questionText}
                       </p>
                     </summary>

@@ -407,7 +407,7 @@ export function ResultsView({
                   </div>
                 </div>
 
-                <h3 className="mt-4 font-display text-base font-semibold leading-relaxed text-slate-900 sm:text-lg dark:text-slate-100">
+                <h3 className="mt-4 whitespace-pre-line font-display text-base font-semibold leading-relaxed text-slate-900 sm:text-lg dark:text-slate-100">
                   {question.questionText}
                 </h3>
 
@@ -444,7 +444,7 @@ export function ResultsView({
                           {optKey}
                         </span>
                         <div className="flex-1">
-                          <div className="leading-relaxed">{question.options[optKey]}</div>
+                          <div className="whitespace-pre-line leading-relaxed">{question.options[optKey]}</div>
                           {(isCorrectOpt || isStudentOpt) && (
                             <div className="mt-1.5 flex flex-wrap gap-2 text-xs font-semibold">
                               {isCorrectOpt && (

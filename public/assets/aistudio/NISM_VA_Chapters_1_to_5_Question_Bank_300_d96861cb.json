@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "VA-CUSTOM-001",
+    "chapterNumber": 1,
+    "topic": "Financial Goals",
+    "questionText": "What converts a financial objective into a financial goal?",
+    "options": {
+      "A": "Assigning an amount and a timeline to the objective",
+      "B": "Choosing the highest-return asset",
+      "C": "Buying an insurance policy",
+      "D": "Opening a bank account"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook distinguishes financial objectives from goals by assigning amounts and timelines to objectives.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-002",
+    "chapterNumber": 1,
+    "topic": "Financial Goals",
+    "questionText": "Which question should an investment discussion begin with?",
+    "options": {
+      "A": "Which fund performed best last year?",
+      "B": "Why is the investor investing?",
+      "C": "Which asset has the lowest price?",
+      "D": "Which product has the highest commission?"
+    },
+    "correctAnswer": "B",
+    "explanation": "The chapter emphasises starting with the purpose of the investment—the investor’s “why”.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-003",
+    "chapterNumber": 1,
+    "topic": "Financial Goals",
+    "questionText": "Which is an example of a financial goal given in the workbook?",
+    "options": {
+      "A": "Avoiding every market fluctuation",
+      "B": "Funding a child’s education",
+      "C": "Guaranteeing a fixed equity return",
+      "D": "Eliminating all investment risk"
+    },
+    "correctAnswer": "B",
+    "explanation": "Funding a child’s education is specifically listed as a common financial goal.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-004",
+    "chapterNumber": 1,
+    "topic": "Financial Goals",
+    "questionText": "Which pair is most directly required to quantify a financial goal?",
+    "options": {
+      "A": "Issuer and coupon",
+      "B": "Amount and timeline",
+      "C": "NAV and TER",
+      "D": "Benchmark and beta"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook states that assigning an amount and a timeline converts an objective into a financial goal.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-005",
+    "chapterNumber": 1,
+    "topic": "Financial Goals",
+    "questionText": "Who ultimately decides whether retirement or a vacation is the higher-priority goal?",
+    "options": {
+      "A": "Only the distributor",
+      "B": "Only the financial advisor",
+      "C": "The individual and family",
+      "D": "The AMC"
+    },
+    "correctAnswer": "C",
+    "explanation": "The workbook says the individual and family decide priorities; an intermediary can guide and help.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-006",
+    "chapterNumber": 1,
+    "topic": "Financial Goals",
+    "questionText": "Which event is described as an undesirable event that may arise as a surprise?",
+    "options": {
+      "A": "Buying a house",
+      "B": "Children’s education",
+      "C": "Hospitalization",
+      "D": "Taking a vacation"
+    },
+    "correctAnswer": "C",
+    "explanation": "Hospitalization is among the undesirable events listed in the workbook.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-007",
+    "chapterNumber": 1,
+    "topic": "Financial Goals",
+    "questionText": "What is suggested for unexpected events such as hospitalization or theft?",
+    "options": {
+      "A": "Fund them entirely through long-term equity investments",
+      "B": "Create an emergency fund and consider insurance",
+      "C": "Ignore them because they cannot be planned",
+      "D": "Use only real estate"
+    },
+    "correctAnswer": "B",
+    "explanation": "The chapter suggests an emergency fund and insurance rather than relying solely on investments for such risks.",
+    "difficulty": "Difficult",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-008",
+    "chapterNumber": 1,
+    "topic": "Financial Goals",
+    "questionText": "A family wants to buy a house in two years. Which two inputs are specifically highlighted as critical for planning?",
+    "options": {
+      "A": "Face value and NAV",
+      "B": "Timeline and amount required",
+      "C": "Benchmark and expense ratio",
+      "D": "Credit rating and duration"
+    },
+    "correctAnswer": "B",
+    "explanation": "The house example emphasises deciding when the goal occurs and the amount needed then.",
+    "difficulty": "Moderate",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-009",
+    "chapterNumber": 1,
+    "topic": "Financial Goals",
+    "questionText": "Which statement best describes an important but not urgent financial goal?",
+    "options": {
+      "A": "It should be ignored until it becomes urgent",
+      "B": "It should be planned for before it becomes urgent",
+      "C": "It must always be funded with cash",
+      "D": "It is necessarily a low-priority goal"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook applies the time-management principle that important but not urgent goals should be planned in advance.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-010",
+    "chapterNumber": 1,
+    "topic": "Inflation and Goal Planning",
+    "questionText": "Why must long-term goal values be adjusted for inflation?",
+    "options": {
+      "A": "Inflation reduces the number of units issued by a mutual fund",
+      "B": "The future cost of the goal may be higher than its current cost",
+      "C": "Inflation guarantees higher investment returns",
+      "D": "Inflation removes liquidity risk"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook explains that goal costs can rise over time and this inflation must be incorporated into planning.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-011",
+    "chapterNumber": 1,
+    "topic": "Inflation and Goal Planning",
+    "questionText": "A goal costs ₹50 lakh today and is expected to cost more in ten years because of education-fee inflation. What does the future amount represent?",
+    "options": {
+      "A": "The nominal face value of a unit",
+      "B": "The inflation-adjusted goal value",
+      "C": "The current NAV",
+      "D": "The investment’s real rate"
+    },
+    "correctAnswer": "B",
+    "explanation": "The future goal amount reflects the expected increase in the cost of the goal due to inflation.",
+    "difficulty": "Difficult",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-012",
+    "chapterNumber": 1,
+    "topic": "Inflation and Goal Planning",
+    "questionText": "If inflation is 6% and current monthly household expenses are ₹30,000, what does the workbook illustrate as the expense after one year?",
+    "options": {
+      "A": "₹30,600",
+      "B": "₹31,800",
+      "C": "₹32,400",
+      "D": "₹33,000"
+    },
+    "correctAnswer": "B",
+    "explanation": "At 6% annual inflation, ₹30,000 becomes ₹31,800 in the workbook’s illustration.",
+    "difficulty": "Moderate",
+    "questionType": "Numerical"
+  },
+  {
+    "id": "VA-CUSTOM-013",
+    "chapterNumber": 1,
+    "topic": "Inflation and Goal Planning",
+    "questionText": "If inflation is 8% p.a., approximately how much would be needed after 10 years to buy goods costing ₹10,000 today, according to the workbook table?",
+    "options": {
+      "A": "₹14,693",
+      "B": "₹21,589",
+      "C": "₹46,610",
+      "D": "₹1,00,627"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook table gives ₹21,589 after ten years at 8% inflation.",
+    "difficulty": "Easy",
+    "questionType": "Numerical"
+  },
+  {
+    "id": "VA-CUSTOM-014",
+    "chapterNumber": 1,
+    "topic": "Inflation and Goal Planning",
+    "questionText": "At 8% inflation, approximately how much would be needed after 20 years for goods costing ₹10,000 today?",
+    "options": {
+      "A": "₹14,693",
+      "B": "₹21,589",
+      "C": "₹46,610",
+      "D": "₹1,00,627"
+    },
+    "correctAnswer": "C",
+    "explanation": "The workbook’s inflation illustration gives ₹46,610 after twenty years.",
+    "difficulty": "Easy",
+    "questionType": "Numerical"
+  },
+  {
+    "id": "VA-CUSTOM-015",
+    "chapterNumber": 1,
+    "topic": "Inflation and Goal Planning",
+    "questionText": "Which statement about a long-term financial goal is most consistent with the workbook?",
+    "options": {
+      "A": "Current prices are sufficient for planning",
+      "B": "Inflation in the goal cost should be considered",
+      "C": "Only the investment’s face value matters",
+      "D": "Inflation matters only for short-term goals"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook specifically stresses inflation adjustment for long-term goals.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-016",
+    "chapterNumber": 1,
+    "topic": "Pool Approach",
+    "questionText": "What is the main limitation of the pool approach to savings and investments?",
+    "options": {
+      "A": "It guarantees excessive diversification",
+      "B": "The investment horizon may not be known for each requirement",
+      "C": "It eliminates all liquidity",
+      "D": "It prevents any investment return"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook identifies uncertainty about the investment horizon as the key lacuna of the pool approach.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-017",
+    "chapterNumber": 1,
+    "topic": "Savings vs Investment",
+    "questionText": "Consider the following statements about saving and investing:\n1. Saving generally emphasises safety of money.\n2. Saving precedes investing because money generally needs to be saved before it can be invested.\n3. Investing is primarily about reducing consumption rather than seeking returns.\nWhich of the following is correct?",
+    "options": {
+      "A": "1 and 2 only",
+      "B": "1 and 3 only",
+      "C": "2 and 3 only",
+      "D": "1, 2 and 3"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook explains that saving is associated with safety and reducing consumption, while investing typically seeks returns. It also says saving precedes investing. Therefore statements 1 and 2 are correct, but statement 3 is incorrect.",
+    "difficulty": "Easy",
+    "questionType": "Statement-based"
+  },
+  {
+    "id": "VA-CUSTOM-018",
+    "chapterNumber": 1,
+    "topic": "Savings vs Investment",
+    "questionText": "According to the workbook, saving and investing are best viewed as:",
+    "options": {
+      "A": "Mutually exclusive activities",
+      "B": "Two steps of the same process",
+      "C": "Identical words with identical meanings",
+      "D": "Activities that cannot occur together"
+    },
+    "correctAnswer": "B",
+    "explanation": "Money is first saved and the saved amount can then be invested.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-019",
+    "chapterNumber": 1,
+    "topic": "Investment Evaluation",
+    "questionText": "Which three factors are described as the most important when evaluating investments?",
+    "options": {
+      "A": "Safety, liquidity and returns",
+      "B": "Tax, leverage and benchmark",
+      "C": "NAV, beta and duration",
+      "D": "Commission, branding and size"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook identifies safety, liquidity and returns as the three most important factors.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-020",
+    "chapterNumber": 1,
+    "topic": "Investment Evaluation",
+    "questionText": "What does liquidity primarily refer to?",
+    "options": {
+      "A": "Certainty of return",
+      "B": "Ease of converting an investment into cash",
+      "C": "Tax deduction available",
+      "D": "Minimum investment amount"
+    },
+    "correctAnswer": "B",
+    "explanation": "Liquidity is defined in terms of how easily an investment can be liquidated and converted to cash.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-021",
+    "chapterNumber": 1,
+    "topic": "Investment Evaluation",
+    "questionText": "An early-exit penalty on an investment primarily affects which trade-off?",
+    "options": {
+      "A": "Liquidity versus returns",
+      "B": "Safety versus face value",
+      "C": "Taxability versus benchmark",
+      "D": "Diversification versus inflation"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook notes that a penalty can reduce returns and therefore represents a trade-off between liquidity and returns.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-022",
+    "chapterNumber": 1,
+    "topic": "Investment Evaluation",
+    "questionText": "Which return is received periodically without selling the investment?",
+    "options": {
+      "A": "Capital gain",
+      "B": "Current income",
+      "C": "Real estate appreciation",
+      "D": "Exit load"
+    },
+    "correctAnswer": "B",
+    "explanation": "Current income is periodic income that does not require selling the investment.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-023",
+    "chapterNumber": 1,
+    "topic": "Investment Evaluation",
+    "questionText": "Which return generally requires selling the investment to realise it?",
+    "options": {
+      "A": "Current income",
+      "B": "Capital gain",
+      "C": "Coupon rate",
+      "D": "Tax deduction"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook distinguishes capital gains from current income by noting that capital gains are realised when the investment is sold.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-024",
+    "chapterNumber": 1,
+    "topic": "Investment Evaluation",
+    "questionText": "Why is ticket size relevant while selecting an investment?",
+    "options": {
+      "A": "It determines whether the investor can meet the minimum investment requirement",
+      "B": "It determines the investment’s future return",
+      "C": "It eliminates taxation",
+      "D": "It measures market risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ticket size is the minimum amount required and can affect whether an investment is accessible to an investor.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-025",
+    "chapterNumber": 1,
+    "topic": "Investment Evaluation",
+    "questionText": "Why should taxation not be considered in isolation while evaluating an investment?",
+    "options": {
+      "A": "A lower tax product may have lower safety or other trade-offs",
+      "B": "Tax never affects returns",
+      "C": "Tax is always the most important factor",
+      "D": "Tax determines the asset class"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook cautions that tax benefits must be assessed along with safety, liquidity and other factors.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-026",
+    "chapterNumber": 1,
+    "topic": "Investment Evaluation",
+    "questionText": "Which statement about tax deduction is consistent with the workbook?",
+    "options": {
+      "A": "It can effectively increase the return by reducing the net amount invested",
+      "B": "It always eliminates lock-in",
+      "C": "It is unrelated to liquidity",
+      "D": "It guarantees capital appreciation"
+    },
+    "correctAnswer": "A",
+    "explanation": "A tax deduction can increase effective return because the net amount invested is lower; however, lock-in may apply.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-027",
+    "chapterNumber": 1,
+    "topic": "Asset Classes",
+    "questionText": "Which four are the broad asset classes identified in the workbook?",
+    "options": {
+      "A": "Equity, fixed income, real estate and commodities",
+      "B": "Equity, gold, cash and insurance",
+      "C": "Debt, deposits, pensions and equity",
+      "D": "Real estate, derivatives, insurance and cash"
+    },
+    "correctAnswer": "A",
+    "explanation": "The four broad categories are real estate, commodities, equity and fixed income.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-028",
+    "chapterNumber": 1,
+    "topic": "Real Estate",
+    "questionText": "Which factor is described as most important for real-estate investment performance?",
+    "options": {
+      "A": "Face value",
+      "B": "Location",
+      "C": "Coupon",
+      "D": "Credit rating"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook states that location is the most important factor affecting real-estate investment performance.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-029",
+    "chapterNumber": 1,
+    "topic": "Real Estate",
+    "questionText": "Which characteristic is generally associated with real estate in the workbook?",
+    "options": {
+      "A": "High liquidity and perfect divisibility",
+      "B": "Illiquidity and non-divisibility",
+      "C": "No transaction costs",
+      "D": "Only current income and no appreciation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Real estate is described as illiquid and not divisible, with relatively high transaction costs.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-030",
+    "chapterNumber": 1,
+    "topic": "Real Estate",
+    "questionText": "Why may a self-occupied house not be treated as an investment in the workbook’s framework?",
+    "options": {
+      "A": "Selling it may adversely affect the owner’s lifestyle",
+      "B": "It cannot ever appreciate",
+      "C": "It produces no utility",
+      "D": "It is always tax-free"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook says a self-occupied house is generally an expense rather than an investment because sale may affect lifestyle.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-031",
+    "chapterNumber": 1,
+    "topic": "Real Estate",
+    "questionText": "Which cost should be considered while calculating the return on real estate?",
+    "options": {
+      "A": "Only the purchase price",
+      "B": "Maintenance and taxes, in addition to transaction costs",
+      "C": "Only rental income",
+      "D": "Only face value"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook specifically notes brokerage, registration, maintenance and taxes as relevant costs.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-032",
+    "chapterNumber": 1,
+    "topic": "Commodities",
+    "questionText": "Which commodities are specifically identified as familiar investment avenues for many investors?",
+    "options": {
+      "A": "Oil and wheat",
+      "B": "Gold and silver",
+      "C": "Petrol and diesel",
+      "D": "Spices and grains"
+    },
+    "correctAnswer": "B",
+    "explanation": "Gold and silver are identified as commonly used commodity investment avenues.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-033",
+    "chapterNumber": 1,
+    "topic": "Commodities",
+    "questionText": "Why does the workbook caution against treating commodity derivatives simply as investments?",
+    "options": {
+      "A": "They are always guaranteed",
+      "B": "They are leveraged and generally short-term contracts",
+      "C": "They generate fixed income",
+      "D": "They cannot be traded"
+    },
+    "correctAnswer": "B",
+    "explanation": "Commodity derivatives may provide large exposure for small capital and are normally short-term, increasing risk.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-034",
+    "chapterNumber": 1,
+    "topic": "Commodities",
+    "questionText": "What type of return do gold and silver generally provide as described in the chapter?",
+    "options": {
+      "A": "Regular interest income",
+      "B": "Capital appreciation only",
+      "C": "Guaranteed dividends",
+      "D": "Rental income"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook states that investors in these commodities generally count on capital appreciation because they do not generate current income.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-035",
+    "chapterNumber": 1,
+    "topic": "Fixed Income",
+    "questionText": "Which is a typical issuer of fixed-income securities?",
+    "options": {
+      "A": "Only listed companies",
+      "B": "Companies, governments, banks and other institutions",
+      "C": "Only mutual funds",
+      "D": "Only households"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook lists companies, Union and State Governments, municipal corporations, banks, financial institutions and PSUs among issuers.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-036",
+    "chapterNumber": 1,
+    "topic": "Fixed Income",
+    "questionText": "What is a key distinction between lending assets such as bonds and ownership assets such as equity?",
+    "options": {
+      "A": "Bond cash flows are generally agreed at issue, while ownership-asset receipts are more uncertain",
+      "B": "Equity has no risk",
+      "C": "Bonds cannot generate income",
+      "D": "Equity is always short-term"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter contrasts lending assets, where interest/principal are agreed, with ownership assets whose future receipts are uncertain.",
+    "difficulty": "Moderate",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-037",
+    "chapterNumber": 1,
+    "topic": "Fixed Income",
+    "questionText": "A bond bought at issue and held to maturity would generally have what outcome in the workbook’s basic illustration?",
+    "options": {
+      "A": "Capital gains in every case",
+      "B": "No capital gain in almost all cases, assuming the stated terms are met",
+      "C": "Guaranteed equity-like returns",
+      "D": "No principal repayment"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook notes that holding a bond from issuance to maturity generally does not produce capital gains, whereas secondary-market transactions can.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-038",
+    "chapterNumber": 1,
+    "topic": "Equity",
+    "questionText": "What does buying a company’s equity share represent?",
+    "options": {
+      "A": "A loan to the company",
+      "B": "Part-ownership in the business",
+      "C": "A fixed-income claim",
+      "D": "A deposit with the company"
+    },
+    "correctAnswer": "B",
+    "explanation": "Equity is described as owner’s capital; a shareholder is a part-owner of the business.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-039",
+    "chapterNumber": 1,
+    "topic": "Equity",
+    "questionText": "Why is equity described as risk capital?",
+    "options": {
+      "A": "The owner’s earnings are linked to the fortunes and risks of the business",
+      "B": "It always has a fixed return",
+      "C": "It is guaranteed by government",
+      "D": "It has no price fluctuation"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook calls equity risk capital because earnings are linked to the business’s fortunes and risks.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-040",
+    "chapterNumber": 1,
+    "topic": "Equity",
+    "questionText": "Which statement best reflects the workbook’s long-term view of equity?",
+    "options": {
+      "A": "Equity prices never fluctuate",
+      "B": "Equity has historically generated returns above inflation over long periods",
+      "C": "Equity always outperforms every asset",
+      "D": "Equity provides guaranteed dividends"
+    },
+    "correctAnswer": "B",
+    "explanation": "The chapter notes historical long-term equity returns have exceeded inflation, while emphasising price fluctuations and risk.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-041",
+    "chapterNumber": 1,
+    "topic": "International Assets",
+    "questionText": "An Indian investor buying a London-listed share is exposed to which additional factor besides company performance?",
+    "options": {
+      "A": "Only Indian inflation",
+      "B": "Currency movement between the British Pound and Indian Rupee",
+      "C": "Only gold prices",
+      "D": "Only Indian bond yields"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook identifies foreign-currency exposure as an additional consideration for international assets.",
+    "difficulty": "Easy",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-042",
+    "chapterNumber": 1,
+    "topic": "Investment Risks",
+    "questionText": "What does inflation risk primarily represent?",
+    "options": {
+      "A": "The risk of losing access to a demat account",
+      "B": "Erosion of purchasing power",
+      "C": "The risk that a bond issuer defaults",
+      "D": "The risk that a scheme closes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Inflation raises prices and erodes the purchasing power of money.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-043",
+    "chapterNumber": 1,
+    "topic": "Investment Risks",
+    "questionText": "Which risk concerns the possibility that an issuer may not meet its obligations?",
+    "options": {
+      "A": "Credit risk",
+      "B": "Inflation risk",
+      "C": "Liquidity risk",
+      "D": "Behavioural risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "Credit risk is the possibility that the counterparty/issuer may fail to meet promised obligations.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-044",
+    "chapterNumber": 1,
+    "topic": "Investment Risks",
+    "questionText": "If market interest rates rise after an existing fixed-rate bond is issued, what generally happens to the bond’s price?",
+    "options": {
+      "A": "It rises",
+      "B": "It falls",
+      "C": "It is unchanged in all cases",
+      "D": "It becomes equal to face value"
+    },
+    "correctAnswer": "B",
+    "explanation": "Existing bonds become less attractive relative to newly issued higher-rate bonds, so their market prices generally fall.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-045",
+    "chapterNumber": 1,
+    "topic": "Risk Management",
+    "questionText": "Which statement best describes diversification?",
+    "options": {
+      "A": "It can reduce security-specific risk but not market-wide risk",
+      "B": "It eliminates all investment risk",
+      "C": "It guarantees returns",
+      "D": "It increases only credit risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter distinguishes unsystematic/security-specific risk, which can be diversified, from market-wide risk, which cannot be eliminated by diversification.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-046",
+    "chapterNumber": 1,
+    "topic": "Behavioural Biases",
+    "questionText": "What is recency bias?",
+    "options": {
+      "A": "Giving disproportionate weight to recent experiences or events",
+      "B": "Ignoring all recent data",
+      "C": "Following only a benchmark",
+      "D": "Avoiding diversification"
+    },
+    "correctAnswer": "A",
+    "explanation": "Recency bias involves giving excessive weight to recent events when making decisions.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-047",
+    "chapterNumber": 1,
+    "topic": "Behavioural Biases",
+    "questionText": "What does herd mentality refer to in investment decision-making?",
+    "options": {
+      "A": "Following the behaviour of the group rather than independently evaluating the investment",
+      "B": "Always investing alone",
+      "C": "Using only government securities",
+      "D": "Avoiding all market information"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter identifies herd mentality as following the crowd rather than making an independent assessment.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-048",
+    "chapterNumber": 1,
+    "topic": "Risk Profiling",
+    "questionText": "Why can risk profiling help a distributor avoid unsuitable recommendations?",
+    "options": {
+      "A": "It provides information about the investor’s risk appetite and circumstances",
+      "B": "It predicts future NAV exactly",
+      "C": "It removes market risk",
+      "D": "It guarantees the investor will not sell"
+    },
+    "correctAnswer": "A",
+    "explanation": "Understanding risk appetite and relevant circumstances supports more suitable investment choices.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-049",
+    "chapterNumber": 1,
+    "topic": "Asset Allocation",
+    "questionText": "Strategic Asset Allocation is primarily aligned to:",
+    "options": {
+      "A": "The financial goals of the individual",
+      "B": "The latest one-week market movement",
+      "C": "The AMC’s sales target",
+      "D": "The distributor’s commission"
+    },
+    "correctAnswer": "A",
+    "explanation": "Strategic Asset Allocation is described as allocation aligned to the individual’s financial goals.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-050",
+    "chapterNumber": 1,
+    "topic": "Asset Allocation",
+    "questionText": "Which factor would be least appropriate as the sole basis for asset allocation?",
+    "options": {
+      "A": "Investor goals",
+      "B": "Time horizon",
+      "C": "Risk profile",
+      "D": "The current popularity of an asset class alone"
+    },
+    "correctAnswer": "D",
+    "explanation": "Asset allocation should be objective-driven and aligned to needs and risk; popularity alone is not an adequate basis.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-051",
+    "chapterNumber": 1,
+    "topic": "Professional Help",
+    "questionText": "What is a key benefit of taking professional help in investment planning?",
+    "options": {
+      "A": "A professional can help assess needs and suitability",
+      "B": "A professional can guarantee market returns",
+      "C": "A professional eliminates all risks",
+      "D": "A professional can remove inflation"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter notes that professional intermediaries can guide investors in making appropriate decisions based on their goals and circumstances.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-052",
+    "chapterNumber": 1,
+    "topic": "Professional Help",
+    "questionText": "Which statement is most consistent with the workbook’s approach to DIY investing?",
+    "options": {
+      "A": "An investor should still understand goals, risk and asset allocation",
+      "B": "DIY automatically removes behavioural biases",
+      "C": "DIY guarantees lower risk",
+      "D": "DIY makes financial goals unnecessary"
+    },
+    "correctAnswer": "A",
+    "explanation": "Whether investing independently or with help, the underlying planning principles of goals, risk and allocation remain important.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-053",
+    "chapterNumber": 1,
+    "topic": "Risk Profiling",
+    "questionText": "A risk profile shows that an investor has low risk appetite but wants a high-risk product because it recently performed well. What is the strongest concern?",
+    "options": {
+      "A": "The recent performance may be inconsistent with the investor’s risk profile",
+      "B": "Low risk appetite guarantees low returns",
+      "C": "Past performance guarantees future performance",
+      "D": "Risk profiling is irrelevant once a product has performed well"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook stresses matching investments to the investor rather than selecting products solely from recent performance.",
+    "difficulty": "Difficult",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-054",
+    "chapterNumber": 1,
+    "topic": "Asset Allocation",
+    "questionText": "An investor has a long-term goal and a high risk appetite. Which conclusion is most appropriate?",
+    "options": {
+      "A": "The investor should automatically invest entirely in equity",
+      "B": "The investor’s goal, horizon and risk profile should jointly inform allocation",
+      "C": "Risk profile alone determines the allocation",
+      "D": "Only current market prices matter"
+    },
+    "correctAnswer": "B",
+    "explanation": "Asset allocation is objective-driven and should reflect the investor’s goals and risk profile; no single factor should be used mechanically.",
+    "difficulty": "Difficult",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-055",
+    "chapterNumber": 1,
+    "topic": "Investment Evaluation",
+    "questionText": "An investment offers a tax deduction but has a multi-year lock-in. Which interpretation best follows the workbook?",
+    "options": {
+      "A": "The tax deduction must be considered together with the liquidity trade-off",
+      "B": "The tax deduction makes liquidity irrelevant",
+      "C": "The lock-in always improves returns",
+      "D": "Tax deduction guarantees safety"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook explicitly identifies a trade-off between tax deduction and liquidity when a lock-in applies.",
+    "difficulty": "Difficult",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-056",
+    "chapterNumber": 1,
+    "topic": "Risk Management",
+    "questionText": "An investor diversifies across many shares but all shares are affected by a broad market decline. Which risk may remain?",
+    "options": {
+      "A": "Security-specific risk only",
+      "B": "Market-wide/systematic risk",
+      "C": "No risk",
+      "D": "Only ticket-size risk"
+    },
+    "correctAnswer": "B",
+    "explanation": "Diversification can reduce security-specific risk but cannot eliminate market-wide risk.",
+    "difficulty": "Difficult",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-057",
+    "chapterNumber": 1,
+    "topic": "Inflation and Goal Planning",
+    "questionText": "A family plans to accumulate exactly today’s cost of a child’s education for a goal ten years away. What is the key planning error?",
+    "options": {
+      "A": "Ignoring inflation in the future goal value",
+      "B": "Using a timeline",
+      "C": "Identifying the goal",
+      "D": "Considering the amount required"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook illustrates that long-term goal costs should be adjusted for inflation; using only today’s cost may lead to a shortfall.",
+    "difficulty": "Difficult",
+    "questionType": "Case Study"
+  },
+  {
+    "id": "VA-CUSTOM-058",
+    "chapterNumber": 1,
+    "topic": "Risk Measures",
+    "questionText": "Which statement best captures the chapter’s approach to risk management?",
+    "options": {
+      "A": "Risks should first be understood and measured before selecting management strategies",
+      "B": "All risks can be removed through diversification",
+      "C": "Only returns need to be measured",
+      "D": "Risk management is unnecessary for long-term goals"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter presents risk identification and measurement as a basis for managing investment risks.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-059",
+    "chapterNumber": 1,
+    "topic": "Behavioural Biases",
+    "questionText": "An investor refuses to sell a losing investment solely because selling would make the loss feel real, even though the investment no longer fits the goal. Which bias is most relevant?",
+    "options": {
+      "A": "Loss aversion",
+      "B": "Herd mentality",
+      "C": "Recency bias",
+      "D": "Liquidity preference"
+    },
+    "correctAnswer": "A",
+    "explanation": "Loss aversion is the tendency to prefer avoiding losses to acquiring equivalent gains and can influence investment decisions.",
+    "difficulty": "Difficult",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-060",
+    "chapterNumber": 1,
+    "topic": "Asset Allocation",
+    "questionText": "Which statement best distinguishes strategic asset allocation from short-term market timing?",
+    "options": {
+      "A": "Strategic allocation is linked to financial goals rather than attempting to exploit every short-term market movement",
+      "B": "Strategic allocation ignores goals",
+      "C": "Market timing always uses diversification",
+      "D": "Strategic allocation requires investing in one asset class"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook presents Strategic Asset Allocation as allocation aligned with financial goals, rather than a pure short-term timing exercise.",
+    "difficulty": "Difficult",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-061",
+    "chapterNumber": 2,
+    "topic": "Concept of Mutual Fund",
+    "questionText": "Which description best matches a mutual fund?",
+    "options": {
+      "A": "A professionally managed investment vehicle",
+      "B": "A bank deposit with guaranteed interest",
+      "C": "A single company share",
+      "D": "An insurance contract"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook describes a mutual fund as a professionally managed investment vehicle.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-062",
+    "chapterNumber": 2,
+    "topic": "Concept of Mutual Fund",
+    "questionText": "Technically, an investor invests:",
+    "options": {
+      "A": "In the mutual fund vehicle directly as an operating business",
+      "B": "Through a mutual fund into securities",
+      "C": "Only in the AMC’s shares",
+      "D": "Only in the trustee company"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook says technically one invests through mutual funds, which invest in securities according to the scheme objective.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-063",
+    "chapterNumber": 2,
+    "topic": "Concept of Mutual Fund",
+    "questionText": "What is a major distinction between investing directly and investing through a mutual fund?",
+    "options": {
+      "A": "Mutual funds provide professional management, diversification and a regulated vehicle",
+      "B": "Mutual funds remove all market risk",
+      "C": "Direct investment always has lower costs",
+      "D": "Mutual funds guarantee profits"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter highlights professional management, portfolio diversification and regulation as features of the mutual-fund route.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-064",
+    "chapterNumber": 2,
+    "topic": "Role of Mutual Funds",
+    "questionText": "What is the primary role of mutual funds?",
+    "options": {
+      "A": "To help investors earn income or build wealth through securities-market opportunities",
+      "B": "To guarantee a fixed return",
+      "C": "To provide only insurance",
+      "D": "To lend only to governments"
+    },
+    "correctAnswer": "A",
+    "explanation": "The primary role is to help investors earn income or build wealth by investing in securities-market opportunities.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-065",
+    "chapterNumber": 2,
+    "topic": "Role of Mutual Funds",
+    "questionText": "How can mutual funds contribute to economic development?",
+    "options": {
+      "A": "By pooling savings and financing governments, companies and other entities",
+      "B": "By eliminating all taxes",
+      "C": "By preventing companies from borrowing",
+      "D": "By replacing banks completely"
+    },
+    "correctAnswer": "A",
+    "explanation": "Money raised through schemes can ultimately finance projects and expenses, supporting employment, income and output.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-066",
+    "chapterNumber": 2,
+    "topic": "Role of Mutual Funds",
+    "questionText": "Why can mutual funds contribute to corporate governance?",
+    "options": {
+      "A": "As large investors, they can monitor investee companies’ operations and governance standards",
+      "B": "They own every company outright",
+      "C": "They set government tax rates",
+      "D": "They guarantee management decisions"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook notes that large mutual fund investors can keep a check on operations, corporate governance and ethical standards.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-067",
+    "chapterNumber": 2,
+    "topic": "Role of Mutual Funds",
+    "questionText": "The workbook gives examples of 2022 and 2025 when mutual funds provided a counterforce to heavy FPI selling. What role does this illustrate?",
+    "options": {
+      "A": "Market stabilising participation",
+      "B": "Guaranteed price support",
+      "C": "Tax collection",
+      "D": "Insurance underwriting"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fresh mutual-fund inflows into equity schemes provided demand when FPIs sold heavily, illustrating a market-stabilising role.",
+    "difficulty": "Difficult",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-068",
+    "chapterNumber": 2,
+    "topic": "Investment Objectives",
+    "questionText": "Why are different mutual fund schemes created?",
+    "options": {
+      "A": "To cater to investors with different needs and preferences",
+      "B": "To make all schemes identical",
+      "C": "To avoid stating objectives",
+      "D": "To eliminate asset allocation"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter explains that different pools of money are created to accommodate different investor preferences and needs.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-069",
+    "chapterNumber": 2,
+    "topic": "Investment Objectives",
+    "questionText": "A mutual fund scheme’s investment objective is generally:",
+    "options": {
+      "A": "Pre-announced",
+      "B": "Changed daily by distributors",
+      "C": "Guaranteed by the regulator",
+      "D": "Determined after investors redeem"
+    },
+    "correctAnswer": "A",
+    "explanation": "Each scheme has a pre-announced investment objective.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-070",
+    "chapterNumber": 2,
+    "topic": "Investment Objectives",
+    "questionText": "A scheme seeking high liquidity would be most likely to invest in:",
+    "options": {
+      "A": "Money market securities or very short-term debt",
+      "B": "Only small-cap equities",
+      "C": "Only real estate",
+      "D": "Only commodities"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook links liquidity-oriented objectives with money market instruments or very short-term debt.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-071",
+    "chapterNumber": 2,
+    "topic": "Investment Objectives",
+    "questionText": "A scheme seeking long-term capital appreciation would generally have greater exposure to:",
+    "options": {
+      "A": "Equity shares",
+      "B": "Only cash",
+      "C": "Only fixed deposits",
+      "D": "Only gold ornaments"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook uses equity as the example of an asset class suited to long-term capital appreciation.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-072",
+    "chapterNumber": 2,
+    "topic": "Investment Policy",
+    "questionText": "What are the two main aspects disclosed in a scheme’s investment policy?",
+    "options": {
+      "A": "Asset allocation and investment style",
+      "B": "Distributor commission and tax rate",
+      "C": "Investor age and PAN",
+      "D": "Benchmark and KYC only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that investment policy discloses asset allocation and investment style.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-073",
+    "chapterNumber": 2,
+    "topic": "Investment Policy",
+    "questionText": "Which is an example of an investment style mentioned in the chapter?",
+    "options": {
+      "A": "Growth or value style",
+      "B": "Open or close-ended only",
+      "C": "Physical or digital style",
+      "D": "NFO or IPO style"
+    },
+    "correctAnswer": "A",
+    "explanation": "Growth and value are examples of styles that a fund manager may adopt within an asset category.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-074",
+    "chapterNumber": 2,
+    "topic": "Investment Policy",
+    "questionText": "Where is a scheme’s asset allocation disclosed?",
+    "options": {
+      "A": "Scheme Information Document",
+      "B": "Only in the investor’s bank statement",
+      "C": "Only in a newspaper advertisement",
+      "D": "Only in the KIM’s cover page"
+    },
+    "correctAnswer": "A",
+    "explanation": "The investment policy’s asset allocation is disclosed in the SID.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-075",
+    "chapterNumber": 2,
+    "topic": "Important Concepts",
+    "questionText": "What are units in a mutual fund scheme?",
+    "options": {
+      "A": "The units issued to investors representing their investment in the scheme",
+      "B": "The scheme’s annual expenses",
+      "C": "The trustee’s shares",
+      "D": "The AMC’s employees"
+    },
+    "correctAnswer": "A",
+    "explanation": "An investor’s investment is translated into a certain number of units in the scheme.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-076",
+    "chapterNumber": 2,
+    "topic": "Important Concepts",
+    "questionText": "What is the typical face value of a mutual fund unit according to the workbook?",
+    "options": {
+      "A": "₹1",
+      "B": "₹10",
+      "C": "₹50",
+      "D": "₹1000"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook states that typically every unit has a face value of ₹10, although it can differ.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-077",
+    "chapterNumber": 2,
+    "topic": "Important Concepts",
+    "questionText": "How is unit capital described?",
+    "options": {
+      "A": "Number of units issued multiplied by the face value per unit",
+      "B": "NAV multiplied by TER",
+      "C": "AUM divided by investors",
+      "D": "Face value divided by units"
+    },
+    "correctAnswer": "A",
+    "explanation": "Unit capital is the number of units issued multiplied by the face value.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-078",
+    "chapterNumber": 2,
+    "topic": "Important Concepts",
+    "questionText": "Recurring expenses of a mutual fund scheme are generally charged as a percentage of:",
+    "options": {
+      "A": "Scheme assets/AUM",
+      "B": "The investor’s age",
+      "C": "The face value only",
+      "D": "The benchmark index level"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook explains that recurring expenses are charged as a percentage of scheme assets under management.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-079",
+    "chapterNumber": 2,
+    "topic": "Important Concepts",
+    "questionText": "What is the effect of scheme expenses on NAV, all else equal?",
+    "options": {
+      "A": "Higher expenses reduce NAV",
+      "B": "Higher expenses increase NAV",
+      "C": "Expenses do not affect NAV",
+      "D": "Expenses determine the face value"
+    },
+    "correctAnswer": "A",
+    "explanation": "Expenses are deducted while calculating NAV; therefore, higher expenses reduce NAV, other things equal.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-080",
+    "chapterNumber": 2,
+    "topic": "Important Concepts",
+    "questionText": "What is NAV described as?",
+    "options": {
+      "A": "The true worth of a unit of the scheme",
+      "B": "The face value of the unit",
+      "C": "The distributor’s commission",
+      "D": "The scheme’s maturity date"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook describes NAV as the true worth of a unit of the mutual fund scheme.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-081",
+    "chapterNumber": 2,
+    "topic": "Advantages of Mutual Funds",
+    "questionText": "Which is an advantage of mutual funds?",
+    "options": {
+      "A": "Professional fund management",
+      "B": "Guaranteed return in every scheme",
+      "C": "No possibility of loss",
+      "D": "No expenses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Professional management is one of the advantages highlighted in the chapter.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-082",
+    "chapterNumber": 2,
+    "topic": "Advantages of Mutual Funds",
+    "questionText": "Why can diversification be an advantage of mutual funds?",
+    "options": {
+      "A": "The pooled portfolio can spread investments across securities",
+      "B": "It guarantees all securities rise together",
+      "C": "It eliminates all systematic risk",
+      "D": "It prevents all losses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Mutual funds provide portfolio diversification, which can reduce security-specific risk.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-083",
+    "chapterNumber": 2,
+    "topic": "Advantages of Mutual Funds",
+    "questionText": "Which statement is consistent with the chapter’s discussion of access?",
+    "options": {
+      "A": "Mutual funds can give investors access to securities that may otherwise be unavailable to them",
+      "B": "Mutual funds only buy securities unavailable to institutions",
+      "C": "Mutual funds cannot invest in bonds",
+      "D": "Mutual funds are limited to one security"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter says mutual funds can provide access to equities, bonds, money-market instruments and other securities.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-084",
+    "chapterNumber": 2,
+    "topic": "Limitations of Mutual Funds",
+    "questionText": "Which is a limitation of mutual funds?",
+    "options": {
+      "A": "Investors remain exposed to investment risks in the underlying portfolio",
+      "B": "All schemes guarantee returns",
+      "C": "Professional management eliminates market risk",
+      "D": "Diversification removes every risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "Mutual funds do not eliminate investment risk; underlying securities can gain or lose value.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-085",
+    "chapterNumber": 2,
+    "topic": "Limitations of Mutual Funds",
+    "questionText": "Why can scheme expenses be a limitation from an investor’s perspective?",
+    "options": {
+      "A": "They reduce NAV and therefore can reduce investor returns",
+      "B": "They increase the face value",
+      "C": "They eliminate diversification",
+      "D": "They guarantee lower risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook notes that scheme expenses are deducted in NAV calculation and higher expenses lower investor returns, all else equal.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-086",
+    "chapterNumber": 2,
+    "topic": "Fund Structure",
+    "questionText": "Assertion: An interval fund combines features of open-ended and close-ended schemes.\nReason: It is largely close-ended but becomes open-ended during pre-specified transaction periods.",
+    "options": {
+      "A": "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+      "B": "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+      "C": "Assertion is true, but Reason is false.",
+      "D": "Assertion is false, but Reason is true."
+    },
+    "correctAnswer": "A",
+    "explanation": "Both statements are true. The reason directly explains the assertion because the periodic opening of an otherwise largely close-ended scheme is what gives an interval fund its combined characteristics.",
+    "difficulty": "Easy",
+    "questionType": "Assertion-Reason"
+  },
+  {
+    "id": "VA-CUSTOM-087",
+    "chapterNumber": 2,
+    "topic": "Fund Structure",
+    "questionText": "What is a defining feature of a close-ended fund?",
+    "options": {
+      "A": "Fixed maturity",
+      "B": "Daily maturity",
+      "C": "No defined portfolio",
+      "D": "No listing requirement"
+    },
+    "correctAnswer": "A",
+    "explanation": "Close-ended funds have a fixed maturity.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-088",
+    "chapterNumber": 2,
+    "topic": "Fund Structure",
+    "questionText": "When can an investor buy units directly from a close-ended scheme?",
+    "options": {
+      "A": "During the NFO",
+      "B": "At any time from the AMC",
+      "C": "Only after maturity",
+      "D": "Only after a stock split"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that units of a close-ended scheme can be bought from the mutual fund during the NFO.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-089",
+    "chapterNumber": 2,
+    "topic": "Fund Structure",
+    "questionText": "What is an interval fund?",
+    "options": {
+      "A": "A scheme largely close-ended that becomes open-ended at specified intervals",
+      "B": "A scheme that never accepts subscriptions",
+      "C": "An equity index fund only",
+      "D": "A scheme with no maturity"
+    },
+    "correctAnswer": "A",
+    "explanation": "Interval funds combine features of open- and close-ended schemes and open for transactions during specified periods.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-090",
+    "chapterNumber": 2,
+    "topic": "Fund Structure",
+    "questionText": "The periods during which an interval scheme becomes open-ended are called:",
+    "options": {
+      "A": "Transaction periods",
+      "B": "Lock-in periods",
+      "C": "NFO periods only",
+      "D": "Benchmark periods"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook calls the specified periods when interval schemes become open-ended “transaction periods”.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-091",
+    "chapterNumber": 2,
+    "topic": "Classification",
+    "questionText": "Which classification is based on the structure of the fund?",
+    "options": {
+      "A": "Open-ended, close-ended and interval",
+      "B": "Equity, debt and hybrid only",
+      "C": "Growth and value only",
+      "D": "Large-cap and mid-cap only"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fund structure classification includes open-ended, close-ended and interval schemes.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-092",
+    "chapterNumber": 2,
+    "topic": "Classification",
+    "questionText": "A Fixed Maturity Plan is described as a type of:",
+    "options": {
+      "A": "Close-ended debt fund",
+      "B": "Open-ended equity fund",
+      "C": "Interval commodity fund",
+      "D": "Hybrid ETF only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter describes FMPs as close-ended debt funds with a specified duration.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-093",
+    "chapterNumber": 2,
+    "topic": "Classification",
+    "questionText": "What is the key idea behind classifying schemes by investment universe?",
+    "options": {
+      "A": "Classifying them according to the securities or asset classes in which they invest",
+      "B": "Classifying them by investor age",
+      "C": "Classifying them by distributor size",
+      "D": "Classifying them by branch location"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investment-universe classification relates to where the scheme invests.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-094",
+    "chapterNumber": 2,
+    "topic": "Scheme Categories",
+    "questionText": "Which is an example of an equity-oriented category described in the chapter?",
+    "options": {
+      "A": "Large Cap Fund",
+      "B": "Liquid Fund",
+      "C": "Money Market Fund",
+      "D": "Overnight deposit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Large Cap Fund is an equity scheme category described in the chapter.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-095",
+    "chapterNumber": 2,
+    "topic": "Scheme Categories",
+    "questionText": "A Large and Mid Cap Fund invests in:",
+    "options": {
+      "A": "Both large-cap and mid-cap stocks",
+      "B": "Only small-cap stocks",
+      "C": "Only government securities",
+      "D": "Only commodities"
+    },
+    "correctAnswer": "A",
+    "explanation": "The category is described as investing in both large-cap and mid-cap stocks.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-096",
+    "chapterNumber": 2,
+    "topic": "Scheme Categories",
+    "questionText": "A Mid Cap Fund is predominantly invested in:",
+    "options": {
+      "A": "Mid-cap stocks",
+      "B": "Large-cap stocks only",
+      "C": "Debt securities only",
+      "D": "Gold only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter describes Mid Cap Fund as an open-ended equity scheme predominantly investing in mid-cap stocks.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-097",
+    "chapterNumber": 2,
+    "topic": "Scheme Categories",
+    "questionText": "Why did SEBI introduce categorisation of mutual funds?",
+    "options": {
+      "A": "To reduce investor choice overload and improve consistency of scheme categories",
+      "B": "To eliminate mutual funds",
+      "C": "To guarantee performance",
+      "D": "To increase the number of overlapping schemes"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter explains that SEBI introduced categorisation to overcome choice overload and bring consistency.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-098",
+    "chapterNumber": 2,
+    "topic": "Scheme Categories",
+    "questionText": "Why did SEBI impose limits on scheme expenses?",
+    "options": {
+      "A": "Because expenses reduce investor returns through their effect on NAV",
+      "B": "Because expenses increase face value",
+      "C": "Because expenses determine the benchmark",
+      "D": "Because expenses eliminate risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter links higher expenses with lower NAV and investor returns and notes SEBI limits on expenses.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-099",
+    "chapterNumber": 2,
+    "topic": "New Types of Funds",
+    "questionText": "What is a life cycle fund designed to support?",
+    "options": {
+      "A": "Goal-based investing with risk reduction over time through a predetermined maturity structure and glide path",
+      "B": "Only daily trading",
+      "C": "Only commodity investing",
+      "D": "Only tax deductions"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter’s example describes life cycle funds as goal-based funds that reduce risk over time through a maturity structure and glide path.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-100",
+    "chapterNumber": 2,
+    "topic": "New Types of Funds",
+    "questionText": "A scheme invests in equity, debt, InvITs and commodities as permitted by SEBI. Which category example does the workbook associate with this objective?",
+    "options": {
+      "A": "Hybrid fund",
+      "B": "Liquid fund",
+      "C": "Only equity fund",
+      "D": "Only fixed-income fund"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook gives this as an example of a hybrid fund objective.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-101",
+    "chapterNumber": 2,
+    "topic": "Mutual Fund Economics",
+    "questionText": "Who ultimately bears the profits or losses of a mutual fund scheme?",
+    "options": {
+      "A": "The investors/unitholders",
+      "B": "The trustee company",
+      "C": "The AMC employees",
+      "D": "The distributor"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that scheme profits or losses belong to investors/unitholders; other constituents are paid fees or commissions.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-102",
+    "chapterNumber": 2,
+    "topic": "Mutual Fund Economics",
+    "questionText": "Which statement about scheme constituents and profits is correct?",
+    "options": {
+      "A": "Constituents are paid fees or commissions for their roles and do not participate in scheme profits or losses in their capacity as service providers",
+      "B": "Trustees receive all scheme profits",
+      "C": "Distributors bear all scheme losses",
+      "D": "The AMC owns all scheme gains"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook expressly distinguishes investors’ ownership of scheme profits/losses from the fees/commissions paid to service providers.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-103",
+    "chapterNumber": 2,
+    "topic": "Investment Objective",
+    "questionText": "A scheme’s objective focuses on liquidity. Which investment universe is most aligned?",
+    "options": {
+      "A": "Money-market and very short-term debt securities",
+      "B": "Small-cap equity only",
+      "C": "Long-term real estate only",
+      "D": "Rare art"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter links liquidity objectives with money-market and very short-term debt investments.",
+    "difficulty": "Moderate",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-104",
+    "chapterNumber": 2,
+    "topic": "Investment Policy",
+    "questionText": "Two equity schemes have the same broad asset class but different portfolio concentration. Which investment-policy element distinguishes them?",
+    "options": {
+      "A": "Investment style/concentration approach",
+      "B": "Face value",
+      "C": "KYC status",
+      "D": "NFO date only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter notes that even within an asset category, fund managers can use different styles and levels of portfolio concentration.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-105",
+    "chapterNumber": 2,
+    "topic": "Fund Structure",
+    "questionText": "An investor wants to transact directly with a scheme only during specified windows each year. Which structure best fits?",
+    "options": {
+      "A": "Interval scheme",
+      "B": "Open-ended scheme with continuous transactions",
+      "C": "Close-ended scheme with no transaction period",
+      "D": "Only an index fund"
+    },
+    "correctAnswer": "A",
+    "explanation": "Interval schemes become open-ended during pre-specified transaction periods.",
+    "difficulty": "Moderate",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-106",
+    "chapterNumber": 2,
+    "topic": "Classification",
+    "questionText": "Which statement best compares open-ended and close-ended schemes?",
+    "options": {
+      "A": "Open-ended schemes permit ongoing entry/exit after NFO, while close-ended schemes have fixed maturity",
+      "B": "Both have identical transaction structures",
+      "C": "Close-ended schemes have no maturity",
+      "D": "Open-ended schemes can never accept fresh money"
+    },
+    "correctAnswer": "A",
+    "explanation": "This is the central structural distinction explained in the chapter.",
+    "difficulty": "Difficult",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-107",
+    "chapterNumber": 2,
+    "topic": "Classification",
+    "questionText": "Why is it technically more accurate to say an investor invests “through” a mutual fund?",
+    "options": {
+      "A": "The mutual fund scheme pools money and invests it in securities for the investor",
+      "B": "The investor buys the AMC itself",
+      "C": "The investor directly owns every underlying security in their own name",
+      "D": "The mutual fund only holds cash"
+    },
+    "correctAnswer": "A",
+    "explanation": "The mutual fund is a vehicle through which investors gain exposure to underlying securities; the scheme invests the pooled money.",
+    "difficulty": "Difficult",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-108",
+    "chapterNumber": 2,
+    "topic": "Investment Policy",
+    "questionText": "A scheme’s objective is long-term capital appreciation, but its investment policy allocates primarily to very short-term money-market instruments. What is the key concern?",
+    "options": {
+      "A": "The investment policy is not aligned with the stated objective",
+      "B": "The face value is too low",
+      "C": "The scheme becomes automatically close-ended",
+      "D": "The NAV becomes equal to face value"
+    },
+    "correctAnswer": "A",
+    "explanation": "The investment policy is designed to achieve the stated objective, so a major mismatch between objective and asset allocation is inconsistent with the framework.",
+    "difficulty": "Difficult",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-109",
+    "chapterNumber": 2,
+    "topic": "Mutual Fund Economics",
+    "questionText": "A scheme earns a profit on its portfolio. The AMC, trustee and distributor each performed their contractual roles. Who is entitled to the scheme profit/loss as described in the chapter?",
+    "options": {
+      "A": "Investors/unitholders",
+      "B": "Only the AMC",
+      "C": "Only the distributor",
+      "D": "Only the trustee"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that scheme profits or losses belong to investors/unitholders; other entities receive fees/commissions for their services.",
+    "difficulty": "Difficult",
+    "questionType": "Case Study"
+  },
+  {
+    "id": "VA-CUSTOM-110",
+    "chapterNumber": 2,
+    "topic": "Scheme Categories",
+    "questionText": "An investor wants a scheme with a fixed maturity and a debt orientation. Which scheme type is most directly consistent?",
+    "options": {
+      "A": "Fixed Maturity Plan",
+      "B": "Open-ended equity fund",
+      "C": "Large Cap Fund",
+      "D": "Commodity ETF"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter describes FMPs as close-ended debt funds with a specified duration/fixed maturity.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-111",
+    "chapterNumber": 2,
+    "topic": "Advantages and Limitations",
+    "questionText": "Which combination most accurately describes mutual funds?",
+    "options": {
+      "A": "Professional management and diversification, but no guarantee that the underlying investments will not lose value",
+      "B": "Guaranteed returns and no expenses",
+      "C": "No diversification and guaranteed capital",
+      "D": "Only short-term investments and no risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter presents professional management and diversification as benefits while retaining investment risks and expenses as limitations.",
+    "difficulty": "Difficult",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-112",
+    "chapterNumber": 2,
+    "topic": "Industry Growth",
+    "questionText": "What does the growth of the mutual fund industry broadly indicate in the chapter?",
+    "options": {
+      "A": "Expansion in the amount of money managed by the industry over time",
+      "B": "Guaranteed returns for investors",
+      "C": "Elimination of market risk",
+      "D": "Replacement of all other investment products"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter discusses substantial growth in mutual fund assets over the years, indicating industry expansion rather than guaranteed performance.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-113",
+    "chapterNumber": 2,
+    "topic": "Industry Growth",
+    "questionText": "The workbook notes mutual fund industry assets rising from about ₹12.33 lakh crore in March 2016 to ₹79.46 lakh crore in March 2026. What does this figure measure in context?",
+    "options": {
+      "A": "Growth in industry assets under management",
+      "B": "Growth in the number of trustees only",
+      "C": "Growth in face value per unit",
+      "D": "Growth in a single scheme’s NAV"
+    },
+    "correctAnswer": "A",
+    "explanation": "The cited figures describe the expansion of mutual fund industry assets over the ten-year period.",
+    "difficulty": "Easy",
+    "questionType": "Factual"
+  },
+  {
+    "id": "VA-CUSTOM-114",
+    "chapterNumber": 2,
+    "topic": "Role of Mutual Funds",
+    "questionText": "Which sequence best represents the economic transmission described by the workbook?",
+    "options": {
+      "A": "Investor savings → scheme investments → financing of projects/activities → employment/income/output",
+      "B": "Investor savings → immediate tax elimination → no investment",
+      "C": "Scheme profits → guaranteed wages → no capital formation",
+      "D": "Distributor commission → government borrowing → inflation only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter explains how pooled savings finance entities and projects, supporting employment, income and economic output.",
+    "difficulty": "Difficult",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-115",
+    "chapterNumber": 2,
+    "topic": "Investment Objectives",
+    "questionText": "Which statement best explains why investment objectives and investment universe are closely related?",
+    "options": {
+      "A": "The objective determines the type of assets needed to pursue it",
+      "B": "The universe determines the investor’s age",
+      "C": "Objectives only matter after investment",
+      "D": "The two concepts are unrelated"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook explains that the objective drives the investment universe—for example, liquidity objectives favour money-market securities.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-116",
+    "chapterNumber": 2,
+    "topic": "Important Concepts",
+    "questionText": "If a scheme issues 1 crore units with a face value of ₹10 per unit, what is its unit capital?",
+    "options": {
+      "A": "₹1 crore",
+      "B": "₹10 crore",
+      "C": "₹100 crore",
+      "D": "₹1 lakh"
+    },
+    "correctAnswer": "B",
+    "explanation": "Unit capital equals units issued multiplied by face value: 1 crore × ₹10 = ₹10 crore.",
+    "difficulty": "Moderate",
+    "questionType": "Numerical"
+  },
+  {
+    "id": "VA-CUSTOM-117",
+    "chapterNumber": 2,
+    "topic": "Important Concepts",
+    "questionText": "A scheme’s operating expenses rise while all portfolio values remain unchanged. What is the most direct effect according to the chapter?",
+    "options": {
+      "A": "NAV is reduced by the expenses",
+      "B": "NAV increases by the expenses",
+      "C": "Face value changes automatically",
+      "D": "Unit capital becomes zero"
+    },
+    "correctAnswer": "A",
+    "explanation": "Scheme expenses are deducted in NAV calculation, so higher expenses reduce NAV, all else equal.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-118",
+    "chapterNumber": 2,
+    "topic": "Concept of Mutual Fund",
+    "questionText": "Which feature is NOT a defining advantage of investing through mutual funds according to the chapter?",
+    "options": {
+      "A": "Guaranteed profit",
+      "B": "Professional management",
+      "C": "Portfolio diversification",
+      "D": "Regulated vehicle"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook identifies professional management, diversification and regulation, but does not promise guaranteed profit.",
+    "difficulty": "Easy",
+    "questionType": "Identify Incorrect"
+  },
+  {
+    "id": "VA-CUSTOM-119",
+    "chapterNumber": 2,
+    "topic": "Classification",
+    "questionText": "Which feature is characteristic of a close-ended scheme?",
+    "options": {
+      "A": "It has a pre-decided maturity",
+      "B": "It accepts subscriptions continuously from the AMC forever",
+      "C": "It has no maturity",
+      "D": "It can never be listed"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter describes close-ended funds as having a fixed maturity.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-120",
+    "chapterNumber": 2,
+    "topic": "Classification",
+    "questionText": "Why can an interval fund be viewed as combining features of open-ended and close-ended schemes?",
+    "options": {
+      "A": "It is largely close-ended but opens for transactions during specified periods",
+      "B": "It is always open-ended",
+      "C": "It has no maturity and no transaction periods",
+      "D": "It invests only in intervals of one day"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter expressly describes interval funds as largely close-ended but open-ended at pre-specified intervals.",
+    "difficulty": "Moderate",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-121",
+    "chapterNumber": 3,
+    "topic": "Structure of Mutual Funds",
+    "questionText": "The Indian mutual fund structure is primarily organised around which legal form?",
+    "options": {
+      "A": "Trust structure",
+      "B": "Partnership structure only",
+      "C": "Sole proprietorship",
+      "D": "Informal association"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook describes the mutual fund as a vehicle in the form of a trust.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-122",
+    "chapterNumber": 3,
+    "topic": "Structure of Mutual Funds",
+    "questionText": "Which set represents key constituents of a mutual fund?",
+    "options": {
+      "A": "Sponsor, trustees, AMC and custodian",
+      "B": "Only AMC and distributor",
+      "C": "Only sponsor and auditor",
+      "D": "Only RTA and banker"
+    },
+    "correctAnswer": "A",
+    "explanation": "These are the principal constituents described in the chapter’s structure of mutual funds.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-123",
+    "chapterNumber": 3,
+    "topic": "Sponsors",
+    "questionText": "What is the broad role of a mutual fund sponsor?",
+    "options": {
+      "A": "To establish/set up the mutual fund and meet the prescribed eligibility requirements",
+      "B": "To calculate every investor’s NAV",
+      "C": "To act as the scheme’s distributor only",
+      "D": "To hold all investor bank accounts"
+    },
+    "correctAnswer": "A",
+    "explanation": "The sponsor initiates the establishment of the mutual fund and is subject to regulatory eligibility and due diligence requirements.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-124",
+    "chapterNumber": 3,
+    "topic": "Sponsors",
+    "questionText": "The sponsor’s contribution towards setting up the mutual fund is relevant because:",
+    "options": {
+      "A": "The sponsor’s liability for scheme operations is limited as described in the scheme documents",
+      "B": "The sponsor guarantees all scheme returns",
+      "C": "The sponsor receives all scheme profits",
+      "D": "The sponsor replaces the custodian"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook notes that sponsors are not responsible for scheme losses beyond their contribution towards setting up the scheme.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-125",
+    "chapterNumber": 3,
+    "topic": "Trustees",
+    "questionText": "What is a core responsibility of trustees?",
+    "options": {
+      "A": "Protecting the interests of unitholders and overseeing the mutual fund/AMC framework",
+      "B": "Managing every security trade personally",
+      "C": "Selling units to investors",
+      "D": "Collecting all subscriptions directly"
+    },
+    "correctAnswer": "A",
+    "explanation": "Trustees are responsible for oversight and protection of unitholders’ interests within the trust structure.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-126",
+    "chapterNumber": 3,
+    "topic": "Trustees",
+    "questionText": "Which body oversees the functioning of the AMC in the interest of unitholders?",
+    "options": {
+      "A": "Trustees",
+      "B": "Distributor",
+      "C": "RTA",
+      "D": "Credit rating agency"
+    },
+    "correctAnswer": "A",
+    "explanation": "The trustee function includes oversight of the AMC and safeguarding unitholder interests.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-127",
+    "chapterNumber": 3,
+    "topic": "Trustees",
+    "questionText": "A trustee’s role is best characterised as:",
+    "options": {
+      "A": "Oversight and fiduciary supervision rather than day-to-day portfolio management",
+      "B": "Daily selling of units to every investor",
+      "C": "Operating the stock exchange",
+      "D": "Issuing credit ratings"
+    },
+    "correctAnswer": "A",
+    "explanation": "The AMC carries out investment management; trustees supervise and protect unitholders’ interests.",
+    "difficulty": "Difficult",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-128",
+    "chapterNumber": 3,
+    "topic": "Asset Management Company",
+    "questionText": "What is the principal operating role of an AMC?",
+    "options": {
+      "A": "Managing the mutual fund’s investments and carrying out functions entrusted to it",
+      "B": "Holding securities in a personal account",
+      "C": "Acting as the regulator",
+      "D": "Providing credit ratings to issuers"
+    },
+    "correctAnswer": "A",
+    "explanation": "The AMC is the investment manager and performs the operational and management functions assigned under the mutual fund structure.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-129",
+    "chapterNumber": 3,
+    "topic": "AMC Organisation",
+    "questionText": "Which function is primarily responsible for ensuring compliance within the AMC?",
+    "options": {
+      "A": "Compliance function",
+      "B": "Sales function",
+      "C": "Customer service only",
+      "D": "Fund accounting only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter separately identifies the compliance function as an AMC organisational function.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-130",
+    "chapterNumber": 3,
+    "topic": "AMC Organisation",
+    "questionText": "Which AMC team is most directly associated with investment decisions?",
+    "options": {
+      "A": "Fund management",
+      "B": "Customer service",
+      "C": "Marketing only",
+      "D": "KYC registration agency"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fund management is the function responsible for managing the scheme portfolio and investment decisions.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-131",
+    "chapterNumber": 3,
+    "topic": "AMC Organisation",
+    "questionText": "Which function is most directly linked to investor servicing and operational processing?",
+    "options": {
+      "A": "Operations and customer services team",
+      "B": "Fund management only",
+      "C": "Credit rating agency",
+      "D": "Trustee board only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter identifies operations and customer services as a distinct AMC function.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-132",
+    "chapterNumber": 3,
+    "topic": "AMC Organisation",
+    "questionText": "What is the principal role of the sales and marketing team in an AMC?",
+    "options": {
+      "A": "Supporting distribution, communication and marketing of schemes",
+      "B": "Valuing every security independently",
+      "C": "Acting as statutory auditor",
+      "D": "Holding scheme securities in custody"
+    },
+    "correctAnswer": "A",
+    "explanation": "Sales and marketing supports the commercial communication and distribution of mutual fund schemes.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-133",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "Match the following:\n\nColumn I\n1. Custodian\n2. RTA\n3. KRA\n\nColumn II\na. KYC registration records\nb. Investor records and transaction servicing\nc. Safekeeping of scheme securities\n\nWhich matching is correct?",
+    "options": {
+      "A": "1-c, 2-b, 3-a",
+      "B": "1-b, 2-c, 3-a",
+      "C": "1-a, 2-b, 3-c",
+      "D": "1-c, 2-a, 3-b"
+    },
+    "correctAnswer": "A",
+    "explanation": "The custodian safeguards scheme securities, the RTA maintains investor records and provides transaction/service support, and the KRA supports KYC registration records. Therefore 1-c, 2-b and 3-a is correct.",
+    "difficulty": "Moderate",
+    "questionType": "Match-the-Following"
+  },
+  {
+    "id": "VA-CUSTOM-134",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "What does a fund accountant primarily support?",
+    "options": {
+      "A": "Accounting and valuation-related records and calculations for the fund",
+      "B": "Corporate governance of investee companies",
+      "C": "Investor risk profiling",
+      "D": "Regulatory enforcement"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fund accountants support the accounting and valuation process for schemes.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-135",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "What is the role of an RTA?",
+    "options": {
+      "A": "Maintaining investor records and processing investor transactions/services",
+      "B": "Holding scheme securities in custody",
+      "C": "Managing the portfolio",
+      "D": "Setting monetary policy"
+    },
+    "correctAnswer": "A",
+    "explanation": "Registrars and Transfer Agents handle investor records and transaction/service processing.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-136",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "Which service provider independently audits the mutual fund’s financial statements?",
+    "options": {
+      "A": "Statutory auditor",
+      "B": "Distributor",
+      "C": "Custodian",
+      "D": "KYC agency"
+    },
+    "correctAnswer": "A",
+    "explanation": "The statutory auditor performs the audit function for the mutual fund.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-137",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "What is the role of distributors in the mutual fund ecosystem?",
+    "options": {
+      "A": "Distributing/servicing mutual fund schemes to investors",
+      "B": "Holding all scheme securities",
+      "C": "Approving the scheme’s SID",
+      "D": "Determining SEBI regulations"
+    },
+    "correctAnswer": "A",
+    "explanation": "Distributors provide the distribution channel and related investor-facing services.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-138",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "What is a key role of collecting bankers/payment aggregators?",
+    "options": {
+      "A": "Facilitating collection and payment flows related to investor transactions",
+      "B": "Managing the scheme portfolio",
+      "C": "Providing credit ratings",
+      "D": "Acting as trustee"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter identifies collecting bankers/payment aggregators as transaction-related service providers.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-139",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "What do KYC Registration Agencies primarily support?",
+    "options": {
+      "A": "KYC record and registration infrastructure",
+      "B": "Custody of securities",
+      "C": "Portfolio management",
+      "D": "Scheme audit"
+    },
+    "correctAnswer": "A",
+    "explanation": "KRAs support the KYC registration and record-maintenance process.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-140",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "What is the role of valuation agencies in the mutual fund ecosystem?",
+    "options": {
+      "A": "Supporting valuation of securities/assets",
+      "B": "Selling scheme units",
+      "C": "Handling investor grievances only",
+      "D": "Appointing trustees"
+    },
+    "correctAnswer": "A",
+    "explanation": "Valuation agencies support the valuation process for securities/assets held by schemes.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-141",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "What do credit rating agencies provide?",
+    "options": {
+      "A": "Credit assessments/ratings of debt issuers or instruments",
+      "B": "NAV calculations",
+      "C": "Investor account statements",
+      "D": "Scheme distribution"
+    },
+    "correctAnswer": "A",
+    "explanation": "Credit rating agencies provide credit assessments that help evaluate credit quality.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-142",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "Depositories and Depository Participants primarily support:",
+    "options": {
+      "A": "Holding and transferring securities in dematerialised form",
+      "B": "Scheme advertising",
+      "C": "Risk profiling",
+      "D": "Trustee oversight"
+    },
+    "correctAnswer": "A",
+    "explanation": "Depositories and DPs provide infrastructure for securities held in dematerialised form.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-143",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "What is the role of stock exchanges and transaction platforms in mutual funds?",
+    "options": {
+      "A": "Providing platforms/infrastructure for eligible scheme transactions and trading",
+      "B": "Managing the AMC’s compliance department",
+      "C": "Calculating inflation",
+      "D": "Appointing the sponsor"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter identifies exchanges and transaction platforms as market infrastructure for relevant mutual fund transactions.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-144",
+    "chapterNumber": 3,
+    "topic": "AMFI",
+    "questionText": "What does AMFI stand for?",
+    "options": {
+      "A": "Association of Mutual Funds in India",
+      "B": "Association of Market Finance Institutions",
+      "C": "Asset Management Federation of India",
+      "D": "Association of Money Funds and Investors"
+    },
+    "correctAnswer": "A",
+    "explanation": "AMFI is the Association of Mutual Funds in India.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-145",
+    "chapterNumber": 3,
+    "topic": "AMFI",
+    "questionText": "Which best describes AMFI’s role?",
+    "options": {
+      "A": "An industry association supporting standardisation, best practices and investor awareness",
+      "B": "A statutory regulator replacing SEBI",
+      "C": "A mutual fund scheme",
+      "D": "A stock exchange"
+    },
+    "correctAnswer": "A",
+    "explanation": "AMFI is an industry association; SEBI remains the statutory securities-market regulator.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-146",
+    "chapterNumber": 3,
+    "topic": "AMFI",
+    "questionText": "AMFI’s code for intermediaries primarily aims to:",
+    "options": {
+      "A": "Promote appropriate conduct and professional standards",
+      "B": "Guarantee returns",
+      "C": "Set RBI monetary policy",
+      "D": "Determine stock prices"
+    },
+    "correctAnswer": "A",
+    "explanation": "AMFI codes provide conduct and ethical standards for intermediaries.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-147",
+    "chapterNumber": 3,
+    "topic": "Structure of Mutual Funds",
+    "questionText": "Which sequence best reflects the basic trust-based structure?",
+    "options": {
+      "A": "Sponsor → trustees → AMC → scheme investments, with service providers supporting operations",
+      "B": "Distributor → SEBI → investor → sponsor",
+      "C": "RTA → sponsor → RBI → scheme",
+      "D": "Custodian → investor → trustee → stock exchange only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The structure is built around the sponsor, trustees and AMC, with service providers such as custodian, RTA and others supporting operations.",
+    "difficulty": "Moderate",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-148",
+    "chapterNumber": 3,
+    "topic": "Trustees",
+    "questionText": "Why is trustee oversight important?",
+    "options": {
+      "A": "Because the trustee structure provides an oversight mechanism for protecting unitholders’ interests",
+      "B": "Because trustees guarantee every scheme return",
+      "C": "Because trustees select every investor",
+      "D": "Because trustees are the only service providers"
+    },
+    "correctAnswer": "A",
+    "explanation": "The trust structure places fiduciary oversight on trustees for the benefit of unitholders.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-149",
+    "chapterNumber": 3,
+    "topic": "AMC Organisation",
+    "questionText": "An AMC employee is responsible for ensuring policies and activities comply with applicable requirements. Which function is most relevant?",
+    "options": {
+      "A": "Compliance",
+      "B": "Fund management",
+      "C": "Sales",
+      "D": "Customer service"
+    },
+    "correctAnswer": "A",
+    "explanation": "Compliance is the AMC function responsible for monitoring and supporting adherence to applicable requirements.",
+    "difficulty": "Easy",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-150",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "An investor’s address change and transaction-related records need to be updated. Which service provider is most directly associated?",
+    "options": {
+      "A": "RTA",
+      "B": "Custodian",
+      "C": "Credit rating agency",
+      "D": "Valuation agency"
+    },
+    "correctAnswer": "A",
+    "explanation": "RTAs maintain investor records and process investor service requests and transactions.",
+    "difficulty": "Moderate",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-151",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "A scheme needs securities held safely and separately from the AMC’s operating activities. Which service provider is central?",
+    "options": {
+      "A": "Custodian",
+      "B": "Distributor",
+      "C": "RTA",
+      "D": "KRA"
+    },
+    "correctAnswer": "A",
+    "explanation": "The custodian is responsible for safekeeping scheme securities/assets.",
+    "difficulty": "Easy",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-152",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "A debt instrument’s credit quality is being assessed for investment analysis. Which external service provider is most relevant?",
+    "options": {
+      "A": "Credit rating agency",
+      "B": "RTA",
+      "C": "Payment aggregator",
+      "D": "Distributor"
+    },
+    "correctAnswer": "A",
+    "explanation": "Credit rating agencies provide credit assessments/ratings relevant to debt instruments.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-153",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "Which pair is correctly matched?",
+    "options": {
+      "A": "RTA—investor records; Custodian—securities safekeeping",
+      "B": "RTA—credit ratings; Custodian—KYC registration",
+      "C": "RTA—portfolio management; Custodian—investor grievance redress",
+      "D": "RTA—SEBI regulation; Custodian—sales commission"
+    },
+    "correctAnswer": "A",
+    "explanation": "The RTA handles investor records/services, while the custodian safeguards scheme securities.",
+    "difficulty": "Easy",
+    "questionType": "Match the Following"
+  },
+  {
+    "id": "VA-CUSTOM-154",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "Which pair is correctly matched?",
+    "options": {
+      "A": "Valuation agency—security valuation; KRA—KYC records",
+      "B": "Valuation agency—distribution; KRA—custody",
+      "C": "Valuation agency—auditing; KRA—portfolio management",
+      "D": "Valuation agency—trustee oversight; KRA—credit rating"
+    },
+    "correctAnswer": "A",
+    "explanation": "Valuation agencies support valuation, while KRAs support KYC registration and records.",
+    "difficulty": "Moderate",
+    "questionType": "Match the Following"
+  },
+  {
+    "id": "VA-CUSTOM-155",
+    "chapterNumber": 3,
+    "topic": "AMFI",
+    "questionText": "Which statement correctly distinguishes AMFI from SEBI?",
+    "options": {
+      "A": "AMFI is an industry association; SEBI is the statutory securities-market regulator",
+      "B": "AMFI is the statutory regulator; SEBI is an industry body",
+      "C": "Both are mutual fund AMCs",
+      "D": "Both are stock exchanges"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter distinguishes the industry role of AMFI from SEBI’s regulatory role.",
+    "difficulty": "Easy",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-156",
+    "chapterNumber": 3,
+    "topic": "AMFI",
+    "questionText": "Why are industry codes useful even though SEBI is the regulator?",
+    "options": {
+      "A": "They promote professional and ethical standards within the industry",
+      "B": "They replace legislation",
+      "C": "They guarantee performance",
+      "D": "They eliminate the need for trustees"
+    },
+    "correctAnswer": "A",
+    "explanation": "Industry codes supplement the regulatory framework by promoting good conduct and best practices.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-157",
+    "chapterNumber": 3,
+    "topic": "AMC Organisation",
+    "questionText": "Which function would normally deal with portfolio construction and security selection?",
+    "options": {
+      "A": "Fund management",
+      "B": "Compliance",
+      "C": "Customer service",
+      "D": "Sales and marketing"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fund management handles investment decisions and portfolio management.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-158",
+    "chapterNumber": 3,
+    "topic": "AMC Organisation",
+    "questionText": "Which function would normally be most concerned with investor queries and transaction support?",
+    "options": {
+      "A": "Operations and customer services",
+      "B": "Fund management",
+      "C": "Compliance only",
+      "D": "Credit rating"
+    },
+    "correctAnswer": "A",
+    "explanation": "Operations and customer services handle investor-facing operational support.",
+    "difficulty": "Easy",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-159",
+    "chapterNumber": 3,
+    "topic": "Structure of Mutual Funds",
+    "questionText": "A distributor is asked who owns the economic interest in a scheme’s assets. Which answer best reflects the trust structure?",
+    "options": {
+      "A": "Scheme investors/unitholders have the beneficial interest, subject to the trust framework",
+      "B": "The distributor owns the scheme assets",
+      "C": "The AMC owns all scheme assets for itself",
+      "D": "The auditor owns the securities"
+    },
+    "correctAnswer": "A",
+    "explanation": "The mutual fund trust holds scheme assets for the benefit of unitholders; service providers do not own them merely because they provide services.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-160",
+    "chapterNumber": 3,
+    "topic": "Trustees",
+    "questionText": "If the AMC takes an action that could adversely affect unitholders, which constituent is designed to provide oversight?",
+    "options": {
+      "A": "Trustees",
+      "B": "Distributor",
+      "C": "RTA",
+      "D": "Payment aggregator"
+    },
+    "correctAnswer": "A",
+    "explanation": "Trustees have the oversight role in the trust structure and are responsible for protecting unitholder interests.",
+    "difficulty": "Moderate",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-161",
+    "chapterNumber": 3,
+    "topic": "AMC Organisation",
+    "questionText": "Which is the strongest reason to separate compliance from fund management within an AMC?",
+    "options": {
+      "A": "Independent oversight of compliance supports checks and controls over investment operations",
+      "B": "It ensures all investments are risk-free",
+      "C": "It guarantees higher returns",
+      "D": "It eliminates the need for trustees"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter identifies compliance as a distinct AMC function, supporting control and adherence to requirements.",
+    "difficulty": "Difficult",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-162",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "A mutual fund needs an independent audit, investor-record maintenance, and custody of securities. Which combination is appropriate?",
+    "options": {
+      "A": "Statutory auditor, RTA and custodian",
+      "B": "Distributor, KRA and AMFI",
+      "C": "AMC sales, trustee and distributor",
+      "D": "Credit rating agency, AMFI and sponsor"
+    },
+    "correctAnswer": "A",
+    "explanation": "Each named service provider has the corresponding function described in the chapter.",
+    "difficulty": "Moderate",
+    "questionType": "Case Study"
+  },
+  {
+    "id": "VA-CUSTOM-163",
+    "chapterNumber": 3,
+    "topic": "AMFI",
+    "questionText": "Which activity is most consistent with AMFI’s industry role?",
+    "options": {
+      "A": "Promoting standard practices and investor awareness across mutual funds",
+      "B": "Approving each scheme’s investment portfolio",
+      "C": "Issuing statutory securities regulations",
+      "D": "Guaranteeing scheme returns"
+    },
+    "correctAnswer": "A",
+    "explanation": "AMFI’s role is industry-oriented, including standards, best practices and investor awareness rather than statutory regulation or guarantees.",
+    "difficulty": "Difficult",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-164",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "Which service provider would be most directly relevant when a scheme’s securities need valuation support for NAV-related processes?",
+    "options": {
+      "A": "Valuation agency",
+      "B": "Distributor",
+      "C": "KRA",
+      "D": "Stock exchange"
+    },
+    "correctAnswer": "A",
+    "explanation": "Valuation agencies support valuation of securities/assets, which is relevant to NAV and accounting processes.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-165",
+    "chapterNumber": 3,
+    "topic": "Structure of Mutual Funds",
+    "questionText": "Which statement is incorrect?",
+    "options": {
+      "A": "The custodian safeguards scheme securities",
+      "B": "The AMC manages investments",
+      "C": "The RTA maintains investor records",
+      "D": "The distributor acts as the statutory regulator"
+    },
+    "correctAnswer": "D",
+    "explanation": "The distributor is an intermediary, not the statutory regulator. SEBI performs the regulatory role.",
+    "difficulty": "Easy",
+    "questionType": "Identify Incorrect"
+  },
+  {
+    "id": "VA-CUSTOM-166",
+    "chapterNumber": 3,
+    "topic": "Structure of Mutual Funds",
+    "questionText": "Which statement is correct about the relationship between trustees and AMC?",
+    "options": {
+      "A": "Trustees provide oversight while the AMC performs investment-management and operational functions",
+      "B": "Trustees are merely sales agents",
+      "C": "The AMC regulates trustees as a statutory authority",
+      "D": "Trustees and AMC are the same entity in function"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter distinguishes trustee oversight from AMC management functions.",
+    "difficulty": "Moderate",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-167",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "A transaction platform enables eligible investors to transact in mutual fund units. Which entity category is most directly associated with such infrastructure?",
+    "options": {
+      "A": "Stock exchanges and transaction platforms",
+      "B": "Credit rating agencies",
+      "C": "Auditors",
+      "D": "Trustees"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter lists stock exchanges and transaction platforms as transaction infrastructure.",
+    "difficulty": "Easy",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-168",
+    "chapterNumber": 3,
+    "topic": "Structure of Mutual Funds",
+    "questionText": "Which statement best explains why multiple service providers are used in a mutual fund?",
+    "options": {
+      "A": "Specialised functions such as custody, records, accounting, valuation and payments require dedicated support",
+      "B": "It allows the AMC to avoid all regulation",
+      "C": "It guarantees returns",
+      "D": "It eliminates the need for investors"
+    },
+    "correctAnswer": "A",
+    "explanation": "The ecosystem uses specialised providers for different operational and control functions.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-169",
+    "chapterNumber": 3,
+    "topic": "Sponsors",
+    "questionText": "Which statement about a sponsor is most consistent with the chapter?",
+    "options": {
+      "A": "The sponsor sets up the mutual fund subject to eligibility and regulatory requirements",
+      "B": "The sponsor is the scheme’s daily portfolio manager",
+      "C": "The sponsor is the RTA",
+      "D": "The sponsor is the credit rating agency"
+    },
+    "correctAnswer": "A",
+    "explanation": "The sponsor is the initiating entity for establishing the mutual fund and must satisfy applicable requirements.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-170",
+    "chapterNumber": 3,
+    "topic": "Trustees",
+    "questionText": "Which is the best description of trustees in the mutual fund structure?",
+    "options": {
+      "A": "Fiduciaries responsible for oversight in the interests of unitholders",
+      "B": "Sales intermediaries",
+      "C": "Portfolio custodians",
+      "D": "KYC agencies"
+    },
+    "correctAnswer": "A",
+    "explanation": "Trustees act in a fiduciary/oversight capacity for unitholders within the trust structure.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-171",
+    "chapterNumber": 3,
+    "topic": "AMFI",
+    "questionText": "A distributor wants guidance on industry best practices and ethical conduct. Which body’s industry code is relevant?",
+    "options": {
+      "A": "AMFI",
+      "B": "RBI",
+      "C": "Stock exchange",
+      "D": "Depository"
+    },
+    "correctAnswer": "A",
+    "explanation": "AMFI’s codes set industry-oriented conduct and best-practice standards for intermediaries.",
+    "difficulty": "Easy",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-172",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "Which provider is most closely associated with maintaining records of KYC registration?",
+    "options": {
+      "A": "KYC Registration Agency",
+      "B": "Custodian",
+      "C": "Fund accountant",
+      "D": "Distributor"
+    },
+    "correctAnswer": "A",
+    "explanation": "KRAs support KYC registration and related records.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-173",
+    "chapterNumber": 3,
+    "topic": "AMC Organisation",
+    "questionText": "Which of the following is NOT an AMC organisational function listed in the chapter?",
+    "options": {
+      "A": "Fund management",
+      "B": "Compliance",
+      "C": "Operations and customer services",
+      "D": "Securities market regulation"
+    },
+    "correctAnswer": "D",
+    "explanation": "Securities-market regulation is a regulator function, not an AMC organisational function.",
+    "difficulty": "Easy",
+    "questionType": "Identify Incorrect"
+  },
+  {
+    "id": "VA-CUSTOM-174",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "Which statement best distinguishes a custodian from an RTA?",
+    "options": {
+      "A": "Custodian safeguards scheme securities; RTA handles investor records and transactions",
+      "B": "Custodian handles KYC; RTA gives credit ratings",
+      "C": "Custodian audits accounts; RTA regulates the AMC",
+      "D": "Custodian distributes schemes; RTA manages portfolios"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter assigns custody and investor-record/transaction functions to these different providers.",
+    "difficulty": "Difficult",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-175",
+    "chapterNumber": 3,
+    "topic": "Structure of Mutual Funds",
+    "questionText": "If the sponsor, trustees and AMC each perform their prescribed functions, which principle is best illustrated?",
+    "options": {
+      "A": "Separation of responsibilities and checks within the mutual fund structure",
+      "B": "Elimination of all market risk",
+      "C": "Guarantee of returns",
+      "D": "Replacement of all service providers"
+    },
+    "correctAnswer": "A",
+    "explanation": "The legal structure allocates distinct roles to promote governance, oversight and operational execution.",
+    "difficulty": "Difficult",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-176",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "Which sequence best matches an investor transaction ecosystem?",
+    "options": {
+      "A": "Investor transaction → RTA/transaction infrastructure → payment processing, with custody and accounting support",
+      "B": "Investor transaction → credit rating agency → SEBI guarantee",
+      "C": "Investor transaction → sponsor personally holds securities",
+      "D": "Investor transaction → auditor sells units"
+    },
+    "correctAnswer": "A",
+    "explanation": "Mutual fund operations use transaction/record, payment, custody and accounting functions across specialised providers.",
+    "difficulty": "Difficult",
+    "questionType": "Case Study"
+  },
+  {
+    "id": "VA-CUSTOM-177",
+    "chapterNumber": 3,
+    "topic": "AMFI",
+    "questionText": "Which statement about AMFI is most accurate?",
+    "options": {
+      "A": "It supports the mutual fund industry through common practices and codes but does not replace SEBI’s statutory regulatory authority",
+      "B": "It approves all mutual fund schemes",
+      "C": "It guarantees investor losses",
+      "D": "It is the trustee of every mutual fund"
+    },
+    "correctAnswer": "A",
+    "explanation": "AMFI is an industry association and SEBI remains the statutory regulator.",
+    "difficulty": "Difficult",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-178",
+    "chapterNumber": 3,
+    "topic": "Structure of Mutual Funds",
+    "questionText": "Why is the trust structure important from an investor-protection perspective?",
+    "options": {
+      "A": "It creates a framework in which trustees oversee the fund and protect unitholder interests",
+      "B": "It guarantees investment returns",
+      "C": "It eliminates the need for disclosure",
+      "D": "It transfers all risk to the sponsor"
+    },
+    "correctAnswer": "A",
+    "explanation": "The trust structure separates ownership/beneficial interests and oversight responsibilities, with trustees acting for unitholders.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-179",
+    "chapterNumber": 3,
+    "topic": "Service Providers",
+    "questionText": "Which service provider is most directly concerned with maintaining accounting records for a mutual fund scheme?",
+    "options": {
+      "A": "Fund accountant",
+      "B": "Distributor",
+      "C": "Custodian",
+      "D": "KRA"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fund accountants support the accounting records and calculations of the scheme.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-180",
+    "chapterNumber": 3,
+    "topic": "Structure of Mutual Funds",
+    "questionText": "Which statement best describes the purpose of the custodian in the mutual fund structure?",
+    "options": {
+      "A": "Safekeeping scheme securities/assets",
+      "B": "Selecting the scheme’s benchmark",
+      "C": "Approving advertisements",
+      "D": "Conducting investor risk profiling"
+    },
+    "correctAnswer": "A",
+    "explanation": "The custodian is responsible for safekeeping the scheme’s securities/assets.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-181",
+    "chapterNumber": 4,
+    "topic": "Role of Regulators",
+    "questionText": "Why do financial-market regulators exist?",
+    "options": {
+      "A": "To regulate intermediaries and markets, protect investors and promote orderly development",
+      "B": "To guarantee all investments",
+      "C": "To set every investor’s portfolio",
+      "D": "To eliminate all market movements"
+    },
+    "correctAnswer": "A",
+    "explanation": "The regulatory framework is designed to protect investors and promote fair, orderly and transparent markets.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-182",
+    "chapterNumber": 4,
+    "topic": "SEBI",
+    "questionText": "Which body is the principal securities-market regulator relevant to mutual funds in India?",
+    "options": {
+      "A": "SEBI",
+      "B": "AMFI",
+      "C": "RTA",
+      "D": "Stock exchange"
+    },
+    "correctAnswer": "A",
+    "explanation": "SEBI is the securities-market regulator and regulates mutual funds under its regulatory framework.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-183",
+    "chapterNumber": 4,
+    "topic": "SEBI Regulations",
+    "questionText": "The mutual fund regulatory framework referred to in the workbook is based on:",
+    "options": {
+      "A": "SEBI (Mutual Funds) Regulations, 2026, as amended",
+      "B": "Only the Income-tax Act",
+      "C": "Only the Companies Act",
+      "D": "Only AMFI circulars"
+    },
+    "correctAnswer": "A",
+    "explanation": "The September 2026 workbook refers to the SEBI (Mutual Funds) Regulations, 2026, as amended.",
+    "difficulty": "Moderate",
+    "questionType": "Factual"
+  },
+  {
+    "id": "VA-CUSTOM-184",
+    "chapterNumber": 4,
+    "topic": "SEBI Regulations",
+    "questionText": "What is the broad purpose of SEBI’s regulatory reforms for mutual funds?",
+    "options": {
+      "A": "Investor protection, transparency, governance and orderly development",
+      "B": "Guaranteeing scheme returns",
+      "C": "Eliminating all competition",
+      "D": "Fixing stock prices"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter discusses reforms and regulations in the context of investor protection, transparency and market development.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-185",
+    "chapterNumber": 4,
+    "topic": "Investment Restrictions",
+    "questionText": "Why are investment restrictions imposed on mutual fund schemes?",
+    "options": {
+      "A": "To control concentration and other risks and protect investors",
+      "B": "To guarantee a profit",
+      "C": "To prevent all trading",
+      "D": "To make all schemes identical"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investment restrictions are designed to constrain risks such as excessive concentration and protect investors.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-186",
+    "chapterNumber": 4,
+    "topic": "Advertisement Code",
+    "questionText": "What is the purpose of the SEBI Advertisement Code for mutual funds?",
+    "options": {
+      "A": "To ensure that advertisements are fair, clear and not misleading",
+      "B": "To guarantee scheme returns",
+      "C": "To select fund managers",
+      "D": "To determine NAV"
+    },
+    "correctAnswer": "A",
+    "explanation": "The advertisement framework seeks responsible communication and prevents misleading representations.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-187",
+    "chapterNumber": 4,
+    "topic": "Investor Rights",
+    "questionText": "Which of the following statements is correct?\n1. Investors are entitled to relevant information and fair treatment.\n2. Investors must provide accurate information and comply with applicable processes.\n3. Investor rights include a guaranteed positive return.",
+    "options": {
+      "A": "1 and 2 only",
+      "B": "1 and 3 only",
+      "C": "2 and 3 only",
+      "D": "1, 2 and 3"
+    },
+    "correctAnswer": "A",
+    "explanation": "The regulatory framework provides investors with information and fair-treatment rights and also imposes obligations such as accurate information and compliance with applicable processes. It does not guarantee positive returns on market-linked investments.",
+    "difficulty": "Moderate",
+    "questionType": "Statement-based"
+  },
+  {
+    "id": "VA-CUSTOM-188",
+    "chapterNumber": 4,
+    "topic": "Investor Obligations",
+    "questionText": "Which is an investor obligation?",
+    "options": {
+      "A": "Providing accurate and required information for transactions and KYC",
+      "B": "Demanding guaranteed returns",
+      "C": "Ignoring scheme documents",
+      "D": "Trading on behalf of the AMC"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investors must provide required and accurate information and comply with applicable processes such as KYC.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-189",
+    "chapterNumber": 4,
+    "topic": "Distributor Due Diligence",
+    "questionText": "Why do AMCs conduct due diligence on distributors?",
+    "options": {
+      "A": "To assess whether distributors meet applicable requirements and standards",
+      "B": "To guarantee their sales targets",
+      "C": "To eliminate all competition",
+      "D": "To determine the stock market index"
+    },
+    "correctAnswer": "A",
+    "explanation": "AMC due diligence is intended to assess distributor suitability, conduct and compliance with applicable requirements.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-190",
+    "chapterNumber": 4,
+    "topic": "Distributor Due Diligence",
+    "questionText": "Which factor would be relevant in distributor due diligence?",
+    "options": {
+      "A": "Business practices and compliance record",
+      "B": "Only office paint colour",
+      "C": "Only the distributor’s personal investment return",
+      "D": "Only the scheme NAV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Due diligence examines relevant business and compliance aspects rather than irrelevant personal characteristics.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-191",
+    "chapterNumber": 4,
+    "topic": "Investor Grievance",
+    "questionText": "What is the first principle of investor grievance redressal?",
+    "options": {
+      "A": "Provide an accessible mechanism for registering and resolving complaints",
+      "B": "Ignore complaints until redemption",
+      "C": "Guarantee compensation in every case",
+      "D": "Route all complaints to the stock exchange only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The framework provides mechanisms through which investors can register and seek resolution of grievances.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-192",
+    "chapterNumber": 4,
+    "topic": "Investor Grievance",
+    "questionText": "Which entity is generally the first point for a mutual fund investor’s scheme-related grievance?",
+    "options": {
+      "A": "The mutual fund/AMC through its grievance mechanism",
+      "B": "Only the credit rating agency",
+      "C": "Only the depository",
+      "D": "Only the auditor"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investors can register grievances with the mutual fund/AMC, with escalation mechanisms available where appropriate.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-193",
+    "chapterNumber": 4,
+    "topic": "AMFI Code",
+    "questionText": "What does the AMFI Code of Conduct seek to promote among intermediaries?",
+    "options": {
+      "A": "Ethical and professional conduct",
+      "B": "Guaranteed performance",
+      "C": "Tax exemption",
+      "D": "Market timing"
+    },
+    "correctAnswer": "A",
+    "explanation": "The AMFI Code of Conduct establishes standards for ethical and professional intermediary conduct.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-194",
+    "chapterNumber": 4,
+    "topic": "AMFI Code",
+    "questionText": "Which behaviour would conflict with the spirit of the AMFI Code of Conduct?",
+    "options": {
+      "A": "Making misleading claims to induce investment",
+      "B": "Providing accurate information",
+      "C": "Disclosing relevant risks",
+      "D": "Treating investors fairly"
+    },
+    "correctAnswer": "A",
+    "explanation": "Misleading investors is inconsistent with professional and ethical conduct.",
+    "difficulty": "Easy",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-195",
+    "chapterNumber": 4,
+    "topic": "SEBI",
+    "questionText": "Which statement best distinguishes SEBI from AMFI?",
+    "options": {
+      "A": "SEBI is the regulator; AMFI is an industry association",
+      "B": "AMFI is the regulator; SEBI is an industry association",
+      "C": "Both are regulators",
+      "D": "Neither has a role in mutual funds"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter distinguishes SEBI’s statutory regulatory role from AMFI’s industry role.",
+    "difficulty": "Easy",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-196",
+    "chapterNumber": 4,
+    "topic": "Advertisement Code",
+    "questionText": "A mutual fund advertisement highlights past returns but suggests they will definitely continue. What is the key concern?",
+    "options": {
+      "A": "The representation may be misleading because past performance is not a guarantee of future performance",
+      "B": "The advertisement is automatically valid",
+      "C": "Past performance guarantees future returns",
+      "D": "Returns need not be disclosed"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook stresses that past performance is indicative and does not guarantee future performance.",
+    "difficulty": "Moderate",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-197",
+    "chapterNumber": 4,
+    "topic": "Investment Restrictions",
+    "questionText": "A scheme invests heavily in a single issuer beyond the permitted framework. Which regulatory concept is most directly implicated?",
+    "options": {
+      "A": "Investment concentration restrictions",
+      "B": "KYC requirements",
+      "C": "Advertisement code",
+      "D": "Grievance redressal"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investment restrictions include controls intended to prevent excessive concentration and related risks.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-198",
+    "chapterNumber": 4,
+    "topic": "Investor Rights",
+    "questionText": "Which statement is correct?",
+    "options": {
+      "A": "Investors have rights to information and fair treatment, but they do not have a right to guaranteed returns",
+      "B": "Investors can demand guaranteed NAV",
+      "C": "Investors can require an AMC to eliminate losses",
+      "D": "Investors are exempt from KYC"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investor protection does not mean guaranteeing investment outcomes; investors receive disclosure and fair-treatment rights.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-199",
+    "chapterNumber": 4,
+    "topic": "Distributor Due Diligence",
+    "questionText": "Why is distributor due diligence important from an investor-protection perspective?",
+    "options": {
+      "A": "A distributor’s conduct can directly affect how schemes are presented and sold to investors",
+      "B": "Distributors determine monetary policy",
+      "C": "Distributors guarantee scheme NAV",
+      "D": "Distributors are the scheme custodians"
+    },
+    "correctAnswer": "A",
+    "explanation": "Because distributors interact with investors, their conduct and practices are relevant to investor protection.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-200",
+    "chapterNumber": 4,
+    "topic": "Investor Grievance",
+    "questionText": "An investor’s complaint remains unresolved by the AMC. What is the regulatory principle?",
+    "options": {
+      "A": "The investor can use the prescribed escalation/grievance-redress mechanisms",
+      "B": "The investor must accept the loss",
+      "C": "The investor can change the scheme NAV",
+      "D": "The distributor automatically becomes liable for all losses"
+    },
+    "correctAnswer": "A",
+    "explanation": "The framework provides escalation channels for unresolved grievances rather than requiring investors to accept unresolved complaints.",
+    "difficulty": "Moderate",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-201",
+    "chapterNumber": 4,
+    "topic": "AMFI Code",
+    "questionText": "A distributor recommends a scheme by hiding material risks. Which principle is most clearly breached?",
+    "options": {
+      "A": "Fair and transparent dealing",
+      "B": "Asset allocation",
+      "C": "Custody",
+      "D": "Unit capital"
+    },
+    "correctAnswer": "A",
+    "explanation": "Concealing material risks conflicts with fair, transparent and ethical intermediary conduct.",
+    "difficulty": "Moderate",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-202",
+    "chapterNumber": 4,
+    "topic": "SEBI Reforms",
+    "questionText": "Why are regulatory reforms periodically introduced?",
+    "options": {
+      "A": "To respond to market developments and strengthen investor protection and market functioning",
+      "B": "To freeze all mutual fund products",
+      "C": "To guarantee every investor the same return",
+      "D": "To eliminate disclosure"
+    },
+    "correctAnswer": "A",
+    "explanation": "Regulatory reforms evolve with market practices to strengthen the framework and investor protection.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-203",
+    "chapterNumber": 4,
+    "topic": "Investment Restrictions",
+    "questionText": "Which statement best captures the purpose of scheme-level investment restrictions?",
+    "options": {
+      "A": "They constrain how scheme assets may be invested so that stated risks and concentration are managed",
+      "B": "They guarantee that NAV never falls",
+      "C": "They permit unlimited exposure to one issuer",
+      "D": "They replace the scheme objective"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investment restrictions provide boundaries for portfolio construction and risk management.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-204",
+    "chapterNumber": 4,
+    "topic": "Advertisement Code",
+    "questionText": "Which advertisement would be most consistent with regulatory principles?",
+    "options": {
+      "A": "A balanced presentation of the scheme, risks and performance with required disclosures",
+      "B": "A promise that the scheme cannot lose money",
+      "C": "A claim that past returns are guaranteed",
+      "D": "A statement that SEBI approves the accuracy of every scheme outcome"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fair and non-misleading communication requires balanced and appropriate disclosure.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-205",
+    "chapterNumber": 4,
+    "topic": "Investor Obligations",
+    "questionText": "Why should an investor read scheme documents before investing?",
+    "options": {
+      "A": "To understand objectives, risks, features, costs and other relevant terms",
+      "B": "To guarantee a profit",
+      "C": "To avoid all taxes",
+      "D": "To eliminate the need for KYC"
+    },
+    "correctAnswer": "A",
+    "explanation": "Scheme documents provide information necessary for an informed investment decision.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-206",
+    "chapterNumber": 4,
+    "topic": "Investor Rights",
+    "questionText": "Which of the following is NOT a legitimate expectation from the regulatory framework?",
+    "options": {
+      "A": "Guaranteed positive return",
+      "B": "Access to prescribed disclosures",
+      "C": "Fair treatment",
+      "D": "A grievance-redress mechanism"
+    },
+    "correctAnswer": "A",
+    "explanation": "Regulation does not guarantee positive returns; market-linked investments carry risk.",
+    "difficulty": "Easy",
+    "questionType": "Identify Incorrect"
+  },
+  {
+    "id": "VA-CUSTOM-207",
+    "chapterNumber": 4,
+    "topic": "Distributor Due Diligence",
+    "questionText": "An AMC discovers serious compliance concerns in a distributor’s practices. Which action is most consistent with the purpose of due diligence?",
+    "options": {
+      "A": "Take appropriate risk-based action under the applicable framework",
+      "B": "Ignore the issue because sales are high",
+      "C": "Guarantee the distributor’s commissions",
+      "D": "Transfer the concern to the custodian"
+    },
+    "correctAnswer": "A",
+    "explanation": "Due diligence is intended to identify distributor risks and support appropriate action.",
+    "difficulty": "Difficult",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-208",
+    "chapterNumber": 4,
+    "topic": "Investor Grievance",
+    "questionText": "Which sequence is most appropriate for a grievance?",
+    "options": {
+      "A": "Raise it through the mutual fund’s grievance mechanism and escalate through prescribed channels if unresolved",
+      "B": "Immediately change the NAV",
+      "C": "Ask the credit rating agency to decide",
+      "D": "Ask another investor to settle it"
+    },
+    "correctAnswer": "A",
+    "explanation": "The grievance framework provides an initial complaint route and escalation mechanisms.",
+    "difficulty": "Moderate",
+    "questionType": "Process"
+  },
+  {
+    "id": "VA-CUSTOM-209",
+    "chapterNumber": 4,
+    "topic": "AMFI Code",
+    "questionText": "A distributor is offered an incentive to recommend a scheme without considering investor suitability. Which principle is most relevant?",
+    "options": {
+      "A": "Investor interest and fair dealing should take precedence over conflicted incentives",
+      "B": "Commission should always determine recommendations",
+      "C": "Investor suitability is irrelevant",
+      "D": "Higher incentives guarantee better products"
+    },
+    "correctAnswer": "A",
+    "explanation": "The conduct framework requires professional, fair and investor-focused behaviour rather than sales-driven recommendations.",
+    "difficulty": "Difficult",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-210",
+    "chapterNumber": 4,
+    "topic": "SEBI",
+    "questionText": "Which body can prescribe binding regulatory requirements for mutual funds within the securities-market framework?",
+    "options": {
+      "A": "SEBI",
+      "B": "AMFI alone",
+      "C": "RTA",
+      "D": "Distributor association"
+    },
+    "correctAnswer": "A",
+    "explanation": "SEBI is the statutory regulator with regulatory authority over mutual funds in the securities market.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-211",
+    "chapterNumber": 4,
+    "topic": "Investment Restrictions",
+    "questionText": "Why are restrictions on scheme investments especially relevant to investor protection?",
+    "options": {
+      "A": "Investors buy units based on a stated strategy and need safeguards against excessive or inappropriate exposures",
+      "B": "They guarantee all securities are profitable",
+      "C": "They prevent all market risk",
+      "D": "They eliminate the need for disclosures"
+    },
+    "correctAnswer": "A",
+    "explanation": "Restrictions help keep portfolios within regulatory boundaries consistent with investor protection.",
+    "difficulty": "Difficult",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-212",
+    "chapterNumber": 4,
+    "topic": "Advertisement Code",
+    "questionText": "A scheme advertisement uses a single unusually strong past-return period without required context. What is the likely regulatory concern?",
+    "options": {
+      "A": "It can create a misleading impression of performance",
+      "B": "It improves transparency automatically",
+      "C": "It guarantees future performance",
+      "D": "It eliminates risk disclosures"
+    },
+    "correctAnswer": "A",
+    "explanation": "Performance communication must not create misleading impressions, particularly when past performance is not predictive of future outcomes.",
+    "difficulty": "Difficult",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-213",
+    "chapterNumber": 4,
+    "topic": "Investor Rights",
+    "questionText": "Which statement best reflects the balance between investor rights and investor obligations?",
+    "options": {
+      "A": "Investors are entitled to information and fair treatment but must also provide accurate information and comply with applicable requirements",
+      "B": "Investors have only rights and no obligations",
+      "C": "Investors have only obligations and no rights",
+      "D": "Investors can ignore scheme terms if dissatisfied"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter presents both rights and obligations as part of the regulatory framework.",
+    "difficulty": "Moderate",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-214",
+    "chapterNumber": 4,
+    "topic": "Regulatory Framework",
+    "questionText": "Which statement is correct about regulation and investment risk?",
+    "options": {
+      "A": "Regulation can strengthen investor protection and transparency but cannot eliminate market risk",
+      "B": "Regulation guarantees every scheme profit",
+      "C": "Regulation prevents all NAV fluctuations",
+      "D": "Regulation makes all products identical"
+    },
+    "correctAnswer": "A",
+    "explanation": "Regulation governs conduct, disclosures and risk controls, but market-linked investment risk remains.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-215",
+    "chapterNumber": 4,
+    "topic": "Distributor Due Diligence",
+    "questionText": "Why may AMCs need ongoing rather than one-time distributor due diligence?",
+    "options": {
+      "A": "Distributor practices and risk profiles can change over time",
+      "B": "Because NAV changes every minute",
+      "C": "Because trustees change daily",
+      "D": "Because the stock exchange determines commissions"
+    },
+    "correctAnswer": "A",
+    "explanation": "Due diligence is meaningful when it reflects the distributor’s continuing conduct and compliance profile.",
+    "difficulty": "Moderate",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-216",
+    "chapterNumber": 4,
+    "topic": "Investor Grievance",
+    "questionText": "Which is the best reason for a formal grievance mechanism?",
+    "options": {
+      "A": "It creates an accountable process for recording, addressing and escalating investor complaints",
+      "B": "It guarantees compensation for every complaint",
+      "C": "It replaces all investor disclosures",
+      "D": "It transfers all risk to the AMC"
+    },
+    "correctAnswer": "A",
+    "explanation": "A formal mechanism provides accountability and a structured route for resolving complaints.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-217",
+    "chapterNumber": 4,
+    "topic": "AMFI Code",
+    "questionText": "Which action best reflects professional intermediary conduct?",
+    "options": {
+      "A": "Explaining scheme features and material risks accurately before recommending an investment",
+      "B": "Promising a fixed return where none exists",
+      "C": "Hiding charges",
+      "D": "Pressuring an investor to switch for commission"
+    },
+    "correctAnswer": "A",
+    "explanation": "Professional conduct requires accurate, fair and investor-focused communication.",
+    "difficulty": "Easy",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-218",
+    "chapterNumber": 4,
+    "topic": "SEBI Regulations",
+    "questionText": "Which statement about the mutual fund regulations is most accurate?",
+    "options": {
+      "A": "They establish requirements for scheme operations, investments, disclosures and conduct",
+      "B": "They guarantee scheme returns",
+      "C": "They apply only to distributors and not AMCs",
+      "D": "They replace all investor responsibilities"
+    },
+    "correctAnswer": "A",
+    "explanation": "The regulatory framework covers multiple aspects of mutual fund operations and investor protection.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-219",
+    "chapterNumber": 4,
+    "topic": "Advertisement Code",
+    "questionText": "Which statement should an advertisement avoid?",
+    "options": {
+      "A": "An assurance that investors will definitely earn a particular return",
+      "B": "A balanced risk disclosure",
+      "C": "A statement of scheme objective",
+      "D": "A factual description of scheme features"
+    },
+    "correctAnswer": "A",
+    "explanation": "Guaranteeing a market-linked return is misleading where no such guarantee exists.",
+    "difficulty": "Easy",
+    "questionType": "Identify Incorrect"
+  },
+  {
+    "id": "VA-CUSTOM-220",
+    "chapterNumber": 4,
+    "topic": "Investment Restrictions",
+    "questionText": "Which of the following would be the strongest reason to restrict concentration in one issuer?",
+    "options": {
+      "A": "To reduce the impact of an issuer-specific adverse event on the scheme",
+      "B": "To guarantee market-wide returns",
+      "C": "To eliminate inflation",
+      "D": "To increase the face value"
+    },
+    "correctAnswer": "A",
+    "explanation": "Concentration limits help reduce issuer-specific concentration risk.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-221",
+    "chapterNumber": 4,
+    "topic": "Investor Grievance",
+    "questionText": "An investor has a service complaint about records maintained by the mutual fund. Which principle applies?",
+    "options": {
+      "A": "The investor should have access to a grievance mechanism and the complaint should be appropriately addressed",
+      "B": "The investor should contact only the stock exchange",
+      "C": "The complaint should be ignored if the scheme performed well",
+      "D": "The investor loses all rights after investing"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investor-service grievances are part of the formal grievance-redress framework.",
+    "difficulty": "Easy",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-222",
+    "chapterNumber": 4,
+    "topic": "Regulatory Framework",
+    "questionText": "Which statement best describes the role of regulation in mutual funds?",
+    "options": {
+      "A": "It sets a framework for fair conduct, disclosure, governance and risk controls",
+      "B": "It predicts market prices",
+      "C": "It selects investments for every investor",
+      "D": "It guarantees liquidity at all times"
+    },
+    "correctAnswer": "A",
+    "explanation": "Regulation establishes the operating and investor-protection framework but does not make market outcomes certain.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-223",
+    "chapterNumber": 4,
+    "topic": "Distributor Due Diligence",
+    "questionText": "A distributor has strong sales but repeated compliance failures. Which conclusion is most appropriate?",
+    "options": {
+      "A": "Sales performance alone should not override compliance concerns",
+      "B": "High sales automatically prove suitability",
+      "C": "Compliance is irrelevant for distributors",
+      "D": "The distributor becomes the trustee"
+    },
+    "correctAnswer": "A",
+    "explanation": "Due diligence considers conduct and compliance, not merely sales volume.",
+    "difficulty": "Difficult",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-224",
+    "chapterNumber": 4,
+    "topic": "AMFI Code",
+    "questionText": "Which scenario most clearly demonstrates a conflict with investor-first conduct?",
+    "options": {
+      "A": "Recommending a scheme solely because it pays a higher incentive despite poor suitability",
+      "B": "Explaining risks",
+      "C": "Comparing scheme features objectively",
+      "D": "Providing required disclosures"
+    },
+    "correctAnswer": "A",
+    "explanation": "Recommendations driven solely by incentives can conflict with fair and investor-focused conduct.",
+    "difficulty": "Difficult",
+    "questionType": "Case Study"
+  },
+  {
+    "id": "VA-CUSTOM-225",
+    "chapterNumber": 4,
+    "topic": "Investor Rights",
+    "questionText": "An investor wants to understand scheme risks before investing. Which regulatory principle supports the request?",
+    "options": {
+      "A": "Disclosure and informed decision-making",
+      "B": "Guaranteed return",
+      "C": "Exemption from all charges",
+      "D": "Automatic redemption"
+    },
+    "correctAnswer": "A",
+    "explanation": "Disclosure requirements support informed investment decisions.",
+    "difficulty": "Easy",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-226",
+    "chapterNumber": 4,
+    "topic": "SEBI",
+    "questionText": "Which statement is NOT correct?",
+    "options": {
+      "A": "SEBI is an industry association rather than a regulator",
+      "B": "SEBI regulates securities markets",
+      "C": "SEBI regulates mutual funds within its framework",
+      "D": "SEBI’s role includes investor protection"
+    },
+    "correctAnswer": "A",
+    "explanation": "SEBI is the statutory regulator, not an industry association.",
+    "difficulty": "Easy",
+    "questionType": "Identify Incorrect"
+  },
+  {
+    "id": "VA-CUSTOM-227",
+    "chapterNumber": 4,
+    "topic": "Regulatory Framework",
+    "questionText": "Why must a distributor understand the regulatory framework even when the AMC is responsible for scheme management?",
+    "options": {
+      "A": "Distributor conduct directly affects how products are presented and investors are treated",
+      "B": "The distributor becomes the trustee",
+      "C": "The distributor determines NAV",
+      "D": "The distributor controls SEBI"
+    },
+    "correctAnswer": "A",
+    "explanation": "Intermediary conduct forms an important part of investor protection and compliance.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-228",
+    "chapterNumber": 4,
+    "topic": "Advertisement Code",
+    "questionText": "A distributor forwards an advertisement that is factually correct but omits a material risk that changes the impression of the product. What is the main issue?",
+    "options": {
+      "A": "The communication may still be misleading because material context is missing",
+      "B": "It is automatically acceptable because every statement is technically true",
+      "C": "Risk disclosures are never relevant",
+      "D": "Only the NAV matters"
+    },
+    "correctAnswer": "A",
+    "explanation": "Regulatory communication standards concern the overall impression and completeness, not merely isolated factual accuracy.",
+    "difficulty": "Difficult",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-229",
+    "chapterNumber": 4,
+    "topic": "Investor Obligations",
+    "questionText": "Which combination best represents an investor’s regulatory responsibilities?",
+    "options": {
+      "A": "Provide accurate information, complete required KYC and follow scheme/process requirements",
+      "B": "Demand guaranteed returns and ignore KYC",
+      "C": "Avoid reading disclosures",
+      "D": "Delegate all legal obligations to the distributor"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investor obligations include accurate information and compliance with KYC and transaction requirements.",
+    "difficulty": "Moderate",
+    "questionType": "Statement-based"
+  },
+  {
+    "id": "VA-CUSTOM-230",
+    "chapterNumber": 4,
+    "topic": "Role of Regulators",
+    "questionText": "Which objective is most consistent with securities-market regulation?",
+    "options": {
+      "A": "Protecting investors while supporting fair and orderly markets",
+      "B": "Guaranteeing profits",
+      "C": "Preventing all price changes",
+      "D": "Selecting individual investments"
+    },
+    "correctAnswer": "A",
+    "explanation": "Regulation seeks investor protection and orderly market development rather than guaranteed investment outcomes.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-231",
+    "chapterNumber": 4,
+    "topic": "SEBI",
+    "questionText": "Which institution’s regulatory framework governs mutual funds in the securities market?",
+    "options": {
+      "A": "SEBI",
+      "B": "AMFI",
+      "C": "RTA",
+      "D": "Distributor"
+    },
+    "correctAnswer": "A",
+    "explanation": "SEBI is the securities-market regulator and its regulations govern mutual funds.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-232",
+    "chapterNumber": 4,
+    "topic": "Investment Restrictions",
+    "questionText": "An investment restriction limits exposure to an issuer. What risk is it principally intended to address?",
+    "options": {
+      "A": "Concentration risk",
+      "B": "Inflation risk",
+      "C": "Behavioural bias",
+      "D": "Ticket-size risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "Issuer exposure limits help manage concentration risk in a scheme portfolio.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-233",
+    "chapterNumber": 4,
+    "topic": "Advertisement Code",
+    "questionText": "Which statement is most appropriate for a mutual fund advertisement?",
+    "options": {
+      "A": "It should present scheme information without creating a misleading impression",
+      "B": "It should promise a fixed profit",
+      "C": "It should hide material risks",
+      "D": "It should imply that SEBI guarantees returns"
+    },
+    "correctAnswer": "A",
+    "explanation": "The advertisement framework is intended to ensure fair, clear and non-misleading communication.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-234",
+    "chapterNumber": 4,
+    "topic": "Investor Rights",
+    "questionText": "Which right supports an investor’s ability to make an informed decision?",
+    "options": {
+      "A": "Access to relevant scheme information and disclosures",
+      "B": "Guaranteed capital appreciation",
+      "C": "Guaranteed redemption at any price",
+      "D": "Exemption from all charges"
+    },
+    "correctAnswer": "A",
+    "explanation": "Disclosure and information rights support informed investment decisions.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-235",
+    "chapterNumber": 4,
+    "topic": "Distributor Due Diligence",
+    "questionText": "What is the central purpose of AMC due diligence on distributors?",
+    "options": {
+      "A": "Assessing their conduct, business practices and compliance with applicable requirements",
+      "B": "Guaranteeing their sales revenue",
+      "C": "Choosing the benchmark index",
+      "D": "Calculating scheme NAV"
+    },
+    "correctAnswer": "A",
+    "explanation": "AMC due diligence is intended to identify and manage distributor-related risks and compliance concerns.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-236",
+    "chapterNumber": 4,
+    "topic": "Investor Grievance",
+    "questionText": "If an investor is dissatisfied with the handling of a complaint, what is the appropriate regulatory approach?",
+    "options": {
+      "A": "Use the prescribed escalation and grievance-redress mechanism",
+      "B": "Change the scheme NAV",
+      "C": "Stop all market trading",
+      "D": "Ask the auditor to set compensation"
+    },
+    "correctAnswer": "A",
+    "explanation": "The framework provides escalation mechanisms for unresolved investor grievances.",
+    "difficulty": "Moderate",
+    "questionType": "Process"
+  },
+  {
+    "id": "VA-CUSTOM-237",
+    "chapterNumber": 4,
+    "topic": "Regulatory Framework",
+    "questionText": "Which statement best explains why regulation cannot be equated with a guarantee of returns?",
+    "options": {
+      "A": "Regulation governs conduct, disclosures and controls, while market investments remain subject to risk",
+      "B": "Regulation fixes all security prices",
+      "C": "Regulation eliminates market volatility",
+      "D": "Regulation makes every scheme identical"
+    },
+    "correctAnswer": "A",
+    "explanation": "Regulation provides investor protection and a governance framework but cannot eliminate market-linked investment risk.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-238",
+    "chapterNumber": 4,
+    "topic": "Distributor Due Diligence",
+    "questionText": "A distributor repeatedly fails compliance checks despite high sales. Which conclusion is most appropriate?",
+    "options": {
+      "A": "Compliance concerns should be addressed; high sales do not by themselves establish acceptable conduct",
+      "B": "High sales override compliance",
+      "C": "Compliance is optional for successful distributors",
+      "D": "The distributor becomes a trustee"
+    },
+    "correctAnswer": "A",
+    "explanation": "Due diligence is concerned with conduct and compliance, not merely sales performance.",
+    "difficulty": "Difficult",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-239",
+    "chapterNumber": 4,
+    "topic": "Advertisement Code",
+    "questionText": "An advertisement states only the scheme’s strongest past return and omits material risk information. What is the primary concern?",
+    "options": {
+      "A": "The presentation may be misleading because material context is omitted",
+      "B": "The advertisement becomes guaranteed",
+      "C": "Risk information is irrelevant",
+      "D": "Past performance becomes a promise"
+    },
+    "correctAnswer": "A",
+    "explanation": "The regulatory approach focuses on fair and non-misleading communication, including material risk context.",
+    "difficulty": "Difficult",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-240",
+    "chapterNumber": 4,
+    "topic": "Investor Rights",
+    "questionText": "Which statement correctly combines investor rights and obligations?",
+    "options": {
+      "A": "Investors have rights to information and fair treatment and obligations to provide accurate information and follow applicable processes",
+      "B": "Investors have rights only",
+      "C": "Investors have obligations only",
+      "D": "Investors can ignore scheme documents"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter presents investor protection as a balance of rights and responsibilities.",
+    "difficulty": "Moderate",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-241",
+    "chapterNumber": 5,
+    "topic": "Mandatory Documents",
+    "questionText": "Which is a mandatory scheme-related document?",
+    "options": {
+      "A": "Scheme Information Document",
+      "B": "Only a newspaper advertisement",
+      "C": "Only a distributor brochure",
+      "D": "Only a performance chart"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook identifies SID as a mandatory scheme-related document.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-242",
+    "chapterNumber": 5,
+    "topic": "Mandatory Documents",
+    "questionText": "Which document contains information about the particular mutual fund scheme?",
+    "options": {
+      "A": "Scheme Information Document (SID)",
+      "B": "Statement of Additional Information only",
+      "C": "Credit rating report",
+      "D": "Distributor agreement"
+    },
+    "correctAnswer": "A",
+    "explanation": "The SID contains information about the particular scheme and its features.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-243",
+    "chapterNumber": 5,
+    "topic": "Mandatory Documents",
+    "questionText": "What does SAI stand for?",
+    "options": {
+      "A": "Statement of Additional Information",
+      "B": "Scheme Allocation Index",
+      "C": "Securities and Investor Agreement",
+      "D": "Standard Asset Information"
+    },
+    "correctAnswer": "A",
+    "explanation": "SAI means Statement of Additional Information.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-244",
+    "chapterNumber": 5,
+    "topic": "Mandatory Documents",
+    "questionText": "What does KIM stand for?",
+    "options": {
+      "A": "Key Information Memorandum",
+      "B": "Key Investment Matrix",
+      "C": "Know Investor Manual",
+      "D": "Key Issuer Memorandum"
+    },
+    "correctAnswer": "A",
+    "explanation": "KIM stands for Key Information Memorandum.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-245",
+    "chapterNumber": 5,
+    "topic": "SID",
+    "questionText": "Which document primarily sets forth information about a scheme that a prospective investor ought to know before investing?",
+    "options": {
+      "A": "SID",
+      "B": "SAI only",
+      "C": "AMFI Code",
+      "D": "Auditor report"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook describes the SID as the document setting forth information about the scheme that a prospective investor should know.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-246",
+    "chapterNumber": 5,
+    "topic": "SAI",
+    "questionText": "What type of information is primarily contained in the SAI?",
+    "options": {
+      "A": "Statutory information about the mutual fund/AMC and application-related matters",
+      "B": "Only the daily NAV",
+      "C": "Only the benchmark return",
+      "D": "Only the fund manager’s biography"
+    },
+    "correctAnswer": "A",
+    "explanation": "The SAI contains statutory information about the mutual fund/AMC and details such as eligibility, application, payments and KYC-related requirements.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-247",
+    "chapterNumber": 5,
+    "topic": "KIM",
+    "questionText": "Why is KIM provided to investors?",
+    "options": {
+      "A": "It is a concise summary of key information from the SID and SAI",
+      "B": "It replaces all scheme documents permanently",
+      "C": "It is a credit rating",
+      "D": "It guarantees returns"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook describes KIM as essentially a summary of the SID and SAI.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-248",
+    "chapterNumber": 5,
+    "topic": "KIM",
+    "questionText": "An application form for investing in a mutual fund scheme is generally accompanied by:",
+    "options": {
+      "A": "KIM",
+      "B": "Annual report only",
+      "C": "Auditor certificate only",
+      "D": "Credit rating report only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that the application form is to be accompanied by the KIM.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-249",
+    "chapterNumber": 5,
+    "topic": "SID and SAI",
+    "questionText": "Which statement best describes the relationship between SID and SAI?",
+    "options": {
+      "A": "They are separate documents in practice, though legally SAI is treated as part of the SID",
+      "B": "They are identical documents",
+      "C": "SID is part of KIM only",
+      "D": "SAI replaces SID"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook notes that SID and SAI are separate in practice, while the legal technicality is that SAI is part of SID.",
+    "difficulty": "Difficult",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-250",
+    "chapterNumber": 5,
+    "topic": "SID and SAI",
+    "questionText": "Why should an investor read SID and SAI together?",
+    "options": {
+      "A": "Together they provide comprehensive information needed to understand the scheme and how to apply",
+      "B": "Only the SID contains all information",
+      "C": "Only the SAI contains scheme risks",
+      "D": "They contain unrelated information"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook explicitly says SID and SAI together are the primary source of information for investors.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-251",
+    "chapterNumber": 5,
+    "topic": "SEBI and Scheme Documents",
+    "questionText": "Does SEBI approve or disapprove the Scheme Information Document?",
+    "options": {
+      "A": "No; the workbook says the documents are filed with SEBI and are vetted/observed, not approved as to accuracy or adequacy",
+      "B": "Yes, SEBI guarantees every statement",
+      "C": "Yes, SEBI guarantees returns",
+      "D": "Only AMFI approves them"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that SEBI does not approve or disapprove the scheme documents; it gives observations and the documents are filed with SEBI.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-252",
+    "chapterNumber": 5,
+    "topic": "Scheme Documents",
+    "questionText": "Where are draft SID and SAI made publicly available for viewing?",
+    "options": {
+      "A": "SEBI’s website",
+      "B": "Only the distributor’s private office",
+      "C": "Only the stock exchange notice board",
+      "D": "Only the investor’s bank"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that draft SID and SAI are public documents available for viewing on SEBI’s website.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-253",
+    "chapterNumber": 5,
+    "topic": "Scheme Documents",
+    "questionText": "After incorporating SEBI’s observations, where are the final SID and SAI required to be hosted as prescribed?",
+    "options": {
+      "A": "AMFI’s website",
+      "B": "Only RBI’s website",
+      "C": "Only the investor’s email",
+      "D": "Only the stock exchange"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook says final documents after incorporating SEBI observations have to be hosted on AMFI’s website as prescribed.",
+    "difficulty": "Difficult",
+    "questionType": "Factual"
+  },
+  {
+    "id": "VA-CUSTOM-254",
+    "chapterNumber": 5,
+    "topic": "SID Contents",
+    "questionText": "Which item appears in the SID structure?",
+    "options": {
+      "A": "Investment Objective and Policies",
+      "B": "Only the distributor’s tax return",
+      "C": "Only the investor’s PAN list",
+      "D": "Only the AMC’s office lease"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investment Objective and Policies is a listed section of the SID.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-255",
+    "chapterNumber": 5,
+    "topic": "SID Contents",
+    "questionText": "Which section of the SID describes the proportion of net assets to be invested in different asset classes?",
+    "options": {
+      "A": "Asset Allocation Pattern",
+      "B": "Penalty section only",
+      "C": "General unit-holder information only",
+      "D": "Definitions only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The asset allocation pattern describes how scheme net assets are allocated among asset classes.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-256",
+    "chapterNumber": 5,
+    "topic": "SID Contents",
+    "questionText": "Which SID section explains the philosophy used to identify securities and approach to rebalancing and selling?",
+    "options": {
+      "A": "Investment Strategy",
+      "B": "Units and Offer only",
+      "C": "General Unit-holder Information",
+      "D": "Penalties only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Investment Strategy section covers the investment philosophy, security selection, rebalancing and selling approach.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-257",
+    "chapterNumber": 5,
+    "topic": "SID Contents",
+    "questionText": "Where is information about the scheme’s benchmark found?",
+    "options": {
+      "A": "Information about the Scheme",
+      "B": "Only the KYC form",
+      "C": "Only the grievance form",
+      "D": "Only the application payment section"
+    },
+    "correctAnswer": "A",
+    "explanation": "Benchmark is listed under the Information about the Scheme section in the SID structure.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-258",
+    "chapterNumber": 5,
+    "topic": "SID Contents",
+    "questionText": "Which information is included under Risk Factors in the SID?",
+    "options": {
+      "A": "Standard and scheme-specific risks",
+      "B": "Only tax deductions",
+      "C": "Only distributor commissions",
+      "D": "Only unit capital"
+    },
+    "correctAnswer": "A",
+    "explanation": "The SID risk section includes standard/general and scheme-specific risk factors.",
+    "difficulty": "Moderate",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-259",
+    "chapterNumber": 5,
+    "topic": "Scheme Suitability",
+    "questionText": "Where is the Risk-o-meter and statement of suitability of the scheme available?",
+    "options": {
+      "A": "Front page of the SID",
+      "B": "Only in the annual report",
+      "C": "Only in the RTA statement",
+      "D": "Only in the distributor’s internal file"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that the Risk-o-meter and scheme-suitability statement are on the front page of the SID.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-260",
+    "chapterNumber": 5,
+    "topic": "Scheme Suitability",
+    "questionText": "Which factor is NOT part of the scheme-suitability assessment described in the workbook?",
+    "options": {
+      "A": "The investor’s favourite colour",
+      "B": "Financial need",
+      "C": "Risk and return preferences",
+      "D": "Investment horizon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Suitability depends on financial need, risk/return preferences, horizon and other individual preferences—not irrelevant personal preferences such as colour.",
+    "difficulty": "Easy",
+    "questionType": "Identify Incorrect"
+  },
+  {
+    "id": "VA-CUSTOM-261",
+    "chapterNumber": 5,
+    "topic": "Scheme Risks",
+    "questionText": "True/False statements:\n1. Past performance is indicative and does not guarantee future performance.\n2. Scheme-specific risks are disclosed in the risk section of the SID.\nWhich option correctly represents the two statements?",
+    "options": {
+      "A": "Statement 1 is True and Statement 2 is True",
+      "B": "Statement 1 is True and Statement 2 is False",
+      "C": "Statement 1 is False and Statement 2 is True",
+      "D": "Statement 1 is False and Statement 2 is False"
+    },
+    "correctAnswer": "A",
+    "explanation": "Both statements are true according to the workbook. Past performance is only indicative, and the SID risk section includes scheme-specific risks.",
+    "difficulty": "Easy",
+    "questionType": "True/False"
+  },
+  {
+    "id": "VA-CUSTOM-262",
+    "chapterNumber": 5,
+    "topic": "Scheme Risks",
+    "questionText": "Which risk may be particularly relevant to investments in fixed-income securities?",
+    "options": {
+      "A": "Credit risk",
+      "B": "Only equity dilution",
+      "C": "Only property risk",
+      "D": "Only currency conversion"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook lists credit risk among risks associated with fixed-income securities.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-263",
+    "chapterNumber": 5,
+    "topic": "Scheme Risks",
+    "questionText": "Which additional risk is associated with equity and equity-related securities?",
+    "options": {
+      "A": "Price volatility",
+      "B": "Guaranteed income",
+      "C": "No liquidity risk",
+      "D": "Fixed maturity"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that equity and equity-related securities are prone to price volatility.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-264",
+    "chapterNumber": 5,
+    "topic": "Scheme Risks",
+    "questionText": "Why may unlisted securities carry high liquidity risk?",
+    "options": {
+      "A": "They may be harder to sell because they lack the liquidity of actively traded listed securities",
+      "B": "They always have guaranteed returns",
+      "C": "They cannot change in value",
+      "D": "They are always government-backed"
+    },
+    "correctAnswer": "A",
+    "explanation": "The SID discussion identifies unlisted securities as having high liquidity risk.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-265",
+    "chapterNumber": 5,
+    "topic": "Scheme Risks",
+    "questionText": "Which risk may arise from investment in foreign securities?",
+    "options": {
+      "A": "Risks specific to foreign securities, including currency-related exposure",
+      "B": "Only Indian credit risk",
+      "C": "No additional risk",
+      "D": "Only domestic interest rate risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook notes that foreign securities have risks specific to such investments, including the impact of currency fluctuations.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-266",
+    "chapterNumber": 5,
+    "topic": "Buying Units",
+    "questionText": "For an open-ended scheme, investors can generally buy units from the mutual fund:",
+    "options": {
+      "A": "During the NFO and the continuing offer period at the applicable NAV",
+      "B": "Only at maturity",
+      "C": "Only after the scheme closes",
+      "D": "Only on the stock exchange and never from the fund"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that open-ended schemes permit purchase during the NFO and continuing investment period at the applicable NAV.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-267",
+    "chapterNumber": 5,
+    "topic": "Buying Units",
+    "questionText": "For a close-ended scheme, an investor can buy units directly from the mutual fund:",
+    "options": {
+      "A": "During the NFO",
+      "B": "At any time after NFO",
+      "C": "Only after maturity",
+      "D": "Only during redemption"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that close-ended units can be purchased from the mutual fund during the NFO.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-268",
+    "chapterNumber": 5,
+    "topic": "Buying Units",
+    "questionText": "For an interval scheme, investors can buy units directly from the mutual fund:",
+    "options": {
+      "A": "During the NFO and specified transaction periods",
+      "B": "Only at maturity",
+      "C": "Every day without restriction",
+      "D": "Only after the scheme is closed"
+    },
+    "correctAnswer": "A",
+    "explanation": "Interval schemes permit direct transactions during the NFO and specified transaction periods.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-269",
+    "chapterNumber": 5,
+    "topic": "Applying for Units",
+    "questionText": "Which document provides details such as who can invest, payment modes, KYC and cut-off time?",
+    "options": {
+      "A": "SAI",
+      "B": "Only the benchmark report",
+      "C": "Only the annual report",
+      "D": "Only the risk-o-meter"
+    },
+    "correctAnswer": "A",
+    "explanation": "The SAI includes eligibility, application information, payment modes, KYC requirements, cut-off times and other transaction details.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-270",
+    "chapterNumber": 5,
+    "topic": "Applying for Units",
+    "questionText": "Why should SID and SAI be read together when applying for units?",
+    "options": {
+      "A": "The two documents collectively provide the scheme and application information",
+      "B": "Because they contain identical information",
+      "C": "Because the SAI replaces KIM",
+      "D": "Because SID has no scheme information"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook says the information in SID and SAI has to be read together to get all information on how to apply.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-271",
+    "chapterNumber": 5,
+    "topic": "KIM Updation",
+    "questionText": "How often must KIM be updated at least, according to the workbook?",
+    "options": {
+      "A": "Once in half-year, within one month from the end of the half-year",
+      "B": "Once every five years",
+      "C": "Only when an investor complains",
+      "D": "Every day"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that KIM shall be updated at least once in half-year, within one month from the end of the half-year.",
+    "difficulty": "Moderate",
+    "questionType": "Factual"
+  },
+  {
+    "id": "VA-CUSTOM-272",
+    "chapterNumber": 5,
+    "topic": "Addendum",
+    "questionText": "What is the purpose of an addendum?",
+    "options": {
+      "A": "To communicate interim changes to scheme documents until the documents are updated",
+      "B": "To replace the trustee",
+      "C": "To guarantee returns",
+      "D": "To create a new AMC"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook describes addenda as the means for communicating interim changes to scheme documents.",
+    "difficulty": "Easy",
+    "questionType": "Definition"
+  },
+  {
+    "id": "VA-CUSTOM-273",
+    "chapterNumber": 5,
+    "topic": "Addendum",
+    "questionText": "Where must an addendum to an existing SID be displayed immediately?",
+    "options": {
+      "A": "On the AMC website",
+      "B": "Only at the RTA office",
+      "C": "Only on a newspaper’s sports page",
+      "D": "Only with the auditor"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that an addendum to the existing SID shall be issued and displayed on the AMC website immediately.",
+    "difficulty": "Moderate",
+    "questionType": "Factual"
+  },
+  {
+    "id": "VA-CUSTOM-274",
+    "chapterNumber": 5,
+    "topic": "Addendum",
+    "questionText": "To whom is the addendum circulated according to the workbook?",
+    "options": {
+      "A": "Distributors/brokers/Investor Service Centres as prescribed",
+      "B": "Only the fund manager",
+      "C": "Only the custodian",
+      "D": "Only the regulator’s employees"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook specifies circulation to distributors, brokers and Investor Service Centres.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-275",
+    "chapterNumber": 5,
+    "topic": "Addendum",
+    "questionText": "What is the relationship between the latest applicable addendum and KIM/SID?",
+    "options": {
+      "A": "The latest applicable addendum becomes part of the KIM and SID until incorporated",
+      "B": "It has no relevance to KIM/SID",
+      "C": "It replaces the entire mutual fund",
+      "D": "It is relevant only to the auditor"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that the latest applicable addendum shall form part of KIM and SID.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-276",
+    "chapterNumber": 5,
+    "topic": "Mandatory Disclosures",
+    "questionText": "Which information is part of the SID’s “Information about the Scheme” section?",
+    "options": {
+      "A": "Investment objective, asset allocation, benchmark and investment restrictions",
+      "B": "Only investor bank statements",
+      "C": "Only distributor commissions",
+      "D": "Only tax returns"
+    },
+    "correctAnswer": "A",
+    "explanation": "These are expressly listed as contents of the Information about the Scheme section.",
+    "difficulty": "Easy",
+    "questionType": "Statement-based"
+  },
+  {
+    "id": "VA-CUSTOM-277",
+    "chapterNumber": 5,
+    "topic": "Mandatory Disclosures",
+    "questionText": "Which section would an investor consult for information on purchase and redemption arrangements?",
+    "options": {
+      "A": "NFO/Ongoing Offer and Units and Offer-related sections of the SID",
+      "B": "Only the risk-o-meter",
+      "C": "Only the auditor report",
+      "D": "Only the AMFI Code"
+    },
+    "correctAnswer": "A",
+    "explanation": "The SID covers when and how units can be purchased and redeemed, including applicable NAV and offer details.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-278",
+    "chapterNumber": 5,
+    "topic": "Mandatory Disclosures",
+    "questionText": "Which document gives statutory information about the mutual fund/AMC rather than only the particular scheme?",
+    "options": {
+      "A": "SAI",
+      "B": "SID only",
+      "C": "KIM only",
+      "D": "Advertisement only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The SAI provides statutory information about the mutual fund/AMC and applies across schemes of the mutual fund.",
+    "difficulty": "Moderate",
+    "questionType": "Comparison"
+  },
+  {
+    "id": "VA-CUSTOM-279",
+    "chapterNumber": 5,
+    "topic": "KIM",
+    "questionText": "Which statement about KIM is correct?",
+    "options": {
+      "A": "It summarises key points of SID and SAI and accompanies the application form",
+      "B": "It contains only the NAV",
+      "C": "It is optional for all applications",
+      "D": "It guarantees scheme performance"
+    },
+    "correctAnswer": "A",
+    "explanation": "KIM is a concise summary of the SID and SAI and is to accompany the application form.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-280",
+    "chapterNumber": 5,
+    "topic": "SID Validity",
+    "questionText": "When does an SID remain effective, subject to the workbook’s description?",
+    "options": {
+      "A": "Until a material change, other than a fundamental-attribute change within the stated framework, occurs",
+      "B": "Only for one day",
+      "C": "Only until the first redemption",
+      "D": "Only until the next NAV"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook says an SID remains effective until a material change, subject to the described regulatory treatment.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-281",
+    "chapterNumber": 5,
+    "topic": "Fundamental Attributes",
+    "questionText": "Why are fundamental attributes important in scheme documents?",
+    "options": {
+      "A": "They define essential features of the scheme and changes may require specific investor/regulatory treatment",
+      "B": "They only determine the distributor’s commission",
+      "C": "They are irrelevant to suitability",
+      "D": "They guarantee performance"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fundamental attributes are core scheme features and changes to them have specific regulatory implications.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-282",
+    "chapterNumber": 5,
+    "topic": "Scheme Suitability",
+    "questionText": "An investor has a five-year goal and moderate risk tolerance. Which SID information is most directly relevant for matching the scheme?",
+    "options": {
+      "A": "Investment objective, asset allocation, risk factors and investment strategy",
+      "B": "Only the AMC address",
+      "C": "Only the face value",
+      "D": "Only the fund manager’s name"
+    },
+    "correctAnswer": "A",
+    "explanation": "Suitability requires matching the investor’s need, risk preference and horizon with the scheme’s objective, allocation and risks.",
+    "difficulty": "Difficult",
+    "questionType": "Case Study"
+  },
+  {
+    "id": "VA-CUSTOM-283",
+    "chapterNumber": 5,
+    "topic": "Scheme Documents",
+    "questionText": "Which statement is correct about SEBI and scheme documents?",
+    "options": {
+      "A": "SEBI’s observations do not amount to a guarantee that the scheme is suitable or that the document’s contents are guaranteed by SEBI",
+      "B": "SEBI guarantees future returns",
+      "C": "SEBI guarantees the adequacy of every scheme",
+      "D": "SEBI selects schemes for investors"
+    },
+    "correctAnswer": "A",
+    "explanation": "The SID cover-page wording specifically states that the units have not been approved or recommended by SEBI and that SEBI has not certified accuracy or adequacy.",
+    "difficulty": "Difficult",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-284",
+    "chapterNumber": 5,
+    "topic": "Risk Disclosure",
+    "questionText": "A debt scheme invests in securities with significant interest-rate and liquidity exposure. Where should an investor look for these scheme-specific risks?",
+    "options": {
+      "A": "Risk section of the SID",
+      "B": "Only the KIM cover page",
+      "C": "Only the AMC annual report",
+      "D": "Only the distributor’s visiting card"
+    },
+    "correctAnswer": "A",
+    "explanation": "The SID risk section lists scheme-specific risks, including relevant debt risks.",
+    "difficulty": "Moderate",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-285",
+    "chapterNumber": 5,
+    "topic": "Scheme Information",
+    "questionText": "Which section helps an investor understand the types of instruments in which the scheme is likely to invest?",
+    "options": {
+      "A": "Information about the Scheme",
+      "B": "Only investor grievance section",
+      "C": "Only the KIM’s signature",
+      "D": "Only the annual report"
+    },
+    "correctAnswer": "A",
+    "explanation": "The SID describes the types of instruments the scheme is likely to invest in under the Information about the Scheme section.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-286",
+    "chapterNumber": 5,
+    "topic": "Scheme Information",
+    "questionText": "Which item would help an investor understand the approach to rebalancing a portfolio?",
+    "options": {
+      "A": "Investment Strategy",
+      "B": "KIM application form",
+      "C": "Investor grievance section",
+      "D": "SAI payment modes only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Investment Strategy section covers the philosophy for selecting securities, rebalancing and selling investments.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-287",
+    "chapterNumber": 5,
+    "topic": "Mandatory Information",
+    "questionText": "Which of the following is listed as a part of the SID structure?",
+    "options": {
+      "A": "Fees & Expenses",
+      "B": "Only the investor’s salary",
+      "C": "Only the distributor’s personal assets",
+      "D": "Only the RTA’s office map"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fees & Expenses is one of the SID sections listed in the workbook.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-288",
+    "chapterNumber": 5,
+    "topic": "Mandatory Information",
+    "questionText": "Which SID section addresses rights of unit-holders?",
+    "options": {
+      "A": "Rights of Unit-holders",
+      "B": "Only Investment Strategy",
+      "C": "Only Definitions",
+      "D": "Only Risk Factors"
+    },
+    "correctAnswer": "A",
+    "explanation": "Rights of Unit-holders is a specific SID section.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-289",
+    "chapterNumber": 5,
+    "topic": "Mandatory Information",
+    "questionText": "Which SID section includes penalties and litigation information?",
+    "options": {
+      "A": "Penalties, Litigation etc.",
+      "B": "Asset Allocation Pattern",
+      "C": "Benchmark",
+      "D": "Units and Offer only"
+    },
+    "correctAnswer": "A",
+    "explanation": "The SID structure includes a section titled Penalties, Litigation etc.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-290",
+    "chapterNumber": 5,
+    "topic": "Non-Mandatory Disclosures",
+    "questionText": "What is the purpose of non-mandatory disclosures?",
+    "options": {
+      "A": "To provide additional useful information beyond mandatory scheme documents/disclosures",
+      "B": "To replace mandatory documents",
+      "C": "To guarantee returns",
+      "D": "To change the scheme’s legal structure"
+    },
+    "correctAnswer": "A",
+    "explanation": "Non-mandatory disclosures can provide additional investor information but do not replace mandatory requirements.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-291",
+    "chapterNumber": 5,
+    "topic": "Non-Mandatory Disclosures",
+    "questionText": "Which is an example of information that may be provided as an additional disclosure?",
+    "options": {
+      "A": "Additional portfolio or performance-related information beyond the core mandatory documents",
+      "B": "A guaranteed future return",
+      "C": "A secret investment strategy",
+      "D": "An exemption from SEBI rules"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter distinguishes additional disclosures from the mandatory documents; such information can improve transparency without guaranteeing outcomes.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-292",
+    "chapterNumber": 5,
+    "topic": "Mandatory Documents",
+    "questionText": "Which statement is incorrect?",
+    "options": {
+      "A": "KIM is a substitute for reading all scheme information because SID and SAI are unnecessary",
+      "B": "KIM summarises key information",
+      "C": "SID contains scheme information",
+      "D": "SAI contains statutory mutual-fund information"
+    },
+    "correctAnswer": "A",
+    "explanation": "KIM is a summary and does not make SID/SAI irrelevant; the workbook emphasises reading SID and SAI together.",
+    "difficulty": "Easy",
+    "questionType": "Identify Incorrect"
+  },
+  {
+    "id": "VA-CUSTOM-293",
+    "chapterNumber": 5,
+    "topic": "Addendum",
+    "questionText": "A change in load structure occurs before the printed SID/KIM is updated. What should communicate the interim change?",
+    "options": {
+      "A": "Latest applicable addendum",
+      "B": "A new AMC licence",
+      "C": "A credit rating report",
+      "D": "A trustee election"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook gives changes in load structure as an example of information communicated through the applicable addendum attached to KIM/SID.",
+    "difficulty": "Difficult",
+    "questionType": "Scenario"
+  },
+  {
+    "id": "VA-CUSTOM-294",
+    "chapterNumber": 5,
+    "topic": "Scheme Documents",
+    "questionText": "A prospective investor wants to know whether they are eligible to invest. Which document should be consulted for the list of eligible and ineligible investor categories?",
+    "options": {
+      "A": "SID’s NFO and Ongoing Offer Details, together with relevant SAI information",
+      "B": "Only the benchmark statement",
+      "C": "Only the risk-o-meter",
+      "D": "Only the annual report"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook says the NFO and Ongoing Offer Details section of SID lists eligible and ineligible categories, while SAI provides application-related information.",
+    "difficulty": "Difficult",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-295",
+    "chapterNumber": 5,
+    "topic": "Scheme Suitability",
+    "questionText": "Which statement best describes scheme suitability?",
+    "options": {
+      "A": "It depends on matching scheme features with the investor’s financial needs, risk/return preferences, horizon and other preferences",
+      "B": "It depends only on past performance",
+      "C": "It depends only on NAV",
+      "D": "It is identical for every investor"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook explicitly identifies multiple investor and scheme factors for suitability.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-296",
+    "chapterNumber": 5,
+    "topic": "Mandatory Documents",
+    "questionText": "Which document is most useful as a concise first-level summary before completing an application?",
+    "options": {
+      "A": "KIM",
+      "B": "Statutory audit report",
+      "C": "Custodian agreement",
+      "D": "Credit rating note"
+    },
+    "correctAnswer": "A",
+    "explanation": "KIM is designed as a concise summary of key information and accompanies the application form.",
+    "difficulty": "Easy",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-297",
+    "chapterNumber": 5,
+    "topic": "Scheme Information",
+    "questionText": "A scheme has a primary and secondary investment objective. Where should the investor find these?",
+    "options": {
+      "A": "Investment Objective section of the SID and its Highlights/Summary",
+      "B": "Only in the grievance form",
+      "C": "Only in the RTA statement",
+      "D": "Only in the auditor report"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook says the investment objective is in the Information about the Scheme segment and also in the Highlights/Summary.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-298",
+    "chapterNumber": 5,
+    "topic": "Scheme Information",
+    "questionText": "Which factor is described as affecting scheme risk besides the underlying securities?",
+    "options": {
+      "A": "The investment strategy adopted by the fund manager",
+      "B": "The investor’s favourite brand",
+      "C": "The distributor’s office location",
+      "D": "The font used in the SID"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook states that fund-manager strategies also affect risk and discusses risk-mitigation strategies in the SID.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-299",
+    "chapterNumber": 5,
+    "topic": "Scheme Documents",
+    "questionText": "Which statement best captures the role of mandatory scheme documents?",
+    "options": {
+      "A": "They provide structured information needed for informed investment and regulatory disclosure",
+      "B": "They guarantee investment outcomes",
+      "C": "They replace investor due diligence entirely",
+      "D": "They eliminate the need to assess suitability"
+    },
+    "correctAnswer": "A",
+    "explanation": "Mandatory documents support informed decisions and regulatory transparency but do not guarantee outcomes or remove the need for suitability assessment.",
+    "difficulty": "Difficult",
+    "questionType": "Analytical"
+  },
+  {
+    "id": "VA-CUSTOM-300",
+    "chapterNumber": 5,
+    "topic": "Non-Mandatory Disclosures",
+    "questionText": "Why should an investor distinguish mandatory from non-mandatory disclosures?",
+    "options": {
+      "A": "Mandatory disclosures are required under the framework, while additional disclosures supplement information and do not replace required documents",
+      "B": "Non-mandatory disclosures override regulations",
+      "C": "Mandatory documents are optional",
+      "D": "Non-mandatory disclosures guarantee returns"
+    },
+    "correctAnswer": "A",
+    "explanation": "The distinction helps investors understand the regulatory status and purpose of different information sources.",
+    "difficulty": "Moderate",
+    "questionType": "Comparison"
+  }
+]

@@ -1,8 +1,9 @@
 import { ExamDefinition, Question } from '../types/exam';
+import { QUESTIONS_VA_CH1_TO_5 } from './questionsVaCh1To5';
 
-export const BUILTIN_QUESTIONS: Question[] = [];
+export const BUILTIN_QUESTIONS: Question[] = [...QUESTIONS_VA_CH1_TO_5];
 
-export const BUILTIN_BANK_VERSION = 4;
+export const BUILTIN_BANK_VERSION = 5;
 
 /**
  * Fisher-Yates shuffle returning a new array without mutating input.
