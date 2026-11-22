@@ -1,0 +1,6 @@
+{
+  "name": "NISM Exam Prep Studio",
+  "description": "Comprehensive NISM certification mock test and chapter-wise exam preparation platform with timed simulations, answer explanations, analytics, and offline IndexedDB persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
