@@ -1,0 +1,802 @@
+[
+  {
+    "id": "VA-CUSTOM-001",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "Which statement best describes the correct starting point for an investment discussion?",
+    "options": {
+      "A": "The investor’s purpose and needs",
+      "B": "The mutual fund with the highest recent return",
+      "C": "The asset class currently in favour",
+      "D": "The amount of commission payable"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investment planning should begin by understanding why the investor is investing and the investor’s needs, rather than starting with a product or scheme.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-002",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "When do financial objectives become financial goals?",
+    "options": {
+      "A": "When an investor selects a mutual fund",
+      "B": "When amounts and timelines are assigned to the objectives",
+      "C": "When the investor starts earning income",
+      "D": "When the investment earns a positive return"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook explains that assigning amounts and timelines to financial objectives converts them into financial goals.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-003",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "Which of the following is identified as a common financial goal?",
+    "options": {
+      "A": "Avoiding every form of investment risk",
+      "B": "Funding a child’s education",
+      "C": "Predicting short-term market movements",
+      "D": "Maximising the number of bank accounts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Funding a child’s education is specifically listed among common financial goals.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-004",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "What is the first step in the goal-setting exercise described in the workbook?",
+    "options": {
+      "A": "Selecting an asset allocation",
+      "B": "Identifying the events or goals in life",
+      "C": "Estimating the expected return of equity",
+      "D": "Choosing a distributor"
+    },
+    "correctAnswer": "B",
+    "explanation": "The first step is to identify the events in life for which funds may be required.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-005",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "Who ultimately decides whether a goal is a responsibility or merely a good-to-have goal?",
+    "options": {
+      "A": "The mutual fund distributor",
+      "B": "The financial advisor",
+      "C": "The individual and the family",
+      "D": "The asset management company"
+    },
+    "correctAnswer": "C",
+    "explanation": "The workbook states that the individual and family decide the priority of their goals; an intermediary may guide them.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-006",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "Which of the following is an example of an undesirable event for which an emergency fund may be useful?",
+    "options": {
+      "A": "A planned vacation",
+      "B": "A planned vehicle upgrade",
+      "C": "Hospitalisation",
+      "D": "A planned house renovation"
+    },
+    "correctAnswer": "C",
+    "explanation": "Hospitalisation is listed as an undesirable event that may create an unexpected financial requirement.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-007",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "According to the workbook, which product is specifically relevant for covering risks such as death, hospitalisation, accident, theft or fire?",
+    "options": {
+      "A": "Insurance policies",
+      "B": "Equity shares",
+      "C": "Commodity derivatives",
+      "D": "Long-term bonds"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook distinguishes emergency savings from insurance policies that cover risks arising from undesirable events.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-008",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "Why should a financial goal include both an amount and a timeline?",
+    "options": {
+      "A": "To determine the distributor’s commission",
+      "B": "To estimate the funding required and when it will be needed",
+      "C": "To guarantee a particular investment return",
+      "D": "To avoid reviewing the goal later"
+    },
+    "correctAnswer": "B",
+    "explanation": "The amount and timeline are both critical inputs for planning how a goal will be funded.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-009",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "A goal that is important but not urgent should generally be:",
+    "options": {
+      "A": "Ignored until it becomes urgent",
+      "B": "Planned for in advance",
+      "C": "Funded only through borrowing",
+      "D": "Removed from the financial plan"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook applies the important-but-not-urgent principle to financial goals and emphasises planning before the goal becomes urgent.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-010",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "What does inflation with respect to a goal value refer to?",
+    "options": {
+      "A": "A fall in the investor’s income",
+      "B": "An increase over time in the cost of meeting the goal",
+      "C": "A reduction in the number of investments",
+      "D": "A change in the investor’s risk tolerance"
+    },
+    "correctAnswer": "B",
+    "explanation": "The future cost of a goal may rise because of inflation; planning must account for that increase.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-011",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "A child’s education is expected to cost ₹50 lakh today. If education-cost inflation is assumed at 8% p.a. for 10 years, the workbook’s illustration estimates the future cost at approximately:",
+    "options": {
+      "A": "₹50 lakh",
+      "B": "₹75 lakh",
+      "C": "₹1.08 crore",
+      "D": "₹1.50 crore"
+    },
+    "correctAnswer": "C",
+    "explanation": "The workbook’s illustration gives a future value of approximately ₹1,07,94,625 after 10 years at 8% p.a.",
+    "difficulty": "Moderate",
+    "questionType": "Calculation"
+  },
+  {
+    "id": "VA-CUSTOM-012",
+    "chapterNumber": 1,
+    "topic": "1.1 Financial Goals",
+    "questionText": "What is the main limitation of the pool approach to savings and investments mentioned in the workbook?",
+    "options": {
+      "A": "It prevents any withdrawal",
+      "B": "The investment horizon may not be clear",
+      "C": "It can be used only for retirement",
+      "D": "It guarantees that inflation will be beaten"
+    },
+    "correctAnswer": "B",
+    "explanation": "When money is held in a common pool for different needs, the horizon for the investments may be uncertain, making investment decisions harder.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-013",
+    "chapterNumber": 1,
+    "topic": "1.2 Savings or Investments",
+    "questionText": "What is the primary objective typically associated with saving, as contrasted with investing?",
+    "options": {
+      "A": "Capital appreciation",
+      "B": "Safety of money",
+      "C": "Taking market risk",
+      "D": "Generating the highest possible return"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook links saving with safety, while investing typically seeks profits or returns and involves a risk-return trade-off.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-014",
+    "chapterNumber": 1,
+    "topic": "1.2 Savings or Investments",
+    "questionText": "Which statement correctly describes the relationship between saving and investing?",
+    "options": {
+      "A": "They are unrelated activities",
+      "B": "Investing normally precedes saving",
+      "C": "Saving provides the money that can subsequently be invested",
+      "D": "Saving and investing have identical objectives"
+    },
+    "correctAnswer": "C",
+    "explanation": "The workbook treats saving and investing as two steps of the same process: saving precedes investing.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-015",
+    "chapterNumber": 1,
+    "topic": "1.2 Evaluating Investments",
+    "questionText": "Which three factors are described as the most important when evaluating investments?",
+    "options": {
+      "A": "Safety, liquidity and returns",
+      "B": "Tax, age and occupation",
+      "C": "Convenience, inflation and commission",
+      "D": "Maturity, dividend and benchmark"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook identifies safety, liquidity and returns as the three most important evaluation factors.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-016",
+    "chapterNumber": 1,
+    "topic": "1.2 Evaluating Investments",
+    "questionText": "What does liquidity measure in the context of an investment?",
+    "options": {
+      "A": "The certainty of returns",
+      "B": "The ease of converting the investment into cash",
+      "C": "The tax rate on earnings",
+      "D": "The expected rate of inflation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Liquidity concerns how easily an investment can be liquidated and converted into cash.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-017",
+    "chapterNumber": 1,
+    "topic": "1.2 Evaluating Investments",
+    "questionText": "Which of the following is an example of a feature that may restrict immediate access to an investment?",
+    "options": {
+      "A": "A lock-in period",
+      "B": "A higher dividend",
+      "C": "A market benchmark",
+      "D": "A nominal rate of return"
+    },
+    "correctAnswer": "A",
+    "explanation": "A lock-in period or an early-exit penalty can affect the investor’s ability or willingness to liquidate an investment.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-018",
+    "chapterNumber": 1,
+    "topic": "1.2 Evaluating Investments",
+    "questionText": "Current income from an investment is best described as:",
+    "options": {
+      "A": "Income received periodically without selling the investment",
+      "B": "Profit realised only when the investment is sold",
+      "C": "The amount originally invested",
+      "D": "The tax deduction claimed on investment"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook distinguishes periodic current income from capital gains, which are realised on sale.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-019",
+    "chapterNumber": 1,
+    "topic": "1.2 Evaluating Investments",
+    "questionText": "Capital gains are generally realised when:",
+    "options": {
+      "A": "The investor makes a deposit",
+      "B": "The investment is sold",
+      "C": "The investor receives a tax deduction",
+      "D": "The investment is transferred to a nominee"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook explains that capital gains can be realised only when the investment is sold.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-020",
+    "chapterNumber": 1,
+    "topic": "1.2 Evaluating Investments",
+    "questionText": "Why should taxability of income not be considered in isolation while evaluating an investment?",
+    "options": {
+      "A": "Tax rates are identical for all products",
+      "B": "A lower-tax product may involve lower safety or conditions such as a holding period",
+      "C": "Taxation has no effect on returns",
+      "D": "Tax deductions always eliminate investment risk"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook cautions that tax advantages must be assessed alongside safety and conditions such as minimum holding periods.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-021",
+    "chapterNumber": 1,
+    "topic": "1.3 Asset Classes",
+    "questionText": "Which set contains the four broad asset categories identified in the workbook?",
+    "options": {
+      "A": "Equity, fixed income, real estate and commodities",
+      "B": "Equity, insurance, deposits and currency",
+      "C": "Real estate, derivatives, cash and insurance",
+      "D": "Fixed income, pension, deposits and gold"
+    },
+    "correctAnswer": "A",
+    "explanation": "The four broad asset classes listed are real estate, commodities, equity and fixed income.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-022",
+    "chapterNumber": 1,
+    "topic": "1.3 Real Estate",
+    "questionText": "Which characteristic of real estate is specifically highlighted in the workbook?",
+    "options": {
+      "A": "It is always liquid",
+      "B": "It is easily divisible",
+      "C": "Location is a key factor affecting performance",
+      "D": "It has no transaction costs"
+    },
+    "correctAnswer": "C",
+    "explanation": "The workbook identifies location as the most important factor affecting real-estate investment performance.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-023",
+    "chapterNumber": 1,
+    "topic": "1.3 Real Estate",
+    "questionText": "Why may a self-occupied house not be treated as an investment in the context discussed?",
+    "options": {
+      "A": "It cannot appreciate in value",
+      "B": "Selling it may adversely affect the owner’s lifestyle",
+      "C": "It cannot be insured",
+      "D": "It always generates rental income"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook explains that a self-occupied home is primarily used for residence; selling it may negatively affect the owner’s lifestyle.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-024",
+    "chapterNumber": 1,
+    "topic": "1.3 Real Estate",
+    "questionText": "Which cost should be considered when calculating the return from a real-estate investment?",
+    "options": {
+      "A": "Only the purchase price",
+      "B": "Only the expected resale value",
+      "C": "Transaction, maintenance and applicable tax costs",
+      "D": "Only the rental income"
+    },
+    "correctAnswer": "C",
+    "explanation": "Brokerage, registration, maintenance and taxes can materially reduce the return and should be considered.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-025",
+    "chapterNumber": 1,
+    "topic": "1.3 Commodities",
+    "questionText": "Which two commodities are specifically noted as familiar investment avenues for many investors?",
+    "options": {
+      "A": "Copper and crude oil",
+      "B": "Gold and silver",
+      "C": "Wheat and rice",
+      "D": "Petrol and diesel"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook identifies gold and silver as commodities familiar to investors as investment avenues.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-026",
+    "chapterNumber": 1,
+    "topic": "1.3 Commodities",
+    "questionText": "Why does the workbook caution against treating many commodity derivatives as ordinary long-term investments?",
+    "options": {
+      "A": "They are always government guaranteed",
+      "B": "They are leveraged contracts and normally short-term",
+      "C": "They provide guaranteed periodic income",
+      "D": "They cannot be traded"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook notes that commodity derivatives can provide large exposure for a small amount of money and are normally short-term contracts.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-027",
+    "chapterNumber": 1,
+    "topic": "1.3 Commodities",
+    "questionText": "What type of return do gold and silver generally provide to an investor, as described in the workbook?",
+    "options": {
+      "A": "Regular interest income",
+      "B": "Guaranteed dividends",
+      "C": "Capital appreciation",
+      "D": "Rental income"
+    },
+    "correctAnswer": "C",
+    "explanation": "Gold and silver do not generate current income; investors depend on capital appreciation.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-028",
+    "chapterNumber": 1,
+    "topic": "1.3 Fixed Income",
+    "questionText": "When an investor buys a bond, the investor is generally acting as:",
+    "options": {
+      "A": "An owner of the issuing business",
+      "B": "A lender to the issuer",
+      "C": "A property manager",
+      "D": "A commodity producer"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook characterises bonds as lending assets: the investor lends money to the issuer.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-029",
+    "chapterNumber": 1,
+    "topic": "1.3 Fixed Income",
+    "questionText": "Which statement about bonds is correct according to the workbook?",
+    "options": {
+      "A": "Bonds are completely free from risk",
+      "B": "Many bonds pay regular interest",
+      "C": "All bonds guarantee capital gains",
+      "D": "Bond prices never change in the secondary market"
+    },
+    "correctAnswer": "B",
+    "explanation": "Many bonds pay regular interest, although bonds are not completely free from risk.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-030",
+    "chapterNumber": 1,
+    "topic": "1.3 Equity",
+    "questionText": "A person who buys shares in a company becomes:",
+    "options": {
+      "A": "A lender to the company",
+      "B": "A part-owner of the business",
+      "C": "A secured creditor in every circumstance",
+      "D": "A government guarantor"
+    },
+    "correctAnswer": "B",
+    "explanation": "Equity represents owners’ capital; buying shares makes the investor a part-owner of the business.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-031",
+    "chapterNumber": 1,
+    "topic": "1.3 Equity",
+    "questionText": "What is the principal source of uncertainty in the future cash flows from equity, real estate and commodities when compared with bonds?",
+    "options": {
+      "A": "Their cash flows are not agreed in advance",
+      "B": "They are always denominated in foreign currency",
+      "C": "They cannot be held for long periods",
+      "D": "They are issued only by governments"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook contrasts ownership assets, whose future cash flows are uncertain, with lending assets such as bonds, where receipts are agreed at issue.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-032",
+    "chapterNumber": 1,
+    "topic": "1.3 Asset Classes",
+    "questionText": "Which asset categories can generally be held in either physical or financial form, as described in the workbook?",
+    "options": {
+      "A": "Equity and bonds",
+      "B": "Real estate and commodities",
+      "C": "Only equity",
+      "D": "Only fixed income"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook states that real estate and commodities may be bought in physical or financial form, while equity and bonds are financial investments.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-033",
+    "chapterNumber": 1,
+    "topic": "1.3 International Assets",
+    "questionText": "An Indian investor buying shares listed on a foreign stock exchange is exposed to:",
+    "options": {
+      "A": "Only the company’s business performance",
+      "B": "Only Indian inflation",
+      "C": "The company’s fortunes and exchange-rate movements",
+      "D": "Only domestic interest rates"
+    },
+    "correctAnswer": "C",
+    "explanation": "The workbook explains that an international investment creates exposure both to the underlying asset and to currency movements.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-034",
+    "chapterNumber": 1,
+    "topic": "1.4 Investment Risks",
+    "questionText": "What is inflation risk?",
+    "options": {
+      "A": "The risk that an issuer will default",
+      "B": "The risk that an investment cannot be sold",
+      "C": "The risk that rising prices erode the purchasing power of money",
+      "D": "The risk that a company changes its name"
+    },
+    "correctAnswer": "C",
+    "explanation": "Inflation reduces the quantity of goods and services that a given amount of money can buy.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-035",
+    "chapterNumber": 1,
+    "topic": "1.4 Investment Risks",
+    "questionText": "If an investment earns 7% nominal return while inflation is 8%, the investor’s real rate of return is:",
+    "options": {
+      "A": "Positive",
+      "B": "Negative",
+      "C": "Exactly zero",
+      "D": "Always equal to 7%"
+    },
+    "correctAnswer": "B",
+    "explanation": "When nominal return is below inflation, the real return is negative and purchasing power declines.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-036",
+    "chapterNumber": 1,
+    "topic": "1.4 Investment Risks",
+    "questionText": "Which statement about the nominal rate of return is correct?",
+    "options": {
+      "A": "It is the return after adjusting for inflation",
+      "B": "It is the return before adjusting for inflation",
+      "C": "It is always the same as the real return",
+      "D": "It is the return after deducting all taxes"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook defines nominal return as the investment return without factoring in inflation; adjusting it for inflation gives the real rate.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-037",
+    "chapterNumber": 1,
+    "topic": "1.4 Investment Risks",
+    "questionText": "Liquidity risk refers to the possibility that:",
+    "options": {
+      "A": "An investment may be difficult to sell when required",
+      "B": "The issuer may fail to pay interest",
+      "C": "Inflation may rise unexpectedly",
+      "D": "Market prices may fluctuate"
+    },
+    "correctAnswer": "A",
+    "explanation": "Liquidity risk concerns the ability to convert an investment into cash when needed; the chapter discusses it as a distinct investment risk.",
+    "difficulty": "Easy",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-038",
+    "chapterNumber": 1,
+    "topic": "1.4 Investment Risks",
+    "questionText": "Credit risk is most directly associated with the possibility that:",
+    "options": {
+      "A": "The borrower or issuer may not meet payment obligations",
+      "B": "The investor may sell an asset too early",
+      "C": "Inflation may exceed expectations",
+      "D": "The investor may hold too many asset classes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Credit risk concerns the risk of default or failure by the borrower/issuer to meet its obligations.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-039",
+    "chapterNumber": 1,
+    "topic": "1.4 Investment Risks",
+    "questionText": "Market risk or price risk refers to the risk of:",
+    "options": {
+      "A": "A change in the market value of an investment",
+      "B": "A delay in receiving a tax refund",
+      "C": "A change in the investor’s family circumstances",
+      "D": "A lock-in period being imposed"
+    },
+    "correctAnswer": "A",
+    "explanation": "Market or price risk arises from movements in market prices and the resulting change in investment value.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-040",
+    "chapterNumber": 1,
+    "topic": "1.4 Investment Risks",
+    "questionText": "Interest-rate risk is particularly relevant to which type of investment?",
+    "options": {
+      "A": "Bonds and other fixed-income instruments",
+      "B": "Physical residential property only",
+      "C": "Collectibles only",
+      "D": "A savings account with no interest"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chapter discusses interest-rate risk in relation to fixed-income investments, whose market values can respond to changes in interest rates.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-041",
+    "chapterNumber": 1,
+    "topic": "1.5 Risk Measures and Management",
+    "questionText": "Why should an investor consider risk measures and management strategies rather than looking only at expected returns?",
+    "options": {
+      "A": "Because investment risk can affect whether financial goals are achieved",
+      "B": "Because risk measures guarantee profits",
+      "C": "Because all investments have identical risks",
+      "D": "Because higher returns always mean lower risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "Risk must be understood and managed in the context of the investor’s objectives and the possibility of losses or shortfalls.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-042",
+    "chapterNumber": 1,
+    "topic": "1.6 Behavioural Biases",
+    "questionText": "What is recency bias in investment decision-making?",
+    "options": {
+      "A": "Giving excessive importance to recent events when forming expectations",
+      "B": "Refusing to review an investment portfolio",
+      "C": "Choosing investments only by their tax treatment",
+      "D": "Investing only in government securities"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook describes recency bias as allowing recent positive or negative experiences to dominate decisions and expectations about the future.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-043",
+    "chapterNumber": 1,
+    "topic": "1.6 Behavioural Biases",
+    "questionText": "How may a recent bull market influence an investor affected by recency bias?",
+    "options": {
+      "A": "The investor may allocate more than advised to risky assets",
+      "B": "The investor will necessarily move entirely to cash",
+      "C": "The investor will stop monitoring investments",
+      "D": "The investor will avoid all equity investments"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook explains that a bull market may cause investors to allocate more than advised to risky assets because they expect the recent rise to continue.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-044",
+    "chapterNumber": 1,
+    "topic": "1.6 Behavioural Biases",
+    "questionText": "What is a potential consequence of concentrating investments in the industry in which the investor works?",
+    "options": {
+      "A": "Automatic diversification",
+      "B": "Concentration of risk",
+      "C": "Guaranteed higher returns",
+      "D": "Elimination of market risk"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook gives the example of an IT professional holding only technology stocks and explains that this creates concentration risk.",
+    "difficulty": "Moderate",
+    "questionType": "Application"
+  },
+  {
+    "id": "VA-CUSTOM-045",
+    "chapterNumber": 1,
+    "topic": "1.6 Behavioural Biases",
+    "questionText": "What does the workbook suggest as one way to detach emotions from investment decisions?",
+    "options": {
+      "A": "Rely exclusively on recent market movements",
+      "B": "Seek the opinion of a third person, such as an RIA or MFD",
+      "C": "Avoid gathering information",
+      "D": "Invest only in familiar companies"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook suggests taking the opinion of a third person, such as a Registered Investment Adviser or Mutual Fund Distributor, to help detach emotions from investment decisions.",
+    "difficulty": "Moderate",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-046",
+    "chapterNumber": 1,
+    "topic": "1.7 Risk Profiling",
+    "questionText": "Which three dimensions are evaluated in risk profiling?",
+    "options": {
+      "A": "Risk required, risk capacity and risk tolerance",
+      "B": "Return required, tax capacity and liquidity tolerance",
+      "C": "Age, income and occupation only",
+      "D": "Safety, liquidity and convenience"
+    },
+    "correctAnswer": "A",
+    "explanation": "The workbook identifies risk required (need), risk capacity (ability) and risk tolerance (willingness).",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  },
+  {
+    "id": "VA-CUSTOM-047",
+    "chapterNumber": 1,
+    "topic": "1.7 Risk Profiling",
+    "questionText": "Risk capacity refers to:",
+    "options": {
+      "A": "The investor’s psychological willingness to accept risk",
+      "B": "The financial ability and investment horizon to take risk",
+      "C": "The return needed to achieve a goal",
+      "D": "The investor’s preference for a particular AMC"
+    },
+    "correctAnswer": "B",
+    "explanation": "Risk capacity is linked to the investor’s financial ability and investment horizon.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-048",
+    "chapterNumber": 1,
+    "topic": "1.7 Risk Profiling",
+    "questionText": "Risk tolerance refers to:",
+    "options": {
+      "A": "The need to earn a higher return",
+      "B": "The financial ability to withstand a loss",
+      "C": "The psychological willingness to take risk",
+      "D": "The time remaining to achieve a goal"
+    },
+    "correctAnswer": "C",
+    "explanation": "The workbook links risk tolerance with the investor’s psychological willingness or capacity to handle risk.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-049",
+    "chapterNumber": 1,
+    "topic": "1.7 Risk Profiling",
+    "questionText": "Risk required arises when:",
+    "options": {
+      "A": "The investor needs higher returns to reach financial goals",
+      "B": "The investor has no financial goals",
+      "C": "The investor refuses to accept any risk",
+      "D": "The investment has a short lock-in period"
+    },
+    "correctAnswer": "A",
+    "explanation": "Risk required is the need to take risk to generate the returns necessary to achieve the investor’s goals.",
+    "difficulty": "Moderate",
+    "questionType": "Conceptual"
+  },
+  {
+    "id": "VA-CUSTOM-050",
+    "chapterNumber": 1,
+    "topic": "1.8 Asset Allocation",
+    "questionText": "What is asset allocation?",
+    "options": {
+      "A": "Selecting only the highest-returning mutual fund",
+      "B": "Allocating money across asset categories in line with a stated objective",
+      "C": "Investing equal amounts in every available security",
+      "D": "Changing investments every day"
+    },
+    "correctAnswer": "B",
+    "explanation": "The workbook defines asset allocation as a process of allocating money across asset categories to achieve a stated objective.",
+    "difficulty": "Easy",
+    "questionType": "Recall"
+  }
+]
