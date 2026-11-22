@@ -32,22 +32,22 @@ export function TestHistoryView({
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <div className="flex flex-col justify-between gap-4 border-b border-slate-200 pb-6 md:flex-row md:items-end dark:border-slate-800">
+      <div className="flex flex-col justify-between gap-4 border-b border-slate-200 pb-6 md:flex-row md:items-end dark:border-neutral-800">
         <div>
           <p className="text-xs font-semibold text-blue-700 dark:text-blue-400">
             {exam.code} · Saved Records
           </p>
-          <h1 className="mt-1 font-display text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-slate-100">
+          <h1 className="mt-1 font-display text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-white">
             Test History
           </h1>
-          <p className="mt-1.5 text-sm text-slate-600 dark:text-slate-300">
+          <p className="mt-1.5 text-sm text-slate-600 dark:text-neutral-300">
             Open any past mock examination or chapter practice attempt to inspect your responses and detailed explanations.
           </p>
         </div>
 
         {/* Mode Filter Segmented Control */}
         <div
-          className="inline-flex items-center gap-1 self-start rounded-lg bg-slate-100 p-1 md:self-auto dark:bg-slate-800"
+          className="inline-flex items-center gap-1 self-start rounded-lg bg-slate-100 p-1 md:self-auto dark:bg-neutral-900"
           role="tablist"
           aria-label="Filter test history by mode"
         >
@@ -74,8 +74,8 @@ export function TestHistoryView({
                 onClick={() => setFilter(tab.id)}
                 className={`rounded-md px-3 py-1.5 text-xs font-semibold transition-colors whitespace-nowrap ${
                   active
-                    ? 'bg-white text-blue-700 shadow-xs dark:bg-slate-900 dark:text-blue-400'
-                    : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white'
+                    ? 'bg-white text-blue-700 shadow-xs dark:bg-black dark:text-blue-400'
+                    : 'text-slate-600 hover:text-slate-900 dark:text-neutral-400 dark:hover:text-white'
                 }`}
               >
                 {tab.label}
@@ -86,12 +86,12 @@ export function TestHistoryView({
       </div>
 
       {filteredAttempts.length === 0 ? (
-        <div className="mt-8 rounded-xl border border-slate-200 bg-white p-10 text-center dark:border-slate-800 dark:bg-slate-900">
-          <ClipboardList className="mx-auto h-9 w-9 text-slate-400" aria-hidden="true" />
-          <h2 className="mt-3 font-display text-lg font-bold text-slate-900 dark:text-slate-100">
+        <div className="mt-8 rounded-xl border border-slate-200 bg-white p-10 text-center dark:border-neutral-800 dark:bg-neutral-950">
+          <ClipboardList className="mx-auto h-9 w-9 text-slate-400 dark:text-neutral-500" aria-hidden="true" />
+          <h2 className="mt-3 font-display text-lg font-bold text-slate-900 dark:text-white">
             No test attempts found
           </h2>
-          <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
+          <p className="mt-1 text-sm text-slate-600 dark:text-neutral-400">
             All completed full mock exams and chapter-wise drills are saved locally in your browser database.
           </p>
           <div className="mt-5 flex flex-wrap justify-center gap-3">
@@ -105,16 +105,16 @@ export function TestHistoryView({
             <button
               type="button"
               onClick={onGoToChapters}
-              className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
+              className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800"
             >
               Chapter-wise Practice
             </button>
           </div>
         </div>
       ) : (
-        <div className="mt-6 overflow-x-auto rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
+        <div className="mt-6 overflow-x-auto rounded-xl border border-slate-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
           <table className="w-full text-left text-sm">
-            <thead className="border-b border-slate-200 bg-slate-50 text-xs font-semibold text-slate-600 dark:border-slate-800 dark:bg-slate-950/60 dark:text-slate-400">
+            <thead className="border-b border-slate-200 bg-slate-50 text-xs font-semibold text-slate-600 dark:border-neutral-800 dark:bg-black dark:text-neutral-400">
               <tr>
                 <th className="px-4 py-3.5">Test Type</th>
                 <th className="px-4 py-3.5">Chapter</th>
@@ -128,36 +128,36 @@ export function TestHistoryView({
                 <th className="px-4 py-3.5 text-right">Actions</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
+            <tbody className="divide-y divide-slate-100 dark:divide-neutral-800">
               {filteredAttempts.map((attempt) => (
                 <tr
                   key={attempt.id}
-                  className="transition-colors hover:bg-slate-50/70 dark:hover:bg-slate-800/40"
+                  className="transition-colors hover:bg-slate-50/70 dark:hover:bg-neutral-900/60"
                 >
-                  <td className="px-4 py-3.5 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">
+                  <td className="px-4 py-3.5 font-semibold text-slate-900 dark:text-neutral-100 whitespace-nowrap">
                     {attempt.mode === 'full-mock' ? 'Full Mock Test' : 'Chapter Practice'}
                   </td>
-                  <td className="px-4 py-3.5 text-slate-700 dark:text-slate-300">
+                  <td className="px-4 py-3.5 text-slate-700 dark:text-neutral-300">
                     {attempt.mode === 'chapter-practice'
                       ? `Ch. ${attempt.chapterNumber}: ${attempt.chapterTitle}`
                       : 'All Syllabus Chapters'}
                   </td>
-                  <td className="px-4 py-3.5 font-mono-tabular text-xs text-slate-600 dark:text-slate-400 whitespace-nowrap">
+                  <td className="px-4 py-3.5 font-mono-tabular text-xs text-slate-600 dark:text-neutral-400 whitespace-nowrap">
                     {formatDateTime(attempt.completedAt)}
                   </td>
-                  <td className="px-4 py-3.5 text-right font-mono-tabular text-slate-700 dark:text-slate-300">
+                  <td className="px-4 py-3.5 text-right font-mono-tabular text-slate-700 dark:text-neutral-300">
                     {attempt.totalQuestions}
                   </td>
-                  <td className="px-4 py-3.5 text-right font-mono-tabular font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">
+                  <td className="px-4 py-3.5 text-right font-mono-tabular font-semibold text-slate-900 dark:text-neutral-100 whitespace-nowrap">
                     {attempt.marksObtained} / {attempt.totalMarks}
                   </td>
                   <td className="px-4 py-3.5 text-right font-mono-tabular font-semibold text-blue-700 dark:text-blue-400">
                     {attempt.percentage}%
                   </td>
-                  <td className="px-4 py-3.5 text-right font-mono-tabular text-slate-700 dark:text-slate-300">
+                  <td className="px-4 py-3.5 text-right font-mono-tabular text-slate-700 dark:text-neutral-300">
                     {attempt.accuracy}%
                   </td>
-                  <td className="px-4 py-3.5 text-right font-mono-tabular text-xs text-slate-600 dark:text-slate-400 whitespace-nowrap">
+                  <td className="px-4 py-3.5 text-right font-mono-tabular text-xs text-slate-600 dark:text-neutral-400 whitespace-nowrap">
                     {formatDuration(attempt.timeTakenSeconds)}
                   </td>
                   <td className="px-4 py-3.5 whitespace-nowrap">
@@ -174,7 +174,7 @@ export function TestHistoryView({
                       </span>
                     )}
                     {attempt.passed === null && (
-                      <span className="text-xs text-slate-500 dark:text-slate-400">Completed</span>
+                      <span className="text-xs text-slate-500 dark:text-neutral-400">Completed</span>
                     )}
                   </td>
                   <td className="px-4 py-3.5 text-right whitespace-nowrap">
@@ -202,7 +202,7 @@ export function TestHistoryView({
                           <button
                             type="button"
                             onClick={() => setConfirmDeleteId(null)}
-                            className="rounded-md border border-slate-300 px-2 py-1.5 text-xs text-slate-600 dark:border-slate-700 dark:text-slate-300"
+                            className="rounded-md border border-slate-300 px-2 py-1.5 text-xs text-slate-600 dark:border-neutral-700 dark:text-neutral-300"
                           >
                             Cancel
                           </button>
@@ -212,7 +212,7 @@ export function TestHistoryView({
                           type="button"
                           onClick={() => setConfirmDeleteId(attempt.id)}
                           aria-label={`Delete attempt from ${formatDateTime(attempt.completedAt)}`}
-                          className="rounded-md border border-slate-200 p-1.5 text-slate-500 hover:bg-rose-50 hover:text-rose-700 dark:border-slate-700 dark:text-slate-400 dark:hover:bg-rose-950/40 dark:hover:text-rose-400"
+                          className="rounded-md border border-slate-200 p-1.5 text-slate-500 hover:bg-rose-50 hover:text-rose-700 dark:border-neutral-800 dark:text-neutral-400 dark:hover:bg-rose-950/40 dark:hover:text-rose-400"
                         >
                           <Trash2 className="h-3.5 w-3.5" aria-hidden="true" />
                         </button>

@@ -6,6 +6,11 @@
     --font-display: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
     --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
     --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+    color-scheme: light;
+  }
+
+  .dark {
+    color-scheme: dark;
   }
 
   html {

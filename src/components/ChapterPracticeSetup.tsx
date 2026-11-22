@@ -28,20 +28,20 @@ export function ChapterPracticeSetup({
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <div className="flex flex-col justify-between gap-4 border-b border-slate-200 pb-6 md:flex-row md:items-end dark:border-slate-800">
+      <div className="flex flex-col justify-between gap-4 border-b border-slate-200 pb-6 md:flex-row md:items-end dark:border-neutral-800">
         <div>
           <p className="text-xs font-semibold text-blue-700 dark:text-blue-400">
             {exam.code} · Chapter-wise Practice Mode
           </p>
-          <h1 className="mt-1 font-display text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-slate-100">
+          <h1 className="mt-1 font-display text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-white">
             Syllabus Chapters & Focused Drills
           </h1>
-          <p className="mt-2 max-w-3xl text-sm text-slate-600 dark:text-slate-300">
+          <p className="mt-2 max-w-3xl text-sm text-slate-600 dark:text-neutral-300">
             Select any single chapter to practise up to 25 randomized questions exclusively from that module. Every question carries a 60-second individual timer that auto-advances on expiry.
           </p>
         </div>
 
-        <div className="flex items-center gap-2 text-xs font-medium text-slate-600 dark:text-slate-300 shrink-0">
+        <div className="flex items-center gap-2 text-xs font-medium text-slate-600 dark:text-neutral-300 shrink-0">
           <Timer className="h-4 w-4 text-blue-700 dark:text-blue-400" aria-hidden="true" />
           <span className="font-mono-tabular">60s / question · Max 25 Qs</span>
         </div>
@@ -57,10 +57,10 @@ export function ChapterPracticeSetup({
           return (
             <article
               key={chapter.chapterNumber}
-              className="flex flex-col justify-between rounded-xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900"
+              className="flex flex-col justify-between rounded-xl border border-slate-200 bg-white p-6 dark:border-neutral-800 dark:bg-neutral-950"
             >
               <div>
-                <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500 dark:text-slate-400">
+                <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500 dark:text-neutral-400">
                   <span className="font-mono-tabular font-semibold text-blue-700 dark:text-blue-400">
                     Chapter {chapter.chapterNumber}
                   </span>
@@ -69,34 +69,34 @@ export function ChapterPracticeSetup({
                   </span>
                 </div>
 
-                <h2 className="mt-1.5 font-display text-lg font-bold text-slate-900 dark:text-slate-100">
+                <h2 className="mt-1.5 font-display text-lg font-bold text-slate-900 dark:text-white">
                   {chapter.title}
                 </h2>
-                <p className="mt-1.5 text-sm text-slate-600 dark:text-slate-300">
+                <p className="mt-1.5 text-sm text-slate-600 dark:text-neutral-300">
                   {chapter.summary}
                 </p>
 
-                <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
+                <p className="mt-3 text-xs text-slate-500 dark:text-neutral-400">
                   {chapter.keyTopics.join(' · ')}
                 </p>
 
                 {/* Previous performance summary */}
-                <div className="mt-4 grid grid-cols-3 gap-3 border-y border-slate-100 py-3 text-xs dark:border-slate-800">
+                <div className="mt-4 grid grid-cols-3 gap-3 border-y border-slate-100 py-3 text-xs dark:border-neutral-800">
                   <div>
-                    <div className="text-slate-500 dark:text-slate-400">Chapter Drills</div>
-                    <div className="mt-0.5 font-mono-tabular text-sm font-semibold text-slate-900 dark:text-slate-100">
+                    <div className="text-slate-500 dark:text-neutral-400">Chapter Drills</div>
+                    <div className="mt-0.5 font-mono-tabular text-sm font-semibold text-slate-900 dark:text-neutral-100">
                       {stat?.chapterPracticeAttempts ?? 0}
                     </div>
                   </div>
                   <div>
-                    <div className="text-slate-500 dark:text-slate-400">Accuracy</div>
-                    <div className="mt-0.5 font-mono-tabular text-sm font-semibold text-slate-900 dark:text-slate-100">
+                    <div className="text-slate-500 dark:text-neutral-400">Accuracy</div>
+                    <div className="mt-0.5 font-mono-tabular text-sm font-semibold text-slate-900 dark:text-neutral-100">
                       {stat?.accuracy !== null && stat?.accuracy !== undefined ? `${stat.accuracy}%` : 'Not attempted'}
                     </div>
                   </div>
                   <div>
-                    <div className="text-slate-500 dark:text-slate-400">Qs Attempted</div>
-                    <div className="mt-0.5 font-mono-tabular text-sm font-semibold text-slate-900 dark:text-slate-100">
+                    <div className="text-slate-500 dark:text-neutral-400">Qs Attempted</div>
+                    <div className="mt-0.5 font-mono-tabular text-sm font-semibold text-slate-900 dark:text-neutral-100">
                       {stat?.questionsAttempted ?? 0}
                     </div>
                   </div>
@@ -106,7 +106,7 @@ export function ChapterPracticeSetup({
               {/* Controls: Question count selector + Start button */}
               <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                 <div>
-                  <div className="mb-1.5 text-xs font-medium text-slate-600 dark:text-slate-400">
+                  <div className="mb-1.5 text-xs font-medium text-slate-600 dark:text-neutral-400">
                     Number of Questions
                     {requestedCount > available && available > 0 && (
                       <span className="ml-1.5 text-amber-700 dark:text-amber-400">
@@ -115,7 +115,7 @@ export function ChapterPracticeSetup({
                     )}
                   </div>
                   <div
-                    className="inline-flex items-center gap-1 rounded-lg bg-slate-100 p-1 dark:bg-slate-800"
+                    className="inline-flex items-center gap-1 rounded-lg bg-slate-100 p-1 dark:bg-neutral-900"
                     role="group"
                     aria-label={`Question count for Chapter ${chapter.chapterNumber}`}
                   >
@@ -133,8 +133,8 @@ export function ChapterPracticeSetup({
                           }
                           className={`rounded-md px-2.5 py-1.5 font-mono-tabular text-xs font-semibold transition-colors ${
                             active
-                              ? 'bg-white text-blue-700 shadow-xs dark:bg-slate-900 dark:text-blue-400'
-                              : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white'
+                              ? 'bg-white text-blue-700 shadow-xs dark:bg-black dark:text-blue-400'
+                              : 'text-slate-600 hover:text-slate-900 dark:text-neutral-400 dark:hover:text-white'
                           }`}
                         >
                           {opt}

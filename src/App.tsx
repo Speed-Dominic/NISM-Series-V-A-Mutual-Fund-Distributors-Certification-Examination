@@ -52,13 +52,17 @@ export default function App() {
 
   const selectedExam = NISM_VA_EXAM;
 
-  // Apply theme class to <html>
+  // Apply theme class to <html> and sync browser theme-color
   useEffect(() => {
     const root = document.documentElement;
     if (theme === 'dark') {
       root.classList.add('dark');
     } else {
       root.classList.remove('dark');
+    }
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    if (metaTheme) {
+      metaTheme.setAttribute('content', theme === 'dark' ? '#000000' : '#1d4ed8');
     }
   }, [theme]);
 
@@ -329,10 +333,10 @@ export default function App() {
 
   if (loading) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-slate-50 dark:bg-slate-950">
+      <div className="flex min-h-screen items-center justify-center bg-slate-50 dark:bg-black">
         <div className="text-center">
           <div className="mx-auto h-8 w-8 animate-spin rounded-full border-2 border-blue-700 border-t-transparent" />
-          <p className="mt-3 text-sm font-medium text-slate-600 dark:text-slate-300">
+          <p className="mt-3 text-sm font-medium text-slate-600 dark:text-neutral-300">
             Loading NISM Series V-A Question Bank &amp; Local Records...
           </p>
         </div>
@@ -353,7 +357,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+    <div className="min-h-screen bg-slate-50 text-slate-900 dark:bg-black dark:text-neutral-100">
       <TopNav
         currentView={currentView}
         onNavigate={(view) => setCurrentView(view)}
@@ -447,19 +451,19 @@ export default function App() {
       {/* Replace Active Session Confirmation Dialog */}
       {pendingStartAction && activeSession && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 dark:bg-black/80"
           role="dialog"
           aria-modal="true"
           aria-labelledby="replace-session-title"
         >
-          <div className="w-full max-w-md rounded-xl border border-slate-200 bg-white p-6 shadow-xl dark:border-slate-800 dark:bg-slate-900">
+          <div className="w-full max-w-md rounded-xl border border-slate-200 bg-white p-6 shadow-xl dark:border-neutral-800 dark:bg-neutral-950">
             <h2
               id="replace-session-title"
-              className="font-display text-lg font-bold text-slate-900 dark:text-slate-100"
+              className="font-display text-lg font-bold text-slate-900 dark:text-neutral-100"
             >
               Unfinished Test in Progress
             </h2>
-            <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+            <p className="mt-2 text-sm text-slate-600 dark:text-neutral-300">
               You have an interrupted{' '}
               <strong>
                 {activeSession.mode === 'full-mock'
@@ -472,7 +476,7 @@ export default function App() {
               <button
                 type="button"
                 onClick={() => setPendingStartAction(null)}
-                className="rounded-lg border border-slate-300 bg-white px-3.5 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
+                className="rounded-lg border border-slate-300 bg-white px-3.5 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800"
               >
                 Cancel
               </button>

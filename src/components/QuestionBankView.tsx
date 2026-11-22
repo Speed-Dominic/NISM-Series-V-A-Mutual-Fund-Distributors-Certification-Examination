@@ -586,15 +586,15 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       {/* Header */}
-      <div className="flex flex-col justify-between gap-4 border-b border-slate-200 pb-6 lg:flex-row lg:items-end dark:border-slate-800">
+      <div className="flex flex-col justify-between gap-4 border-b border-slate-200 pb-6 lg:flex-row lg:items-end dark:border-neutral-800">
         <div>
           <p className="text-xs font-semibold text-blue-700 dark:text-blue-400">
             {exam.code} · Structured Repository
           </p>
-          <h1 className="mt-1 font-display text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-slate-100">
+          <h1 className="mt-1 font-display text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-white">
             Question Bank ({questions.length} MCQs)
           </h1>
-          <p className="mt-1.5 text-sm text-slate-600 dark:text-slate-300">
+          <p className="mt-1.5 text-sm text-slate-600 dark:text-neutral-300">
             Add or delete questions directly below, manage bulk updates via .json files, or export the bank for editing.
           </p>
         </div>
@@ -603,7 +603,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
           <button
             type="button"
             onClick={() => setShowFormatGuide((v) => !v)}
-            className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800 whitespace-nowrap"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-200 dark:hover:bg-neutral-900 whitespace-nowrap"
           >
             <Code2 className="h-3.5 w-3.5" aria-hidden="true" />
             <span>{showFormatGuide ? 'Hide .json Format' : 'Show .json Format'}</span>
@@ -612,7 +612,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
           <button
             type="button"
             onClick={handleExportJson}
-            className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800 whitespace-nowrap"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-200 dark:hover:bg-neutral-900 whitespace-nowrap"
           >
             <Download className="h-3.5 w-3.5" aria-hidden="true" />
             <span>Export .json</span>
@@ -625,7 +625,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               setManagerTab('json-add');
               setShowImportModal(true);
             }}
-            className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800 whitespace-nowrap"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-200 dark:hover:bg-neutral-900 whitespace-nowrap"
           >
             <FileJson className="h-3.5 w-3.5" aria-hidden="true" />
             <span>Add / Delete via .json</span>
@@ -670,27 +670,27 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
       {showFormatGuide && (
         <section
           aria-label="Supported JSON File Format"
-          className="mt-6 rounded-xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900"
+          className="mt-6 rounded-xl border border-slate-200 bg-white p-5 dark:border-neutral-800 dark:bg-neutral-950"
         >
           <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
             <div>
-              <h2 className="font-display text-base font-bold text-slate-900 dark:text-slate-100">
+              <h2 className="font-display text-base font-bold text-slate-900 dark:text-white">
                 Supported .json File Format
               </h2>
-              <p className="mt-0.5 text-xs text-slate-600 dark:text-slate-400">
+              <p className="mt-0.5 text-xs text-slate-600 dark:text-neutral-400">
                 Use these .json structures to add new questions, sync edits from an exported .json file, or delete questions by ID.
               </p>
             </div>
 
             <div className="flex flex-wrap items-center gap-2 shrink-0">
-              <div className="inline-flex items-center gap-1 rounded-lg bg-slate-100 p-1 dark:bg-slate-800">
+              <div className="inline-flex items-center gap-1 rounded-lg bg-slate-100 p-1 dark:bg-neutral-900">
                 <button
                   type="button"
                   onClick={() => setFormatGuideTab('add')}
                   className={`rounded-md px-2.5 py-1 text-xs font-semibold transition-colors ${
                     formatGuideTab === 'add'
-                      ? 'bg-white text-blue-700 shadow-xs dark:bg-slate-900 dark:text-blue-400'
-                      : 'text-slate-600 dark:text-slate-300'
+                      ? 'bg-white text-blue-700 shadow-xs dark:bg-black dark:text-blue-400'
+                      : 'text-slate-600 dark:text-neutral-400 dark:hover:text-white'
                   }`}
                 >
                   Add / Replace Format
@@ -700,8 +700,8 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   onClick={() => setFormatGuideTab('delete')}
                   className={`rounded-md px-2.5 py-1 text-xs font-semibold transition-colors ${
                     formatGuideTab === 'delete'
-                      ? 'bg-white text-blue-700 shadow-xs dark:bg-slate-900 dark:text-blue-400'
-                      : 'text-slate-600 dark:text-slate-300'
+                      ? 'bg-white text-blue-700 shadow-xs dark:bg-black dark:text-blue-400'
+                      : 'text-slate-600 dark:text-neutral-400 dark:hover:text-white'
                   }`}
                 >
                   Delete Format
@@ -711,7 +711,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               <button
                 type="button"
                 onClick={() => setShowFormatGuide(false)}
-                className="inline-flex items-center gap-1 rounded-lg border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
+                className="inline-flex items-center gap-1 rounded-lg border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50 dark:border-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-900"
               >
                 <ChevronUp className="h-3.5 w-3.5" aria-hidden="true" />
                 <span>Hide</span>
@@ -721,71 +721,71 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
 
           <div className="mt-4 grid grid-cols-1 gap-5 lg:grid-cols-12">
             {/* Field Specifications */}
-            <div className="lg:col-span-5 text-xs text-slate-600 dark:text-slate-300 space-y-2.5">
+            <div className="lg:col-span-5 text-xs text-slate-600 dark:text-neutral-300 space-y-2.5">
               {formatGuideTab === 'add' ? (
                 <>
-                  <div className="font-semibold text-slate-900 dark:text-slate-100">
+                  <div className="font-semibold text-slate-900 dark:text-white">
                     Top-level Array <code className="font-mono text-blue-700 dark:text-blue-400">[ &#123;...&#125; ]</code> or{' '}
                     <code className="font-mono text-blue-700 dark:text-blue-400">&#123; &quot;questions&quot;: [...] &#125;</code>
                   </div>
                   <ul className="space-y-1.5 leading-relaxed">
                     <li>
-                      <strong className="text-slate-900 dark:text-slate-100">chapterNumber</strong>{' '}
+                      <strong className="text-slate-900 dark:text-white">chapterNumber</strong>{' '}
                       <span className="font-mono-tabular text-rose-600 dark:text-rose-400">(required)</span>: Integer{' '}
                       <code className="font-mono">1</code> to <code className="font-mono">{exam.chapters.length}</code>.
                     </li>
                     <li>
-                      <strong className="text-slate-900 dark:text-slate-100">questionText</strong>{' '}
+                      <strong className="text-slate-900 dark:text-white">questionText</strong>{' '}
                       <span className="font-mono-tabular text-rose-600 dark:text-rose-400">(required)</span>: Full MCQ prompt.
                     </li>
                     <li>
-                      <strong className="text-slate-900 dark:text-slate-100">options</strong>{' '}
+                      <strong className="text-slate-900 dark:text-white">options</strong>{' '}
                       <span className="font-mono-tabular text-rose-600 dark:text-rose-400">(required)</span>: Object with{' '}
                       <code className="font-mono">A</code>, <code className="font-mono">B</code>,{' '}
                       <code className="font-mono">C</code>, <code className="font-mono">D</code> strings.
                     </li>
                     <li>
-                      <strong className="text-slate-900 dark:text-slate-100">correctAnswer</strong>{' '}
+                      <strong className="text-slate-900 dark:text-white">correctAnswer</strong>{' '}
                       <span className="font-mono-tabular text-rose-600 dark:text-rose-400">(required)</span>:{' '}
                       <code className="font-mono">&quot;A&quot;</code>, <code className="font-mono">&quot;B&quot;</code>,{' '}
                       <code className="font-mono">&quot;C&quot;</code>, or <code className="font-mono">&quot;D&quot;</code>.
                     </li>
                     <li>
-                      <strong className="text-slate-900 dark:text-slate-100">explanation</strong>{' '}
+                      <strong className="text-slate-900 dark:text-white">explanation</strong>{' '}
                       <span className="font-mono-tabular text-rose-600 dark:text-rose-400">(required)</span>: Answer rationale.
                     </li>
                     <li>
-                      <strong className="text-slate-900 dark:text-slate-100">Optional fields</strong>:{' '}
+                      <strong className="text-slate-900 dark:text-white">Optional fields</strong>:{' '}
                       <code className="font-mono">id</code> (auto-generated if omitted),{' '}
                       <code className="font-mono">topic</code>,{' '}
                       <code className="font-mono">difficulty</code> (Easy / Moderate / Difficult),{' '}
                       <code className="font-mono">questionType</code>.
                     </li>
                   </ul>
-                  <p className="rounded-lg bg-slate-50 px-3 py-2 text-xs text-slate-600 dark:bg-slate-950/60 dark:text-slate-400">
+                  <p className="rounded-lg bg-slate-50 px-3 py-2 text-xs text-slate-600 dark:bg-black dark:text-neutral-400">
                     Tip: Click <strong>Export .json</strong> to download the bank, add or remove entries in the .json file, then upload it using <strong>Replace Bank</strong> mode to sync both additions and deletions.
                   </p>
                 </>
               ) : (
                 <>
-                  <div className="font-semibold text-slate-900 dark:text-slate-100">
+                  <div className="font-semibold text-slate-900 dark:text-white">
                     Supported .json Deletion Formats
                   </div>
                   <ul className="space-y-1.5 leading-relaxed">
                     <li>
-                      <strong className="text-slate-900 dark:text-slate-100">Object with ID list</strong>:{' '}
+                      <strong className="text-slate-900 dark:text-white">Object with ID list</strong>:{' '}
                       <code className="font-mono">&#123; &quot;deleteIds&quot;: [&quot;ID-1&quot;, &quot;ID-2&quot;] &#125;</code>
                     </li>
                     <li>
-                      <strong className="text-slate-900 dark:text-slate-100">Plain array of IDs</strong>:{' '}
+                      <strong className="text-slate-900 dark:text-white">Plain array of IDs</strong>:{' '}
                       <code className="font-mono">[&quot;VA-C01-Q001&quot;, &quot;VA-PDF-C01-Q002&quot;]</code>
                     </li>
                     <li>
-                      <strong className="text-slate-900 dark:text-slate-100">Array of question objects</strong>:{' '}
+                      <strong className="text-slate-900 dark:text-white">Array of question objects</strong>:{' '}
                       <code className="font-mono">[&#123; &quot;id&quot;: &quot;VA-C01-Q001&quot;, ... &#125;]</code> (e.g. an exported selection file)
                     </li>
                   </ul>
-                  <p className="rounded-lg bg-slate-50 px-3 py-2 text-xs text-slate-600 dark:bg-slate-950/60 dark:text-slate-400">
+                  <p className="rounded-lg bg-slate-50 px-3 py-2 text-xs text-slate-600 dark:bg-black dark:text-neutral-400">
                     Upload the file under <strong>Add / Delete via .json → Delete via .json</strong> to remove all matching question IDs in one step.
                   </p>
                 </>
@@ -794,15 +794,15 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
 
             {/* Code Preview + Quick Actions */}
             <div className="lg:col-span-7 flex flex-col">
-              <div className="flex flex-wrap items-center justify-between gap-2 rounded-t-lg border border-b-0 border-slate-200 bg-slate-50 px-3 py-2 dark:border-slate-800 dark:bg-slate-950">
-                <span className="font-mono text-xs font-medium text-slate-600 dark:text-slate-400">
+              <div className="flex flex-wrap items-center justify-between gap-2 rounded-t-lg border border-b-0 border-slate-200 bg-slate-50 px-3 py-2 dark:border-neutral-800 dark:bg-neutral-900">
+                <span className="font-mono text-xs font-medium text-slate-600 dark:text-neutral-400">
                   {formatGuideTab === 'add' ? 'sample-questions.json' : 'delete-questions.json'}
                 </span>
                 <div className="flex items-center gap-2">
                   <button
                     type="button"
                     onClick={() => handleCopyFormat(formatGuideTab)}
-                    className="inline-flex items-center gap-1 rounded border border-slate-300 bg-white px-2.5 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
+                    className="inline-flex items-center gap-1 rounded border border-slate-300 bg-white px-2.5 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-100 dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-200 dark:hover:bg-neutral-800"
                   >
                     {copiedFormat === formatGuideTab ? (
                       <>
@@ -826,14 +826,14 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                           : `${exam.id}-sample-delete.json`
                       )
                     }
-                    className="inline-flex items-center gap-1 rounded border border-slate-300 bg-white px-2.5 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
+                    className="inline-flex items-center gap-1 rounded border border-slate-300 bg-white px-2.5 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-100 dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-200 dark:hover:bg-neutral-800"
                   >
                     <Download className="h-3 w-3" aria-hidden="true" />
                     <span>Download Sample .json</span>
                   </button>
                 </div>
               </div>
-              <pre className="max-h-56 overflow-auto rounded-b-lg border border-slate-200 bg-slate-950 p-3 font-mono text-xs leading-relaxed text-slate-100 dark:border-slate-800">
+              <pre className="max-h-56 overflow-auto rounded-b-lg border border-slate-200 bg-slate-950 p-3 font-mono text-xs leading-relaxed text-slate-100 dark:border-neutral-800 dark:bg-black dark:text-neutral-100">
                 {formatGuideTab === 'add' ? sampleAddJson : sampleDeleteJson}
               </pre>
             </div>
@@ -845,7 +845,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
       <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3">
         <div className="relative">
           <Search
-            className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"
+            className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400 dark:text-neutral-500"
             aria-hidden="true"
           />
           <input
@@ -856,7 +856,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               setPage(1);
             }}
             placeholder="Search by topic, text, or ID..."
-            className="w-full rounded-lg border border-slate-300 bg-white py-2 pl-9 pr-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
+            className="w-full rounded-lg border border-slate-300 bg-white py-2 pl-9 pr-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-100 dark:placeholder:text-neutral-500"
           />
         </div>
 
@@ -867,7 +867,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
             setPage(1);
           }}
           aria-label="Filter by chapter"
-          className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
+          className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-100"
         >
           <option value="all">All Chapters ({exam.chapters.length})</option>
           {exam.chapters.map((c) => (
@@ -884,7 +884,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
             setPage(1);
           }}
           aria-label="Filter by difficulty"
-          className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
+          className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-100"
         >
           <option value="all">All Difficulties</option>
           {VALID_DIFFICULTIES.map((d) => (
@@ -896,15 +896,15 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
       </div>
 
       {/* Count & Bulk Selection Bar */}
-      <div className="mt-4 flex flex-wrap items-center justify-between gap-3 rounded-lg border border-slate-200 bg-white px-4 py-2.5 dark:border-slate-800 dark:bg-slate-900">
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-3 rounded-lg border border-slate-200 bg-white px-4 py-2.5 dark:border-neutral-800 dark:bg-neutral-950">
         <div className="flex flex-wrap items-center gap-3">
-          <label className="inline-flex cursor-pointer items-center gap-2 text-xs font-semibold text-slate-700 dark:text-slate-200">
+          <label className="inline-flex cursor-pointer items-center gap-2 text-xs font-semibold text-slate-700 dark:text-neutral-200">
             <input
               type="checkbox"
               checked={allPageSelected}
               onChange={toggleSelectPage}
               disabled={paginatedQuestions.length === 0}
-              className="h-4 w-4 rounded border-slate-300 text-blue-700 focus:ring-blue-600 dark:border-slate-700"
+              className="h-4 w-4 rounded border-slate-300 text-blue-700 focus:ring-blue-600 dark:border-neutral-700"
             />
             <span>Select Page ({paginatedQuestions.length})</span>
           </label>
@@ -923,7 +923,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
             <button
               type="button"
               onClick={() => setSelectedIds(new Set())}
-              className="text-xs font-medium text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200"
+              className="text-xs font-medium text-slate-500 hover:text-slate-800 dark:text-neutral-400 dark:hover:text-neutral-200"
             >
               Clear Selection ({selectedIds.size})
             </button>
@@ -936,7 +936,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               <button
                 type="button"
                 onClick={handleExportSelectedJson}
-                className="inline-flex items-center gap-1.5 rounded-md border border-slate-300 bg-white px-2.5 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700"
+                className="inline-flex items-center gap-1.5 rounded-md border border-slate-300 bg-white px-2.5 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800"
               >
                 <Download className="h-3.5 w-3.5" aria-hidden="true" />
                 <span>Export Selected .json ({selectedIds.size})</span>
@@ -951,7 +951,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               </button>
             </>
           ) : (
-            <span className="font-mono-tabular text-xs text-slate-500 dark:text-slate-400">
+            <span className="font-mono-tabular text-xs text-slate-500 dark:text-neutral-400">
               Showing {filteredQuestions.length === 0 ? 0 : (safePage - 1) * PAGE_SIZE + 1}–
               {Math.min(safePage * PAGE_SIZE, filteredQuestions.length)} of {filteredQuestions.length} matching ({questions.length} total)
             </span>
@@ -972,13 +972,13 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
 
       {/* Empty State */}
       {filteredQuestions.length === 0 ? (
-        <div className="mt-6 rounded-xl border border-slate-200 bg-white p-10 text-center dark:border-slate-800 dark:bg-slate-900">
-          <p className="font-display text-base font-semibold text-slate-900 dark:text-slate-100">
+        <div className="mt-6 rounded-xl border border-slate-200 bg-white p-10 text-center dark:border-neutral-800 dark:bg-neutral-950">
+          <p className="font-display text-base font-semibold text-slate-900 dark:text-white">
             {questions.length === 0
               ? 'Question bank is empty (0 MCQs)'
               : 'No questions match the current filters'}
           </p>
-          <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
+          <p className="mt-1 text-sm text-slate-600 dark:text-neutral-400">
             {questions.length === 0
               ? 'Add questions individually using the form or import questions from a .json or .doc/.txt file using the format above.'
               : 'Try adjusting your search query, chapter filter, or difficulty filter.'}
@@ -1003,7 +1003,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                     setManagerTab('json-add');
                     setShowImportModal(true);
                   }}
-                  className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
+                  className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800"
                 >
                   Upload .json File
                 </button>
@@ -1017,7 +1017,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   setDifficultyFilter('all');
                   setPage(1);
                 }}
-                className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
+                className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800"
               >
                 Clear Filters
               </button>
@@ -1033,10 +1033,10 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
             return (
               <div
                 key={q.id}
-                className={`rounded-xl border bg-white p-5 transition-colors dark:bg-slate-900 ${
+                className={`rounded-xl border bg-white p-5 transition-colors dark:bg-neutral-950 ${
                   isSelected
                     ? 'border-blue-500 ring-1 ring-blue-500/30 dark:border-blue-500'
-                    : 'border-slate-200 dark:border-slate-800'
+                    : 'border-slate-200 dark:border-neutral-800'
                 }`}
               >
                 <div className="flex items-start gap-3">
@@ -1045,12 +1045,12 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                     checked={isSelected}
                     onChange={() => toggleSelectId(q.id)}
                     aria-label={`Select question ${q.id}`}
-                    className="mt-1 h-4 w-4 shrink-0 rounded border-slate-300 text-blue-700 focus:ring-blue-600 dark:border-slate-700"
+                    className="mt-1 h-4 w-4 shrink-0 rounded border-slate-300 text-blue-700 focus:ring-blue-600 dark:border-neutral-700"
                   />
 
                   <details className="group min-w-0 flex-1">
                     <summary className="cursor-pointer list-none">
-                      <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500 dark:text-slate-400">
+                      <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500 dark:text-neutral-400">
                         <div className="flex flex-wrap items-center gap-2">
                           <span className="font-mono-tabular font-semibold text-blue-700 dark:text-blue-400">
                             {q.id}
@@ -1072,12 +1072,12 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                           />
                         </div>
                       </div>
-                      <p className="mt-2 whitespace-pre-line font-display text-sm font-semibold text-slate-900 sm:text-base dark:text-slate-100">
+                      <p className="mt-2 whitespace-pre-line font-display text-sm font-semibold text-slate-900 sm:text-base dark:text-neutral-100">
                         {q.questionText}
                       </p>
                     </summary>
 
-                    <div className="mt-4 border-t border-slate-100 pt-4 dark:border-slate-800">
+                    <div className="mt-4 border-t border-slate-100 pt-4 dark:border-neutral-800">
                       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
                         {VALID_OPTIONS.map((k) => {
                           const isCorrect = q.correctAnswer === k;
@@ -1086,8 +1086,8 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                               key={k}
                               className={`rounded-lg border px-3 py-2 text-xs sm:text-sm ${
                                 isCorrect
-                                  ? 'border-emerald-400 bg-emerald-50/70 font-medium text-slate-900 dark:border-emerald-700 dark:bg-emerald-950/40 dark:text-slate-100'
-                                  : 'border-slate-200 bg-slate-50/60 text-slate-700 dark:border-slate-800 dark:bg-slate-950/60 dark:text-slate-300'
+                                  ? 'border-emerald-400 bg-emerald-50/70 font-medium text-slate-900 dark:border-emerald-700 dark:bg-emerald-950/35 dark:text-white'
+                                  : 'border-slate-200 bg-slate-50/60 text-slate-700 dark:border-neutral-800 dark:bg-black dark:text-neutral-300'
                               }`}
                             >
                               <span className="font-mono-tabular font-bold">{k}.</span> {q.options[k]}
@@ -1095,8 +1095,8 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                           );
                         })}
                       </div>
-                      <p className="mt-3 text-xs sm:text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-                        <strong className="text-slate-900 dark:text-slate-100">Explanation:</strong>{' '}
+                      <p className="mt-3 text-xs sm:text-sm leading-relaxed text-slate-600 dark:text-neutral-300">
+                        <strong className="text-slate-900 dark:text-white">Explanation:</strong>{' '}
                         {q.explanation}
                       </p>
                     </div>
@@ -1116,7 +1116,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                         <button
                           type="button"
                           onClick={() => setConfirmDeleteId(null)}
-                          className="rounded-md border border-slate-300 bg-white px-2 py-1 text-xs font-medium text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
+                          className="rounded-md border border-slate-300 bg-white px-2 py-1 text-xs font-medium text-slate-600 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300"
                         >
                           Cancel
                         </button>
@@ -1127,7 +1127,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                         onClick={() => setConfirmDeleteId(q.id)}
                         aria-label={`Delete question ${q.id}`}
                         title="Delete question"
-                        className="rounded-md p-1.5 text-slate-400 transition-colors hover:bg-rose-50 hover:text-rose-600 dark:hover:bg-rose-950/50 dark:hover:text-rose-400"
+                        className="rounded-md p-1.5 text-slate-400 transition-colors hover:bg-rose-50 hover:text-rose-600 dark:text-neutral-500 dark:hover:bg-rose-950/50 dark:hover:text-rose-400"
                       >
                         <Trash2 className="h-4 w-4" aria-hidden="true" />
                       </button>
@@ -1142,7 +1142,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
 
       {/* Pagination Controls */}
       {totalPages > 1 && (
-        <div className="mt-6 flex items-center justify-between gap-3 border-t border-slate-200 pt-4 dark:border-slate-800">
+        <div className="mt-6 flex items-center justify-between gap-3 border-t border-slate-200 pt-4 dark:border-neutral-800">
           <button
             type="button"
             disabled={safePage <= 1}
@@ -1150,11 +1150,11 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               setPage((p) => Math.max(1, p - 1));
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            className="rounded-lg border border-slate-300 bg-white px-3.5 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
+            className="rounded-lg border border-slate-300 bg-white px-3.5 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40 dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-200 dark:hover:bg-neutral-900"
           >
             Previous Page
           </button>
-          <span className="font-mono-tabular text-xs font-medium text-slate-600 dark:text-slate-300">
+          <span className="font-mono-tabular text-xs font-medium text-slate-600 dark:text-neutral-300">
             Page {safePage} / {totalPages}
           </span>
           <button
@@ -1164,7 +1164,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               setPage((p) => Math.min(totalPages, p + 1));
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            className="rounded-lg border border-slate-300 bg-white px-3.5 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
+            className="rounded-lg border border-slate-300 bg-white px-3.5 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40 dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-200 dark:hover:bg-neutral-900"
           >
             Next Page
           </button>
@@ -1174,34 +1174,34 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
       {/* Add Single Question Modal */}
       {showAddModal && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 overflow-y-auto"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 overflow-y-auto dark:bg-black/80"
           role="dialog"
           aria-modal="true"
           aria-labelledby="add-question-modal-title"
         >
           <form
             onSubmit={handleAddSingleSubmit}
-            className="my-8 w-full max-w-2xl rounded-xl border border-slate-200 bg-white p-6 shadow-xl dark:border-slate-800 dark:bg-slate-900"
+            className="my-8 w-full max-w-2xl rounded-xl border border-slate-200 bg-white p-6 shadow-xl dark:border-neutral-800 dark:bg-neutral-950"
           >
             <h2
               id="add-question-modal-title"
-              className="font-display text-lg font-bold text-slate-900 dark:text-slate-100"
+              className="font-display text-lg font-bold text-slate-900 dark:text-white"
             >
               Add Question to {exam.code}
             </h2>
-            <p className="mt-1 text-xs text-slate-600 dark:text-slate-400">
+            <p className="mt-1 text-xs text-slate-600 dark:text-neutral-400">
               Create a new MCQ directly in memory for Full Mock Tests and Chapter-wise Practice.
             </p>
 
             <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
               <div className="sm:col-span-2">
-                <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+                <label className="block text-xs font-semibold text-slate-700 dark:text-neutral-300">
                   Chapter
                 </label>
                 <select
                   value={formChapter}
                   onChange={(e) => setFormChapter(Number(e.target.value))}
-                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
                 >
                   {exam.chapters.map((c) => (
                     <option key={c.chapterNumber} value={c.chapterNumber}>
@@ -1212,7 +1212,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+                <label className="block text-xs font-semibold text-slate-700 dark:text-neutral-300">
                   Topic / Subtopic
                 </label>
                 <input
@@ -1220,19 +1220,19 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   value={formTopic}
                   onChange={(e) => setFormTopic(e.target.value)}
                   placeholder="e.g., Expense Ratio, KYC Norms"
-                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
                 />
               </div>
 
               <div className="grid grid-cols-2 gap-2">
                 <div>
-                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-neutral-300">
                     Difficulty
                   </label>
                   <select
                     value={formDifficulty}
                     onChange={(e) => setFormDifficulty(e.target.value as DifficultyLevel)}
-                    className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-2.5 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                    className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-2.5 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
                   >
                     {VALID_DIFFICULTIES.map((d) => (
                       <option key={d} value={d}>
@@ -1243,13 +1243,13 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-neutral-300">
                     Question Type
                   </label>
                   <select
                     value={formType}
                     onChange={(e) => setFormType(e.target.value as QuestionType)}
-                    className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-2.5 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                    className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-2.5 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
                   >
                     {VALID_TYPES.map((t) => (
                       <option key={t} value={t}>
@@ -1261,7 +1261,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               </div>
 
               <div className="sm:col-span-2">
-                <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+                <label className="block text-xs font-semibold text-slate-700 dark:text-neutral-300">
                   Question Text
                 </label>
                 <textarea
@@ -1269,12 +1269,12 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   value={formQuestionText}
                   onChange={(e) => setFormQuestionText(e.target.value)}
                   placeholder="Enter the MCQ prompt..."
-                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
                 />
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+                <label className="block text-xs font-semibold text-slate-700 dark:text-neutral-300">
                   Option A
                 </label>
                 <input
@@ -1282,11 +1282,11 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   value={formOptA}
                   onChange={(e) => setFormOptA(e.target.value)}
                   placeholder="Option A"
-                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
                 />
               </div>
               <div>
-                <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+                <label className="block text-xs font-semibold text-slate-700 dark:text-neutral-300">
                   Option B
                 </label>
                 <input
@@ -1294,11 +1294,11 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   value={formOptB}
                   onChange={(e) => setFormOptB(e.target.value)}
                   placeholder="Option B"
-                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
                 />
               </div>
               <div>
-                <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+                <label className="block text-xs font-semibold text-slate-700 dark:text-neutral-300">
                   Option C
                 </label>
                 <input
@@ -1306,11 +1306,11 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   value={formOptC}
                   onChange={(e) => setFormOptC(e.target.value)}
                   placeholder="Option C"
-                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
                 />
               </div>
               <div>
-                <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+                <label className="block text-xs font-semibold text-slate-700 dark:text-neutral-300">
                   Option D
                 </label>
                 <input
@@ -1318,18 +1318,18 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   value={formOptD}
                   onChange={(e) => setFormOptD(e.target.value)}
                   placeholder="Option D"
-                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
                 />
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+                <label className="block text-xs font-semibold text-slate-700 dark:text-neutral-300">
                   Correct Answer
                 </label>
                 <select
                   value={formCorrect}
                   onChange={(e) => setFormCorrect(e.target.value as OptionKey)}
-                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
                 >
                   {VALID_OPTIONS.map((opt) => (
                     <option key={opt} value={opt}>
@@ -1340,7 +1340,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               </div>
 
               <div className="sm:col-span-2">
-                <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300">
+                <label className="block text-xs font-semibold text-slate-700 dark:text-neutral-300">
                   Explanation
                 </label>
                 <textarea
@@ -1348,7 +1348,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   value={formExplanation}
                   onChange={(e) => setFormExplanation(e.target.value)}
                   placeholder="Explain why the selected option is correct..."
-                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+                  className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
                 />
               </div>
             </div>
@@ -1363,7 +1363,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               <button
                 type="button"
                 onClick={() => setShowAddModal(false)}
-                className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
+                className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800"
               >
                 Cancel
               </button>
@@ -1382,21 +1382,21 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
       {/* JSON & File Add / Delete Modal */}
       {showImportModal && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 overflow-y-auto"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 overflow-y-auto dark:bg-black/80"
           role="dialog"
           aria-modal="true"
           aria-labelledby="import-modal-title"
         >
-          <div className="my-8 w-full max-w-2xl rounded-xl border border-slate-200 bg-white p-6 shadow-xl dark:border-slate-800 dark:bg-slate-900">
+          <div className="my-8 w-full max-w-2xl rounded-xl border border-slate-200 bg-white p-6 shadow-xl dark:border-neutral-800 dark:bg-neutral-950">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <h2
                 id="import-modal-title"
-                className="font-display text-lg font-bold text-slate-900 dark:text-slate-100"
+                className="font-display text-lg font-bold text-slate-900 dark:text-white"
               >
                 Manage Questions via .json &amp; Text
               </h2>
 
-              <div className="inline-flex items-center gap-1 rounded-lg bg-slate-100 p-1 dark:bg-slate-800">
+              <div className="inline-flex items-center gap-1 rounded-lg bg-slate-100 p-1 dark:bg-neutral-900">
                 <button
                   type="button"
                   onClick={() => {
@@ -1405,8 +1405,8 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   }}
                   className={`rounded-md px-2.5 py-1 text-xs font-semibold ${
                     managerTab === 'json-add'
-                      ? 'bg-white text-blue-700 shadow-xs dark:bg-slate-900 dark:text-blue-400'
-                      : 'text-slate-600 dark:text-slate-300'
+                      ? 'bg-white text-blue-700 shadow-xs dark:bg-black dark:text-blue-400'
+                      : 'text-slate-600 dark:text-neutral-400 dark:hover:text-white'
                   }`}
                 >
                   Add / Sync .json
@@ -1419,8 +1419,8 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   }}
                   className={`rounded-md px-2.5 py-1 text-xs font-semibold ${
                     managerTab === 'json-delete'
-                      ? 'bg-white text-rose-700 shadow-xs dark:bg-slate-900 dark:text-rose-400'
-                      : 'text-slate-600 dark:text-slate-300'
+                      ? 'bg-white text-rose-700 shadow-xs dark:bg-black dark:text-rose-400'
+                      : 'text-slate-600 dark:text-neutral-400 dark:hover:text-white'
                   }`}
                 >
                   Delete via .json
@@ -1433,8 +1433,8 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   }}
                   className={`rounded-md px-2.5 py-1 text-xs font-semibold ${
                     managerTab === 'text'
-                      ? 'bg-white text-blue-700 shadow-xs dark:bg-slate-900 dark:text-blue-400'
-                      : 'text-slate-600 dark:text-slate-300'
+                      ? 'bg-white text-blue-700 shadow-xs dark:bg-black dark:text-blue-400'
+                      : 'text-slate-600 dark:text-neutral-400 dark:hover:text-white'
                   }`}
                 >
                   .doc / Text
@@ -1442,7 +1442,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               </div>
             </div>
 
-            <p className="mt-1.5 text-xs text-slate-600 dark:text-slate-400">
+            <p className="mt-1.5 text-xs text-slate-600 dark:text-neutral-400">
               {managerTab === 'json-add'
                 ? 'Upload a .json file or paste JSON questions to either add/merge into the bank or replace the entire bank (syncing both additions and deletions).'
                 : managerTab === 'json-delete'
@@ -1451,9 +1451,9 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
             </p>
 
             {managerTab === 'json-add' && (
-              <div className="mt-3 flex flex-wrap items-center gap-3 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-xs dark:border-slate-800 dark:bg-slate-950/60">
-                <span className="font-semibold text-slate-700 dark:text-slate-300">Mode:</span>
-                <label className="inline-flex cursor-pointer items-center gap-1.5 text-slate-700 dark:text-slate-300">
+              <div className="mt-3 flex flex-wrap items-center gap-3 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-xs dark:border-neutral-800 dark:bg-black">
+                <span className="font-semibold text-slate-700 dark:text-neutral-300">Mode:</span>
+                <label className="inline-flex cursor-pointer items-center gap-1.5 text-slate-700 dark:text-neutral-300">
                   <input
                     type="radio"
                     name="jsonWriteMode"
@@ -1463,7 +1463,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                   />
                   <span>Add / Update existing bank</span>
                 </label>
-                <label className="inline-flex cursor-pointer items-center gap-1.5 text-slate-700 dark:text-slate-300">
+                <label className="inline-flex cursor-pointer items-center gap-1.5 text-slate-700 dark:text-neutral-300">
                   <input
                     type="radio"
                     name="jsonWriteMode"
@@ -1478,7 +1478,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
 
             <div className="mt-4 flex flex-wrap items-center justify-between gap-2">
               <div className="flex flex-wrap items-center gap-2">
-                <label className="inline-flex cursor-pointer items-center gap-1.5 rounded-lg border border-slate-300 bg-slate-50 px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200">
+                <label className="inline-flex cursor-pointer items-center gap-1.5 rounded-lg border border-slate-300 bg-slate-50 px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-100 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800">
                   <Upload className="h-3.5 w-3.5" aria-hidden="true" />
                   <span>
                     {managerTab === 'text' ? 'Load .doc / .txt / .json' : 'Upload .json File'}
@@ -1500,7 +1500,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                     value={defaultChapter}
                     onChange={(e) => setDefaultChapter(Number(e.target.value))}
                     aria-label="Fallback Chapter"
-                    className="rounded-lg border border-slate-300 bg-white px-2.5 py-1.5 text-xs text-slate-800 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
+                    className="rounded-lg border border-slate-300 bg-white px-2.5 py-1.5 text-xs text-slate-800 dark:border-neutral-800 dark:bg-black dark:text-neutral-200"
                   >
                     {exam.chapters.map((c) => (
                       <option key={c.chapterNumber} value={c.chapterNumber}>
@@ -1539,7 +1539,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
                     ? 'Paste JSON array of question IDs or { "deleteIds": [...] }...'
                     : 'Paste chapter-wise MCQs from your Word document...'
               }
-              className="mt-3 w-full rounded-lg border border-slate-300 bg-slate-50 p-3 font-mono text-xs text-slate-900 focus:border-blue-600 focus:outline-none dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100"
+              className="mt-3 w-full rounded-lg border border-slate-300 bg-slate-50 p-3 font-mono text-xs text-slate-900 focus:border-blue-600 focus:outline-none dark:border-neutral-800 dark:bg-black dark:text-neutral-100"
             />
 
             {importFeedback && (
@@ -1558,7 +1558,7 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
               <button
                 type="button"
                 onClick={() => setShowImportModal(false)}
-                className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
+                className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800"
               >
                 Close
               </button>
@@ -1586,26 +1586,26 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
       {/* Bulk Delete Confirmation Dialog */}
       {showBulkDeleteConfirm && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 dark:bg-black/80"
           role="dialog"
           aria-modal="true"
           aria-labelledby="bulk-delete-title"
         >
-          <div className="w-full max-w-md rounded-xl border border-slate-200 bg-white p-6 shadow-xl dark:border-slate-800 dark:bg-slate-900">
+          <div className="w-full max-w-md rounded-xl border border-slate-200 bg-white p-6 shadow-xl dark:border-neutral-800 dark:bg-neutral-950">
             <h2
               id="bulk-delete-title"
-              className="font-display text-lg font-bold text-slate-900 dark:text-slate-100"
+              className="font-display text-lg font-bold text-slate-900 dark:text-white"
             >
               Delete {selectedIds.size} Selected Question(s)?
             </h2>
-            <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+            <p className="mt-2 text-sm text-slate-600 dark:text-neutral-300">
               These questions will be removed from your local bank and excluded from future mock tests and chapter drills. You can export a backup .json or restore defaults anytime.
             </p>
             <div className="mt-6 flex justify-end gap-2.5">
               <button
                 type="button"
                 onClick={() => setShowBulkDeleteConfirm(false)}
-                className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
+                className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800"
               >
                 Cancel
               </button>
@@ -1624,26 +1624,26 @@ Explanation: Real rate of return adjusts nominal returns for purchasing power er
       {/* Delete All Confirmation Dialog */}
       {showDeleteAllConfirm && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 dark:bg-black/80"
           role="dialog"
           aria-modal="true"
           aria-labelledby="delete-all-title"
         >
-          <div className="w-full max-w-md rounded-xl border border-slate-200 bg-white p-6 shadow-xl dark:border-slate-800 dark:bg-slate-900">
+          <div className="w-full max-w-md rounded-xl border border-slate-200 bg-white p-6 shadow-xl dark:border-neutral-800 dark:bg-neutral-950">
             <h2
               id="delete-all-title"
-              className="font-display text-lg font-bold text-slate-900 dark:text-slate-100"
+              className="font-display text-lg font-bold text-slate-900 dark:text-white"
             >
               Delete All {questions.length} Question(s)?
             </h2>
-            <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+            <p className="mt-2 text-sm text-slate-600 dark:text-neutral-300">
               This will permanently remove every question stored in the question bank. Consider exporting a .json backup first if you want to keep a copy.
             </p>
             <div className="mt-6 flex justify-end gap-2.5">
               <button
                 type="button"
                 onClick={() => setShowDeleteAllConfirm(false)}
-                className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
+                className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800"
               >
                 Cancel
               </button>

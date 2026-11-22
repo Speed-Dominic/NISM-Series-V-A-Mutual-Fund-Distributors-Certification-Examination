@@ -71,15 +71,15 @@ export function PerformanceDashboard({
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <div className="flex flex-col justify-between gap-4 border-b border-slate-200 pb-6 md:flex-row md:items-end dark:border-slate-800">
+      <div className="flex flex-col justify-between gap-4 border-b border-slate-200 pb-6 md:flex-row md:items-end dark:border-neutral-800">
         <div>
           <p className="text-xs font-semibold text-blue-700 dark:text-blue-400">
             {exam.code} · Analytics &amp; Insights
           </p>
-          <h1 className="mt-1 font-display text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-slate-100">
+          <h1 className="mt-1 font-display text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-white">
             Performance Dashboard
           </h1>
-          <p className="mt-1.5 text-sm text-slate-600 dark:text-slate-300">
+          <p className="mt-1.5 text-sm text-slate-600 dark:text-neutral-300">
             Track accuracy, score progression, time efficiency, and chapter-level mastery across all attempts.
           </p>
         </div>
@@ -87,7 +87,7 @@ export function PerformanceDashboard({
         <button
           type="button"
           onClick={onViewHistory}
-          className="self-start rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-800 hover:bg-slate-50 md:self-auto dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800 whitespace-nowrap"
+          className="self-start rounded-lg border border-slate-300 bg-white px-4 py-2 text-xs font-semibold text-slate-800 hover:bg-slate-50 md:self-auto dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-200 dark:hover:bg-neutral-900 whitespace-nowrap"
         >
           View Full Test History ({attempts.length})
         </button>
@@ -95,60 +95,60 @@ export function PerformanceDashboard({
 
       {/* Top KPI Cards */}
       <section aria-label="Performance KPIs" className="mt-6 grid grid-cols-2 gap-4 lg:grid-cols-5">
-        <div className="rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900">
-          <div className="text-xs font-medium text-slate-500 dark:text-slate-400">Overall Accuracy</div>
+        <div className="rounded-xl border border-slate-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-950">
+          <div className="text-xs font-medium text-slate-500 dark:text-neutral-400">Overall Accuracy</div>
           <div className="mt-2 font-mono-tabular text-2xl font-bold text-blue-700 dark:text-blue-400">
             {analytics.overallAccuracy !== null ? `${analytics.overallAccuracy}%` : '—'}
           </div>
-          <div className="mt-1 text-xs text-slate-500 dark:text-slate-400">Attempted answers correct</div>
+          <div className="mt-1 text-xs text-slate-500 dark:text-neutral-400">Attempted answers correct</div>
         </div>
 
-        <div className="rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900">
-          <div className="text-xs font-medium text-slate-500 dark:text-slate-400">
+        <div className="rounded-xl border border-slate-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-950">
+          <div className="text-xs font-medium text-slate-500 dark:text-neutral-400">
             Total Tests Attempted
           </div>
-          <div className="mt-2 font-mono-tabular text-2xl font-bold text-slate-900 dark:text-slate-100">
+          <div className="mt-2 font-mono-tabular text-2xl font-bold text-slate-900 dark:text-white">
             {analytics.totalTestsAttempted}
           </div>
-          <div className="mt-1 font-mono-tabular text-xs text-slate-500 dark:text-slate-400">
+          <div className="mt-1 font-mono-tabular text-xs text-slate-500 dark:text-neutral-400">
             {analytics.fullMockCount} Full · {analytics.chapterPracticeCount} Chapter
           </div>
         </div>
 
-        <div className="rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900">
-          <div className="text-xs font-medium text-slate-500 dark:text-slate-400">Average Marks</div>
-          <div className="mt-2 font-mono-tabular text-2xl font-bold text-slate-900 dark:text-slate-100">
+        <div className="rounded-xl border border-slate-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-950">
+          <div className="text-xs font-medium text-slate-500 dark:text-neutral-400">Average Marks</div>
+          <div className="mt-2 font-mono-tabular text-2xl font-bold text-slate-900 dark:text-white">
             {analytics.averageMarks !== null ? analytics.averageMarks : '—'}
           </div>
-          <div className="mt-1 font-mono-tabular text-xs text-slate-500 dark:text-slate-400">
+          <div className="mt-1 font-mono-tabular text-xs text-slate-500 dark:text-neutral-400">
             {analytics.averageScorePercent !== null
               ? `Avg ${analytics.averageScorePercent}% score`
               : 'No tests yet'}
           </div>
         </div>
 
-        <div className="rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900">
-          <div className="text-xs font-medium text-slate-500 dark:text-slate-400">Highest Marks</div>
+        <div className="rounded-xl border border-slate-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-950">
+          <div className="text-xs font-medium text-slate-500 dark:text-neutral-400">Highest Marks</div>
           <div className="mt-2 font-mono-tabular text-2xl font-bold text-emerald-700 dark:text-emerald-400">
             {analytics.highestMarksLabel ?? '—'}
           </div>
-          <div className="mt-1 font-mono-tabular text-xs text-slate-500 dark:text-slate-400">
+          <div className="mt-1 font-mono-tabular text-xs text-slate-500 dark:text-neutral-400">
             {analytics.highestScorePercent !== null
               ? `Peak ${analytics.highestScorePercent}%`
               : 'No tests yet'}
           </div>
         </div>
 
-        <div className="col-span-2 rounded-xl border border-slate-200 bg-white p-4 lg:col-span-1 dark:border-slate-800 dark:bg-slate-900">
-          <div className="text-xs font-medium text-slate-500 dark:text-slate-400">
+        <div className="col-span-2 rounded-xl border border-slate-200 bg-white p-4 lg:col-span-1 dark:border-neutral-800 dark:bg-neutral-950">
+          <div className="text-xs font-medium text-slate-500 dark:text-neutral-400">
             Avg Time / Question
           </div>
-          <div className="mt-2 font-mono-tabular text-2xl font-bold text-slate-900 dark:text-slate-100">
+          <div className="mt-2 font-mono-tabular text-2xl font-bold text-slate-900 dark:text-white">
             {analytics.avgTimePerQuestionSeconds !== null
               ? `${analytics.avgTimePerQuestionSeconds}s`
               : '—'}
           </div>
-          <div className="mt-1 text-xs text-slate-500 dark:text-slate-400">Target pace &le; 60s</div>
+          <div className="mt-1 text-xs text-slate-500 dark:text-neutral-400">Target pace &le; 60s</div>
         </div>
       </section>
 
@@ -157,16 +157,16 @@ export function PerformanceDashboard({
         {/* Improvement Over Time SVG Chart */}
         <section
           aria-label="Improvement Over Time"
-          className="rounded-xl border border-slate-200 bg-white p-6 lg:col-span-7 dark:border-slate-800 dark:bg-slate-900"
+          className="rounded-xl border border-slate-200 bg-white p-6 lg:col-span-7 dark:border-neutral-800 dark:bg-neutral-950"
         >
           <div className="flex flex-wrap items-center justify-between gap-2">
             <div className="flex items-center gap-2">
               <TrendingUp className="h-4 w-4 text-blue-700 dark:text-blue-400" aria-hidden="true" />
-              <h2 className="font-display text-base font-bold text-slate-900 dark:text-slate-100">
+              <h2 className="font-display text-base font-bold text-slate-900 dark:text-white">
                 Improvement Over Time
               </h2>
             </div>
-            <div className="flex items-center gap-4 text-xs text-slate-600 dark:text-slate-400">
+            <div className="flex items-center gap-4 text-xs text-slate-600 dark:text-neutral-400">
               <span className="inline-flex items-center gap-1.5">
                 <span className="h-2.5 w-2.5 rounded-full bg-blue-600" aria-hidden="true" />
                 Score %
@@ -179,9 +179,9 @@ export function PerformanceDashboard({
           </div>
 
           {trend.length === 0 ? (
-            <div className="mt-6 flex h-52 flex-col items-center justify-center rounded-lg border border-dashed border-slate-200 text-center dark:border-slate-800">
-              <BarChart2 className="h-7 w-7 text-slate-400" aria-hidden="true" />
-              <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
+            <div className="mt-6 flex h-52 flex-col items-center justify-center rounded-lg border border-dashed border-slate-200 text-center dark:border-neutral-800">
+              <BarChart2 className="h-7 w-7 text-slate-400 dark:text-neutral-500" aria-hidden="true" />
+              <p className="mt-2 text-sm text-slate-600 dark:text-neutral-400">
                 Complete at least one test to plot your score and accuracy trajectory.
               </p>
             </div>
@@ -204,14 +204,14 @@ export function PerformanceDashboard({
                           y1={y}
                           x2={chartWidth - padRight}
                           y2={y}
-                          className="stroke-slate-200 dark:stroke-slate-800"
+                          className="stroke-slate-200 dark:stroke-neutral-800"
                           strokeDasharray={val === 0 ? undefined : '3 3'}
                         />
                         <text
                           x={padLeft - 8}
                           y={y + 4}
                           textAnchor="end"
-                          className="fill-slate-400 text-[10px] font-mono"
+                          className="fill-slate-400 dark:fill-neutral-500 text-[10px] font-mono"
                         >
                           {val}%
                         </text>
@@ -268,7 +268,7 @@ export function PerformanceDashboard({
                           x={x}
                           y={chartHeight - 10}
                           textAnchor="middle"
-                          className="fill-slate-500 dark:fill-slate-400 text-[10px] font-mono"
+                          className="fill-slate-500 dark:fill-neutral-400 text-[10px] font-mono"
                         >
                           {pt.label}
                         </text>
@@ -279,7 +279,7 @@ export function PerformanceDashboard({
               </div>
 
               {/* Hovered or Latest Readout */}
-              <div className="mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-slate-100 pt-3 text-xs text-slate-600 dark:border-slate-800 dark:text-slate-400 font-mono-tabular">
+              <div className="mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-slate-100 pt-3 text-xs text-slate-600 dark:border-neutral-800 dark:text-neutral-400 font-mono-tabular">
                 {(() => {
                   const target =
                     hoveredIdx !== null ? trend[hoveredIdx] : trend[trend.length - 1];
@@ -303,16 +303,16 @@ export function PerformanceDashboard({
         {/* Practise Weak Chapters Widget */}
         <section
           aria-label="Practise Weak Chapters"
-          className="flex flex-col justify-between rounded-xl border border-slate-200 bg-white p-6 lg:col-span-5 dark:border-slate-800 dark:bg-slate-900"
+          className="flex flex-col justify-between rounded-xl border border-slate-200 bg-white p-6 lg:col-span-5 dark:border-neutral-800 dark:bg-neutral-950"
         >
           <div>
             <div className="flex items-center gap-2">
               <AlertTriangle className="h-4 w-4 text-amber-600 dark:text-amber-400" aria-hidden="true" />
-              <h2 className="font-display text-base font-bold text-slate-900 dark:text-slate-100">
+              <h2 className="font-display text-base font-bold text-slate-900 dark:text-white">
                 Practise Weak Chapters
               </h2>
             </div>
-            <p className="mt-1.5 text-sm text-slate-600 dark:text-slate-300">
+            <p className="mt-1.5 text-sm text-slate-600 dark:text-neutral-300">
               Select a low-accuracy or unpractised chapter below to launch an immediate 60s-per-question drill.
             </p>
 
@@ -327,14 +327,14 @@ export function PerformanceDashboard({
                     className={`flex w-full items-center justify-between gap-3 rounded-lg border px-3.5 py-2.5 text-left transition-colors ${
                       isSelected
                         ? 'border-blue-600 bg-blue-50/70 dark:border-blue-500 dark:bg-blue-950/40'
-                        : 'border-slate-200 bg-slate-50/60 hover:bg-slate-100 dark:border-slate-800 dark:bg-slate-950/50 dark:hover:bg-slate-800'
+                        : 'border-slate-200 bg-slate-50/60 hover:bg-slate-100 dark:border-neutral-800 dark:bg-black dark:hover:bg-neutral-900'
                     }`}
                   >
                     <div className="min-w-0">
-                      <div className="truncate text-sm font-semibold text-slate-900 dark:text-slate-100">
+                      <div className="truncate text-sm font-semibold text-slate-900 dark:text-neutral-100">
                         Ch. {ch.chapterNumber}: {ch.chapterTitle}
                       </div>
-                      <div className="font-mono-tabular text-xs text-slate-500 dark:text-slate-400">
+                      <div className="font-mono-tabular text-xs text-slate-500 dark:text-neutral-400">
                         {ch.availableQuestions} Qs available · {ch.attemptsCount} attempts
                       </div>
                     </div>
@@ -347,8 +347,8 @@ export function PerformanceDashboard({
             </div>
           </div>
 
-          <div className="mt-5 flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-4 dark:border-slate-800">
-            <div className="inline-flex items-center gap-1 rounded-lg bg-slate-100 p-1 dark:bg-slate-800">
+          <div className="mt-5 flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-4 dark:border-neutral-800">
+            <div className="inline-flex items-center gap-1 rounded-lg bg-slate-100 p-1 dark:bg-neutral-900">
               {[5, 10, 15, 20, 25].map((cnt) => (
                 <button
                   key={cnt}
@@ -356,8 +356,8 @@ export function PerformanceDashboard({
                   onClick={() => setWeakPracticeCount(cnt)}
                   className={`rounded-md px-2.5 py-1 font-mono-tabular text-xs font-semibold transition-colors ${
                     weakPracticeCount === cnt
-                      ? 'bg-white text-blue-700 shadow-xs dark:bg-slate-900 dark:text-blue-400'
-                      : 'text-slate-600 dark:text-slate-300'
+                      ? 'bg-white text-blue-700 shadow-xs dark:bg-black dark:text-blue-400'
+                      : 'text-slate-600 dark:text-neutral-400 dark:hover:text-white'
                   }`}
                 >
                   {cnt}
@@ -386,15 +386,15 @@ export function PerformanceDashboard({
 
       {/* Strongest vs Weakest Chapters */}
       <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
-        <section className="rounded-xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
+        <section className="rounded-xl border border-slate-200 bg-white p-6 dark:border-neutral-800 dark:bg-neutral-950">
           <div className="flex items-center gap-2">
             <Award className="h-4 w-4 text-emerald-600 dark:text-emerald-400" aria-hidden="true" />
-            <h2 className="font-display text-base font-bold text-slate-900 dark:text-slate-100">
+            <h2 className="font-display text-base font-bold text-slate-900 dark:text-white">
               Strongest Chapters
             </h2>
           </div>
           {analytics.strongestChapters.length === 0 ? (
-            <p className="mt-4 text-sm text-slate-500 dark:text-slate-400">
+            <p className="mt-4 text-sm text-slate-500 dark:text-neutral-400">
               Attempt tests to identify your top-performing chapters.
             </p>
           ) : (
@@ -402,14 +402,14 @@ export function PerformanceDashboard({
               {analytics.strongestChapters.map((ch) => (
                 <div key={ch.chapterNumber}>
                   <div className="flex items-center justify-between text-sm">
-                    <span className="font-medium text-slate-800 dark:text-slate-200">
+                    <span className="font-medium text-slate-800 dark:text-neutral-200">
                       Ch. {ch.chapterNumber}: {ch.chapterTitle}
                     </span>
                     <span className="font-mono-tabular font-semibold text-emerald-700 dark:text-emerald-400">
                       {ch.accuracy}%
                     </span>
                   </div>
-                  <div className="mt-1.5 h-2 w-full overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
+                  <div className="mt-1.5 h-2 w-full overflow-hidden rounded-full bg-slate-100 dark:bg-neutral-900">
                     <div
                       className="h-full rounded-full bg-emerald-600"
                       style={{ width: `${ch.accuracy ?? 0}%` }}
@@ -421,15 +421,15 @@ export function PerformanceDashboard({
           )}
         </section>
 
-        <section className="rounded-xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
+        <section className="rounded-xl border border-slate-200 bg-white p-6 dark:border-neutral-800 dark:bg-neutral-950">
           <div className="flex items-center gap-2">
             <AlertTriangle className="h-4 w-4 text-rose-600 dark:text-rose-400" aria-hidden="true" />
-            <h2 className="font-display text-base font-bold text-slate-900 dark:text-slate-100">
+            <h2 className="font-display text-base font-bold text-slate-900 dark:text-white">
               Weakest Chapters
             </h2>
           </div>
           {analytics.weakestChapters.length === 0 ? (
-            <p className="mt-4 text-sm text-slate-500 dark:text-slate-400">
+            <p className="mt-4 text-sm text-slate-500 dark:text-neutral-400">
               Attempt tests to highlight chapters needing targeted revision.
             </p>
           ) : (
@@ -437,14 +437,14 @@ export function PerformanceDashboard({
               {analytics.weakestChapters.map((ch) => (
                 <div key={ch.chapterNumber}>
                   <div className="flex items-center justify-between text-sm">
-                    <span className="font-medium text-slate-800 dark:text-slate-200">
+                    <span className="font-medium text-slate-800 dark:text-neutral-200">
                       Ch. {ch.chapterNumber}: {ch.chapterTitle}
                     </span>
                     <span className="font-mono-tabular font-semibold text-rose-700 dark:text-rose-400">
                       {ch.accuracy}%
                     </span>
                   </div>
-                  <div className="mt-1.5 h-2 w-full overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
+                  <div className="mt-1.5 h-2 w-full overflow-hidden rounded-full bg-slate-100 dark:bg-neutral-900">
                     <div
                       className="h-full rounded-full bg-rose-600"
                       style={{ width: `${ch.accuracy ?? 0}%` }}
@@ -460,14 +460,14 @@ export function PerformanceDashboard({
       {/* Full Chapter-wise Performance Breakdown Table */}
       <section
         aria-label="Chapter-wise Performance Table"
-        className="mt-8 rounded-xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900"
+        className="mt-8 rounded-xl border border-slate-200 bg-white p-6 dark:border-neutral-800 dark:bg-neutral-950"
       >
-        <h2 className="font-display text-lg font-bold text-slate-900 dark:text-slate-100">
+        <h2 className="font-display text-lg font-bold text-slate-900 dark:text-white">
           Complete Chapter-wise Performance
         </h2>
         <div className="mt-4 overflow-x-auto">
           <table className="w-full text-left text-sm">
-            <thead className="border-b border-slate-200 text-xs font-semibold text-slate-500 dark:border-slate-800 dark:text-slate-400">
+            <thead className="border-b border-slate-200 text-xs font-semibold text-slate-500 dark:border-neutral-800 dark:text-neutral-400">
               <tr>
                 <th className="py-3 pr-4">Chapter</th>
                 <th className="py-3 px-3 text-right">Chapter Drills</th>
@@ -478,33 +478,33 @@ export function PerformanceDashboard({
                 <th className="py-3 pl-3 text-right">Quick Drill</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
+            <tbody className="divide-y divide-slate-100 dark:divide-neutral-800">
               {analytics.chapterStats.map((ch) => (
-                <tr key={ch.chapterNumber} className="hover:bg-slate-50/70 dark:hover:bg-slate-800/30">
+                <tr key={ch.chapterNumber} className="hover:bg-slate-50/70 dark:hover:bg-neutral-900/60">
                   <td className="py-3.5 pr-4">
-                    <div className="font-medium text-slate-900 dark:text-slate-100">
+                    <div className="font-medium text-slate-900 dark:text-neutral-100">
                       Ch. {ch.chapterNumber}: {ch.chapterTitle}
                     </div>
-                    <div className="font-mono-tabular text-xs text-slate-500 dark:text-slate-400">
+                    <div className="font-mono-tabular text-xs text-slate-500 dark:text-neutral-400">
                       Weightage ~{ch.weightage}% · {ch.availableQuestions} Qs in bank
                     </div>
                   </td>
-                  <td className="py-3.5 px-3 text-right font-mono-tabular text-slate-700 dark:text-slate-300">
+                  <td className="py-3.5 px-3 text-right font-mono-tabular text-slate-700 dark:text-neutral-300">
                     {ch.chapterPracticeAttempts}
                   </td>
-                  <td className="py-3.5 px-3 text-right font-mono-tabular text-slate-700 dark:text-slate-300">
+                  <td className="py-3.5 px-3 text-right font-mono-tabular text-slate-700 dark:text-neutral-300">
                     {ch.questionsAttempted}
                   </td>
                   <td className="py-3.5 px-3 text-right font-mono-tabular font-semibold text-emerald-700 dark:text-emerald-400">
                     {ch.correctCount}
                   </td>
-                  <td className="py-3.5 px-3 text-right font-mono-tabular text-slate-600 dark:text-slate-400">
+                  <td className="py-3.5 px-3 text-right font-mono-tabular text-slate-600 dark:text-neutral-400">
                     {ch.avgTimePerQuestion !== null ? `${ch.avgTimePerQuestion}s` : '—'}
                   </td>
                   <td className="py-3.5 px-3">
                     {ch.accuracy !== null ? (
                       <div className="flex items-center gap-2.5">
-                        <div className="h-2 flex-1 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
+                        <div className="h-2 flex-1 overflow-hidden rounded-full bg-slate-100 dark:bg-neutral-900">
                           <div
                             className={`h-full rounded-full ${
                               ch.accuracy >= 70
@@ -516,19 +516,19 @@ export function PerformanceDashboard({
                             style={{ width: `${ch.accuracy}%` }}
                           />
                         </div>
-                        <span className="w-12 text-right font-mono-tabular text-xs font-semibold text-slate-800 dark:text-slate-200">
+                        <span className="w-12 text-right font-mono-tabular text-xs font-semibold text-slate-800 dark:text-neutral-200">
                           {ch.accuracy}%
                         </span>
                       </div>
                     ) : (
-                      <span className="text-xs text-slate-400">Not attempted</span>
+                      <span className="text-xs text-slate-400 dark:text-neutral-500">Not attempted</span>
                     )}
                   </td>
                   <td className="py-3.5 pl-3 text-right whitespace-nowrap">
                     <button
                       type="button"
                       onClick={() => onStartChapterPractice(ch.chapterNumber, 10)}
-                      className="rounded-md border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700"
+                      className="rounded-md border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-100 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800"
                     >
                       Practise
                     </button>

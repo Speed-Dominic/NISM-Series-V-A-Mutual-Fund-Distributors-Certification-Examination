@@ -99,7 +99,7 @@ export function ResultsView({
         <button
           type="button"
           onClick={onBackToDashboard}
-          className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+          className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-600 hover:text-slate-900 dark:text-neutral-300 dark:hover:text-white"
         >
           <ArrowLeft className="h-4 w-4" aria-hidden="true" />
           <span>Back to Dashboard</span>
@@ -120,11 +120,11 @@ export function ResultsView({
       {/* Results Hero Summary */}
       <section
         aria-label="Test Score Summary"
-        className="mt-6 rounded-xl border border-slate-200 bg-white p-6 sm:p-8 dark:border-slate-800 dark:bg-slate-900"
+        className="mt-6 rounded-xl border border-slate-200 bg-white p-6 sm:p-8 dark:border-neutral-800 dark:bg-neutral-950"
       >
-        <div className="flex flex-col justify-between gap-4 border-b border-slate-100 pb-6 md:flex-row md:items-center dark:border-slate-800">
+        <div className="flex flex-col justify-between gap-4 border-b border-slate-100 pb-6 md:flex-row md:items-center dark:border-neutral-800">
           <div>
-            <div className="text-xs text-slate-500 dark:text-slate-400">
+            <div className="text-xs text-slate-500 dark:text-neutral-400">
               <span>{exam.code}</span>
               <span aria-hidden="true"> · </span>
               <span>
@@ -143,7 +143,7 @@ export function ResultsView({
                 </>
               )}
             </div>
-            <h1 className="mt-1.5 font-display text-2xl font-bold text-slate-900 sm:text-3xl dark:text-slate-100">
+            <h1 className="mt-1.5 font-display text-2xl font-bold text-slate-900 sm:text-3xl dark:text-white">
               Examination Result &amp; Answer Review
             </h1>
           </div>
@@ -174,51 +174,51 @@ export function ResultsView({
 
         {/* Core Score Metrics Grid */}
         <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-7">
-          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-slate-800 dark:bg-slate-950">
-            <div className="text-xs text-slate-500 dark:text-slate-400">Marks Obtained</div>
-            <div className="mt-1 font-mono-tabular text-xl font-bold text-slate-900 dark:text-slate-100">
+          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-neutral-800 dark:bg-black">
+            <div className="text-xs text-slate-500 dark:text-neutral-400">Marks Obtained</div>
+            <div className="mt-1 font-mono-tabular text-xl font-bold text-slate-900 dark:text-white">
               {attempt.marksObtained} / {attempt.totalMarks}
             </div>
           </div>
 
-          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-slate-800 dark:bg-slate-950">
-            <div className="text-xs text-slate-500 dark:text-slate-400">Percentage</div>
+          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-neutral-800 dark:bg-black">
+            <div className="text-xs text-slate-500 dark:text-neutral-400">Percentage</div>
             <div className="mt-1 font-mono-tabular text-xl font-bold text-blue-700 dark:text-blue-400">
               {attempt.percentage}%
             </div>
           </div>
 
-          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-slate-800 dark:bg-slate-950">
-            <div className="text-xs text-slate-500 dark:text-slate-400">Accuracy</div>
-            <div className="mt-1 font-mono-tabular text-xl font-bold text-slate-900 dark:text-slate-100">
+          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-neutral-800 dark:bg-black">
+            <div className="text-xs text-slate-500 dark:text-neutral-400">Accuracy</div>
+            <div className="mt-1 font-mono-tabular text-xl font-bold text-slate-900 dark:text-white">
               {attempt.accuracy}%
             </div>
           </div>
 
-          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-slate-800 dark:bg-slate-950">
-            <div className="text-xs text-slate-500 dark:text-slate-400">Correct</div>
+          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-neutral-800 dark:bg-black">
+            <div className="text-xs text-slate-500 dark:text-neutral-400">Correct</div>
             <div className="mt-1 font-mono-tabular text-xl font-bold text-emerald-700 dark:text-emerald-400">
               {attempt.correctCount}
             </div>
           </div>
 
-          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-slate-800 dark:bg-slate-950">
-            <div className="text-xs text-slate-500 dark:text-slate-400">Incorrect</div>
+          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-neutral-800 dark:bg-black">
+            <div className="text-xs text-slate-500 dark:text-neutral-400">Incorrect</div>
             <div className="mt-1 font-mono-tabular text-xl font-bold text-rose-700 dark:text-rose-400">
               {attempt.incorrectCount}
             </div>
           </div>
 
-          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-slate-800 dark:bg-slate-950">
-            <div className="text-xs text-slate-500 dark:text-slate-400">Unanswered</div>
-            <div className="mt-1 font-mono-tabular text-xl font-bold text-slate-600 dark:text-slate-300">
+          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3.5 dark:border-neutral-800 dark:bg-black">
+            <div className="text-xs text-slate-500 dark:text-neutral-400">Unanswered</div>
+            <div className="mt-1 font-mono-tabular text-xl font-bold text-slate-600 dark:text-neutral-300">
               {attempt.unansweredCount}
             </div>
           </div>
 
-          <div className="col-span-2 rounded-lg border border-slate-200 bg-slate-50 p-3.5 sm:col-span-1 dark:border-slate-800 dark:bg-slate-950">
-            <div className="text-xs text-slate-500 dark:text-slate-400">Time Taken</div>
-            <div className="mt-1 font-mono-tabular text-xl font-bold text-slate-900 dark:text-slate-100">
+          <div className="col-span-2 rounded-lg border border-slate-200 bg-slate-50 p-3.5 sm:col-span-1 dark:border-neutral-800 dark:bg-black">
+            <div className="text-xs text-slate-500 dark:text-neutral-400">Time Taken</div>
+            <div className="mt-1 font-mono-tabular text-xl font-bold text-slate-900 dark:text-white">
               {formatDuration(attempt.timeTakenSeconds)}
             </div>
           </div>
@@ -226,7 +226,7 @@ export function ResultsView({
 
         {/* Visual Score Proportion Bar */}
         <div className="mt-6">
-          <div className="flex h-3 w-full overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
+          <div className="flex h-3 w-full overflow-hidden rounded-full bg-slate-200 dark:bg-neutral-900">
             <div
               className="bg-emerald-600"
               style={{ width: `${(attempt.correctCount / attempt.totalQuestions) * 100}%` }}
@@ -238,7 +238,7 @@ export function ResultsView({
               title={`Incorrect: ${attempt.incorrectCount}`}
             />
           </div>
-          <div className="mt-2 flex flex-wrap gap-4 text-xs text-slate-600 dark:text-slate-400 font-mono-tabular">
+          <div className="mt-2 flex flex-wrap gap-4 text-xs text-slate-600 dark:text-neutral-400 font-mono-tabular">
             <span className="inline-flex items-center gap-1.5">
               <span className="h-2.5 w-2.5 rounded-xs bg-emerald-600" aria-hidden="true" />
               Correct ({attempt.correctCount})
@@ -248,7 +248,7 @@ export function ResultsView({
               Incorrect ({attempt.incorrectCount})
             </span>
             <span className="inline-flex items-center gap-1.5">
-              <span className="h-2.5 w-2.5 rounded-xs bg-slate-300 dark:bg-slate-700" aria-hidden="true" />
+              <span className="h-2.5 w-2.5 rounded-xs bg-slate-300 dark:bg-neutral-700" aria-hidden="true" />
               Unanswered ({attempt.unansweredCount})
             </span>
           </div>
@@ -259,14 +259,14 @@ export function ResultsView({
       {chapterBreakdown.length > 0 && (
         <section
           aria-label="Chapter-wise Breakdown"
-          className="mt-8 rounded-xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900"
+          className="mt-8 rounded-xl border border-slate-200 bg-white p-6 dark:border-neutral-800 dark:bg-neutral-950"
         >
-          <h2 className="font-display text-lg font-bold text-slate-900 dark:text-slate-100">
+          <h2 className="font-display text-lg font-bold text-slate-900 dark:text-white">
             Chapter-wise Score Breakdown
           </h2>
           <div className="mt-4 overflow-x-auto">
             <table className="w-full text-left text-sm">
-              <thead className="border-b border-slate-200 text-xs font-semibold text-slate-500 dark:border-slate-800 dark:text-slate-400">
+              <thead className="border-b border-slate-200 text-xs font-semibold text-slate-500 dark:border-neutral-800 dark:text-neutral-400">
                 <tr>
                   <th className="py-2.5 pr-4">Chapter</th>
                   <th className="py-2.5 px-3 text-right">Questions</th>
@@ -276,15 +276,15 @@ export function ResultsView({
                   <th className="py-2.5 pl-3 text-right">Score %</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
+              <tbody className="divide-y divide-slate-100 dark:divide-neutral-800">
                 {chapterBreakdown.map((ch) => {
                   const pct = ch.total > 0 ? Math.round((ch.correct / ch.total) * 100) : 0;
                   return (
                     <tr key={ch.chapterNumber}>
-                      <td className="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">
+                      <td className="py-3 pr-4 font-medium text-slate-900 dark:text-neutral-100">
                         Ch. {ch.chapterNumber}: {ch.title}
                       </td>
-                      <td className="py-3 px-3 text-right font-mono-tabular text-slate-700 dark:text-slate-300">
+                      <td className="py-3 px-3 text-right font-mono-tabular text-slate-700 dark:text-neutral-300">
                         {ch.total}
                       </td>
                       <td className="py-3 px-3 text-right font-mono-tabular font-semibold text-emerald-700 dark:text-emerald-400">
@@ -293,10 +293,10 @@ export function ResultsView({
                       <td className="py-3 px-3 text-right font-mono-tabular font-semibold text-rose-700 dark:text-rose-400">
                         {ch.incorrect}
                       </td>
-                      <td className="py-3 px-3 text-right font-mono-tabular text-slate-500 dark:text-slate-400">
+                      <td className="py-3 px-3 text-right font-mono-tabular text-slate-500 dark:text-neutral-400">
                         {ch.unanswered}
                       </td>
-                      <td className="py-3 pl-3 text-right font-mono-tabular font-semibold text-slate-900 dark:text-slate-100">
+                      <td className="py-3 pl-3 text-right font-mono-tabular font-semibold text-slate-900 dark:text-neutral-100">
                         {pct}%
                       </td>
                     </tr>
@@ -311,13 +311,13 @@ export function ResultsView({
       {/* Question-by-Question Answer Review */}
       <section aria-label="Question-by-Question Answer Review" className="mt-8">
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
-          <h2 className="font-display text-xl font-bold text-slate-900 dark:text-slate-100">
+          <h2 className="font-display text-xl font-bold text-slate-900 dark:text-white">
             Detailed Answer Review ({filteredItems.length})
           </h2>
 
           {/* Filter Tabs */}
           <div
-            className="inline-flex flex-wrap items-center gap-1 rounded-lg bg-slate-100 p-1 dark:bg-slate-800"
+            className="inline-flex flex-wrap items-center gap-1 rounded-lg bg-slate-100 p-1 dark:bg-neutral-900"
             role="tablist"
             aria-label="Filter reviewed questions"
           >
@@ -342,8 +342,8 @@ export function ResultsView({
                   onClick={() => setFilter(tab.id)}
                   className={`rounded-md px-3 py-1.5 text-xs font-semibold transition-colors whitespace-nowrap ${
                     active
-                      ? 'bg-white text-blue-700 shadow-xs dark:bg-slate-900 dark:text-blue-400'
-                      : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white'
+                      ? 'bg-white text-blue-700 shadow-xs dark:bg-black dark:text-blue-400'
+                      : 'text-slate-600 hover:text-slate-900 dark:text-neutral-400 dark:hover:text-white'
                   }`}
                 >
                   {tab.label}
@@ -360,12 +360,12 @@ export function ResultsView({
             return (
               <article
                 key={question.id}
-                className="rounded-xl border border-slate-200 bg-white p-5 sm:p-6 dark:border-slate-800 dark:bg-slate-900"
+                className="rounded-xl border border-slate-200 bg-white p-5 sm:p-6 dark:border-neutral-800 dark:bg-neutral-950"
               >
                 {/* Question Metadata & Explicit Status */}
-                <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 pb-3.5 dark:border-slate-800">
-                  <div className="flex flex-wrap items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
-                    <span className="font-mono-tabular font-bold text-slate-900 dark:text-slate-100">
+                <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 pb-3.5 dark:border-neutral-800">
+                  <div className="flex flex-wrap items-center gap-2 text-xs text-slate-500 dark:text-neutral-400">
+                    <span className="font-mono-tabular font-bold text-slate-900 dark:text-white">
                       Q{index}
                     </span>
                     <span aria-hidden="true">·</span>
@@ -399,7 +399,7 @@ export function ResultsView({
                       </span>
                     )}
                     {status === 'unanswered' && (
-                      <span className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 dark:text-slate-400">
+                      <span className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 dark:text-neutral-400">
                         <HelpCircle className="h-4 w-4" aria-hidden="true" />
                         <span>{timedOut ? 'Unanswered (Timed Out)' : 'Unanswered'}</span>
                       </span>
@@ -407,7 +407,7 @@ export function ResultsView({
                   </div>
                 </div>
 
-                <h3 className="mt-4 whitespace-pre-line font-display text-base font-semibold leading-relaxed text-slate-900 sm:text-lg dark:text-slate-100">
+                <h3 className="mt-4 whitespace-pre-line font-display text-base font-semibold leading-relaxed text-slate-900 sm:text-lg dark:text-white">
                   {question.questionText}
                 </h3>
 
@@ -418,13 +418,13 @@ export function ResultsView({
                     const isStudentOpt = selected === optKey;
 
                     let cardClass =
-                      'border-slate-200 bg-slate-50/50 text-slate-700 dark:border-slate-800 dark:bg-slate-950/50 dark:text-slate-300';
+                      'border-slate-200 bg-slate-50/50 text-slate-700 dark:border-neutral-800 dark:bg-black dark:text-neutral-300';
                     if (isCorrectOpt) {
                       cardClass =
-                        'border-emerald-500 bg-emerald-50/70 text-slate-900 dark:border-emerald-600 dark:bg-emerald-950/40 dark:text-slate-100';
+                        'border-emerald-500 bg-emerald-50/70 text-slate-900 dark:border-emerald-600 dark:bg-emerald-950/35 dark:text-white';
                     } else if (isStudentOpt && !isCorrectOpt) {
                       cardClass =
-                        'border-rose-400 bg-rose-50/70 text-slate-900 dark:border-rose-700 dark:bg-rose-950/40 dark:text-slate-100';
+                        'border-rose-400 bg-rose-50/70 text-slate-900 dark:border-rose-700 dark:bg-rose-950/35 dark:text-white';
                     }
 
                     return (
@@ -438,7 +438,7 @@ export function ResultsView({
                               ? 'bg-emerald-600 text-white'
                               : isStudentOpt
                               ? 'bg-rose-600 text-white'
-                              : 'bg-slate-200 text-slate-700 dark:bg-slate-800 dark:text-slate-300'
+                              : 'bg-slate-200 text-slate-700 dark:bg-neutral-900 dark:text-neutral-300'
                           }`}
                         >
                           {optKey}
@@ -472,11 +472,11 @@ export function ResultsView({
                 </div>
 
                 {/* Selected vs Correct Summary + Detailed Explanation */}
-                <div className="mt-4 rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
-                  <div className="flex flex-wrap items-center gap-4 text-xs font-mono-tabular text-slate-600 dark:text-slate-400">
+                <div className="mt-4 rounded-lg border border-slate-200 bg-slate-50 p-4 dark:border-neutral-800 dark:bg-black">
+                  <div className="flex flex-wrap items-center gap-4 text-xs font-mono-tabular text-slate-600 dark:text-neutral-400">
                     <span>
                       Your Answer:{' '}
-                      <strong className="text-slate-900 dark:text-slate-100">
+                      <strong className="text-slate-900 dark:text-white">
                         {selected ? `Option ${selected}` : 'Not Answered'}
                       </strong>
                     </span>
@@ -488,8 +488,8 @@ export function ResultsView({
                       </strong>
                     </span>
                   </div>
-                  <p className="mt-2 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                    <span className="font-semibold text-slate-900 dark:text-slate-100">
+                  <p className="mt-2 text-sm leading-relaxed text-slate-700 dark:text-neutral-300">
+                    <span className="font-semibold text-slate-900 dark:text-white">
                       Explanation:{' '}
                     </span>
                     {question.explanation}
